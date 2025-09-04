@@ -541,6 +541,68 @@ async def submit_feedback(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+# Pydantic model for the new endpoint
+class UserDataSubmissionRequest(BaseModel):
+    type: str = Field(..., description="Request type")
+    symptoms_anonymized: Optional[Dict[str, Any]] = Field(default=None, description="Anonymized symptom data")
+    recommendations_count: Optional[int] = Field(default=1, description="Number of recommendations requested")
+    metadata: Optional[Dict[str, Any]] = Field(default=None, description="Request metadata", alias="_metadata")
+
+
+@app.post("/user/submit-data")
+async def submit_user_data(request: Request):
+    """
+    Handle user data submission for analytics and model improvement
+    """
+    try:
+        # Parse request body manually to handle different formats
+        body = await request.body()
+        
+        if len(body) == 0:
+            raise HTTPException(status_code=400, detail="Empty request body")
+        
+        try:
+            json_data = json.loads(body.decode('utf-8'))
+            logger.info(f"User data submission received: {json_data.get('type', 'unknown')}")
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON: {e}")
+            raise HTTPException(status_code=400, detail=f"Invalid JSON: {str(e)}")
+        
+        # Handle different types of data submissions
+        request_type = json_data.get('type', 'unknown')
+        
+        if request_type == 'recommendation_request':
+            # Handle recommendation request type
+            symptoms = json_data.get('symptoms_anonymized', {})
+            metadata = json_data.get('_metadata', {})
+            
+            # Log the data for analytics (in production, save to database)
+            logger.info(f"Recommendation request received - shared_for_improvement: {metadata.get('shared_for_improvement', False)}")
+            
+            # If this is meant to be processed, we could call appropriate endpoints
+            # For now, just acknowledge receipt
+            return {
+                "message": "User data received successfully",
+                "type": request_type,
+                "processed": True,
+                "timestamp": datetime.now().isoformat()
+            }
+        else:
+            # Handle other types of submissions
+            logger.info(f"Unknown data submission type: {request_type}")
+            return {
+                "message": "Data received but type not recognized",
+                "type": request_type,
+                "timestamp": datetime.now().isoformat()
+            }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in user data submission: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.get("/model/status", response_model=ModelStatusResponse)
 async def get_model_status():
     """
