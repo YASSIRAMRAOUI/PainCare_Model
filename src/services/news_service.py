@@ -9,6 +9,9 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime, timedelta
 import asyncio
 import aiohttp
+import os
+
+from ..config import config
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +22,8 @@ class NewsAPIService:
     """
     
     def __init__(self):
-        self.api_key = 'bb820970d3114ca1903eac14d6826b26'
+        # Load API key from environment or config; never hardcode secrets
+        self.api_key = os.getenv('NEWS_API_KEY') or getattr(config, 'NEWS_API_KEY', None)
         self.base_url = 'https://newsapi.org/v2'
         self.session = None
     
@@ -43,6 +47,11 @@ class NewsAPIService:
         Search for medical articles related to the query
         """
         try:
+            # If no API key configured, return safe fallback sources
+            if not self.api_key:
+                logger.warning("NEWS_API_KEY not set; returning fallback sources only")
+                return self._get_fallback_sources(query)
+
             # Calculate date range
             from_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
             
@@ -73,7 +82,7 @@ class NewsAPIService:
         except Exception as e:
             logger.error(f"Error fetching articles: {e}")
             return self._get_fallback_sources(query)
-    
+
     def _process_articles(self, articles: List[Dict]) -> List[Dict[str, Any]]:
         """
         Process raw articles from News API into standardized format

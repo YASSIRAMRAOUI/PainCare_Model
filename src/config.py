@@ -26,6 +26,9 @@ class Config:
     ALGORITHM = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES = 30
     
+    # External API keys (load from env; do not hardcode)
+    NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+    
     # Model Configuration
     MODEL_VERSION = "1.0.0"
     MODEL_UPDATE_INTERVAL = 24 * 60 * 60  # 24 hours in seconds
