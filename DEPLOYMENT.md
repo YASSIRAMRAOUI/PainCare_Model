@@ -55,11 +55,48 @@ az container create \
   --ports 8000
 ```
 
+## Network Configuration
+
+### Local Development Setup
+When running the AI model server locally and connecting from mobile devices:
+
+1. **Server Configuration**: Ensure the server listens on all interfaces
+   ```python
+   # In src/config.py
+   API_HOST = os.getenv("API_HOST", "0.0.0.0")  # Listen on all interfaces
+   ```
+
+2. **Mobile App Configuration**: Update the IP address in your mobile app
+   ```bash
+   # Find your PC's WiFi IP address
+   ipconfig  # Windows
+   ifconfig  # Linux/Mac
+   
+   # Update aiService.ts with your actual WiFi IP
+   # Example: Replace 'localhost' with '192.168.1.100'
+   ```
+
+3. **Common Connection Issues**:
+   - **IP Mismatch**: Mobile app tries wrong IP address
+   - **Firewall Blocking**: Windows Firewall may block port 8000
+   - **Network Interface**: Server not listening on WiFi interface
+
+4. **Testing Connection**:
+   ```bash
+   # Test server accessibility from mobile device network
+   curl http://YOUR_PC_IP:8000/health
+   
+   # Check if server is listening on correct port
+   netstat -an | findstr :8000  # Windows
+   netstat -an | grep :8000     # Linux/Mac
+   ```
+
 ## Production Checklist
 
 ### Before Deployment
 - [ ] Firebase service account configured
 - [ ] Environment variables set
+- [ ] Network configuration verified
 - [ ] SSL certificates obtained
 - [ ] Domain DNS configured
 - [ ] Monitoring tools setup

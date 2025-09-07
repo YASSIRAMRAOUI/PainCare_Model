@@ -19,7 +19,7 @@ class Config:
     FIREBASE_DATABASE_URL = os.getenv("FIREBASE_DATABASE_URL", "https://your-project.firebaseio.com/")
     
     # API Configuration
-    API_HOST = os.getenv("API_HOST", "172.23.111.34")  # Use the specific IP
+    API_HOST = os.getenv("API_HOST", "0.0.0.0")  # Listen on all interfaces
     API_PORT = int(os.getenv("API_PORT", 8000))
     DEBUG_MODE = os.getenv("DEBUG_MODE", "True").lower() == "true"
     SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")
