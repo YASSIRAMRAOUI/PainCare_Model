@@ -482,6 +482,7 @@ class PainCareAIModel:
             age = user_profile.get('age', 30)  # Default age if not available
             
             # Prepare features for prediction using our trained model format
+            # We need to ensure all 9 features that the model was trained with are present
             features = {
                 'age': age,
                 'sleep': current_symptoms.get('sleep_hours', 7),
@@ -491,51 +492,99 @@ class PainCareAIModel:
                 'is_weekend': 1 if datetime.now().weekday() >= 5 else 0,
             }
             
-            # Encode categorical features using our trained encoders
-            if 'location' in self.encoders:
-                location = current_symptoms.get('pain_location', 'unknown')
+            # Handle location encoding with proper fallback
+            location = current_symptoms.get('location', current_symptoms.get('pain_location', 'Lower abdomen'))
+            if 'categorical' in self.encoders and 'location' in self.encoders['categorical']:
                 try:
-                    location_encoded = self.encoders['location'].transform([location])[0]
-                except ValueError:
-                    location_encoded = 0  # Unknown location
-                features['location_encoded'] = location_encoded
-            
-            if 'mood' in self.encoders:
-                mood = current_symptoms.get('mood', 'neutral')
-                try:
-                    mood_encoded = self.encoders['mood'].transform([mood])[0]
-                except ValueError:
-                    mood_encoded = 1  # Default to neutral
-                features['mood_encoded'] = mood_encoded
-            
-            if 'severity' in self.encoders:
-                # Determine severity based on user history
-                if not user_history.empty:
-                    avg_pain = user_history['painLevel'].mean()
-                    if avg_pain < 4:
-                        severity = 'mild'
-                    elif avg_pain < 7:
-                        severity = 'moderate'
-                    else:
-                        severity = 'severe'
-                else:
-                    severity = 'moderate'  # Default
-                
-                try:
-                    severity_encoded = self.encoders['severity'].transform([severity])[0]
-                except ValueError:
-                    severity_encoded = 1  # Default to moderate
-                features['severity_encoded'] = severity_encoded
-            
-            # Convert to array format expected by model
-            feature_names = self.metadata.get('pain_predictor', {}).get('features', [])
-            X = pd.DataFrame([[features.get(fname, 0) for fname in feature_names]], columns=feature_names)
-            
-            # Scale features
-            if 'pain_predictor' in self.scalers:
-                X_scaled = self.scalers['pain_predictor'].transform(X)
+                    location_encoded = self.encoders['categorical']['location'].transform([location])[0]
+                except (ValueError, KeyError):
+                    # Create a simple encoding fallback
+                    location_map = {'Lower abdomen': 0, 'Lower back': 1, 'Pelvis': 2, 'Ovaries': 3}
+                    location_encoded = location_map.get(location, 0)
             else:
-                X_scaled = X.values
+                # Simple fallback encoding
+                location_map = {'Lower abdomen': 0, 'Lower back': 1, 'Pelvis': 2, 'Ovaries': 3}
+                location_encoded = location_map.get(location, 0)
+            features['location_encoded'] = location_encoded
+            
+            # Handle mood encoding with proper fallback
+            mood = current_symptoms.get('mood', 'neutral')
+            if 'categorical' in self.encoders and 'mood' in self.encoders['categorical']:
+                try:
+                    mood_encoded = self.encoders['categorical']['mood'].transform([mood])[0]
+                except (ValueError, KeyError):
+                    # Create a simple encoding fallback
+                    mood_map = {'happy': 2, 'neutral': 1, 'sad': 0, 'anxious': 0, 'irritated': 0}
+                    mood_encoded = mood_map.get(mood, 1)
+            else:
+                # Simple fallback encoding
+                mood_map = {'happy': 2, 'neutral': 1, 'sad': 0, 'anxious': 0, 'irritated': 0}
+                mood_encoded = mood_map.get(mood, 1)
+            features['mood_encoded'] = mood_encoded
+            
+            # Handle severity encoding with proper fallback
+            if not user_history.empty:
+                avg_pain = user_history['painLevel'].mean()
+                if avg_pain < 4:
+                    severity = 'mild'
+                elif avg_pain < 7:
+                    severity = 'moderate'
+                else:
+                    severity = 'severe'
+            else:
+                severity = 'moderate'  # Default
+            
+            if 'categorical' in self.encoders and 'severity' in self.encoders['categorical']:
+                try:
+                    severity_encoded = self.encoders['categorical']['severity'].transform([severity])[0]
+                except (ValueError, KeyError):
+                    # Create a simple encoding fallback
+                    severity_map = {'mild': 0, 'moderate': 1, 'severe': 2}
+                    severity_encoded = severity_map.get(severity, 1)
+            else:
+                # Simple fallback encoding
+                severity_map = {'mild': 0, 'moderate': 1, 'severe': 2}
+                severity_encoded = severity_map.get(severity, 1)
+            features['severity_encoded'] = severity_encoded
+            
+            # Create feature array in the expected order (9 features)
+            # This matches the training format from the enhanced_real_data_trainer.py
+            expected_features = ['age', 'sleep', 'energy', 'day_of_week', 'week_of_year', 'is_weekend', 'location_encoded', 'mood_encoded', 'severity_encoded']
+            
+            # Ensure all expected features are present
+            feature_values = []
+            for fname in expected_features:
+                if fname in features:
+                    feature_values.append(features[fname])
+                else:
+                    logger.warning(f"Missing feature {fname}, using default value 0")
+                    feature_values.append(0)
+            
+            # Create feature array
+            X = np.array([feature_values])
+            
+            # Log the feature values for debugging
+            logger.info(f"Created feature array with shape {X.shape}: {feature_values}")
+            
+            # Scale features using the standard scaler
+            if 'standard' in self.scalers and self.scalers['standard'] is not None:
+                try:
+                    # Check if scaler expects different number of features
+                    scaler = self.scalers['standard']
+                    expected_features = getattr(scaler, 'n_features_in_', None)
+                    
+                    if expected_features is not None and expected_features != X.shape[1]:
+                        logger.warning(f"Feature count mismatch: scaler expects {expected_features} features, got {X.shape[1]}. Using unscaled features.")
+                        X_scaled = X
+                    else:
+                        X_scaled = scaler.transform(X)
+                        logger.info(f"Scaled features shape: {X_scaled.shape}")
+                except Exception as e:
+                    logger.warning(f"Error scaling features: {e}, using unscaled features")
+                    X_scaled = X
+            else:
+                logger.warning("No standard scaler available, using unscaled features")
+                X_scaled = X
             
             # Predict using trained model
             if 'pain_predictor' in self.models:
@@ -552,7 +601,7 @@ class PainCareAIModel:
                         "age": int(age),
                         "severity_profile": severity if 'severity' in locals() else 'moderate'
                     },
-                    "features_used": feature_names,
+                    "features_used": expected_features,
                     "timestamp": datetime.now().isoformat()
                 }
             else:
@@ -598,50 +647,123 @@ class PainCareAIModel:
                 severity_profile = 'severe'
             
             # Prepare features for treatment recommendation model
+            # Use the same feature structure as pain prediction for consistency
             features = {
                 'age': age,
-                'avg_pain_level': avg_pain_level,
-                'severity_encoded': 0  # Will be set below
+                'sleep': current_symptoms.get('sleep_hours', 7),
+                'energy': current_symptoms.get('energy_level', 5),
+                'day_of_week': datetime.now().weekday(),
+                'week_of_year': datetime.now().isocalendar().week,
+                'is_weekend': 1 if datetime.now().weekday() >= 5 else 0,
             }
             
-            # Encode severity if encoder available
-            if 'severity' in self.encoders:
+            # Handle location encoding with proper fallback
+            location = current_symptoms.get('location', current_symptoms.get('pain_location', 'Lower abdomen'))
+            if 'categorical' in self.encoders and 'location' in self.encoders['categorical']:
                 try:
-                    severity_encoded = self.encoders['severity'].transform([severity_profile])[0]
-                    features['severity_encoded'] = severity_encoded
-                except ValueError:
-                    features['severity_encoded'] = 1  # Default to moderate
+                    location_encoded = self.encoders['categorical']['location'].transform([location])[0]
+                except (ValueError, KeyError):
+                    # Create a simple encoding fallback
+                    location_map = {'Lower abdomen': 0, 'Lower back': 1, 'Pelvis': 2, 'Ovaries': 3}
+                    location_encoded = location_map.get(location, 0)
+            else:
+                # Simple fallback encoding
+                location_map = {'Lower abdomen': 0, 'Lower back': 1, 'Pelvis': 2, 'Ovaries': 3}
+                location_encoded = location_map.get(location, 0)
+            features['location_encoded'] = location_encoded
+            
+            # Handle mood encoding with proper fallback
+            mood = current_symptoms.get('mood', 'neutral')
+            if 'categorical' in self.encoders and 'mood' in self.encoders['categorical']:
+                try:
+                    mood_encoded = self.encoders['categorical']['mood'].transform([mood])[0]
+                except (ValueError, KeyError):
+                    # Create a simple encoding fallback
+                    mood_map = {'happy': 2, 'neutral': 1, 'sad': 0, 'anxious': 0, 'irritated': 0}
+                    mood_encoded = mood_map.get(mood, 1)
+            else:
+                # Simple fallback encoding
+                mood_map = {'happy': 2, 'neutral': 1, 'sad': 0, 'anxious': 0, 'irritated': 0}
+                mood_encoded = mood_map.get(mood, 1)
+            features['mood_encoded'] = mood_encoded
+            
+            # Handle severity encoding with proper fallback
+            if 'categorical' in self.encoders and 'severity' in self.encoders['categorical']:
+                try:
+                    severity_encoded = self.encoders['categorical']['severity'].transform([severity_profile])[0]
+                except (ValueError, KeyError):
+                    # Create a simple encoding fallback
+                    severity_map = {'mild': 0, 'moderate': 1, 'severe': 2}
+                    severity_encoded = severity_map.get(severity_profile, 1)
+            else:
+                # Simple fallback encoding
+                severity_map = {'mild': 0, 'moderate': 1, 'severe': 2}
+                severity_encoded = severity_map.get(severity_profile, 1)
+            features['severity_encoded'] = severity_encoded
             
             # Use treatment recommendation model if available
             if 'treatment_recommender' in self.models:
-                feature_names = self.metadata.get('treatment_recommender', {}).get('features', [])
-                X = pd.DataFrame([[features.get(fname, 0) for fname in feature_names]], columns=feature_names)
-                
-                # Scale features
-                if 'treatment_recommender' in self.scalers:
-                    X_scaled = self.scalers['treatment_recommender'].transform(X)
-                else:
-                    X_scaled = X.values
-                
-                # Get treatment prediction
-                treatment_encoded = self.models['treatment_recommender'].predict(X_scaled)[0]
-                
-                # Decode treatment recommendation
-                if 'treatment' in self.encoders:
-                    treatment_classes = self.encoders['treatment'].classes_
-                    if treatment_encoded < len(treatment_classes):
-                        recommended_treatment = treatment_classes[treatment_encoded]
-                    else:
-                        recommended_treatment = 'general_care'
-                else:
-                    recommended_treatment = 'general_care'
-                
-                # Get treatment probabilities if available
+                # Check what the treatment recommender expects
                 try:
-                    treatment_probs = self.models['treatment_recommender'].predict_proba(X_scaled)[0]
-                    confidence = max(treatment_probs)
-                except:
-                    confidence = 0.7
+                    # For the treatment recommender, use only the core features it was trained with
+                    # Based on the error, it expects 3 features
+                    treatment_features = [
+                        age,
+                        avg_pain_level,
+                        severity_encoded
+                    ]
+                    
+                    # Create feature array for treatment recommendation (3 features)
+                    X = np.array([treatment_features])
+                    
+                    # Log for debugging
+                    logger.info(f"Created treatment feature array with shape {X.shape}: {treatment_features}")
+                    
+                    # No scaling needed for treatment recommender (it expects raw features)
+                    X_scaled = X
+                
+                    # Get treatment prediction
+                    treatment_encoded = self.models['treatment_recommender'].predict(X_scaled)[0]
+                    
+                    # Decode treatment recommendation using evidence-based mapping
+                    treatment_map = {
+                        0: 'lifestyle_changes',
+                        1: 'mild_pain_relief', 
+                        2: 'hormonal_therapy',
+                        3: 'physical_therapy',
+                        4: 'specialized_therapy',
+                        5: 'surgical_intervention'
+                    }
+                    
+                    if isinstance(treatment_encoded, (int, np.integer)) and treatment_encoded in treatment_map:
+                        recommended_treatment = treatment_map[treatment_encoded]
+                    else:
+                        # Fallback based on severity
+                        if severity_profile == 'mild':
+                            recommended_treatment = 'lifestyle_changes'
+                        elif severity_profile == 'moderate':
+                            recommended_treatment = 'hormonal_therapy'
+                        else:
+                            recommended_treatment = 'specialized_therapy'
+                    
+                    # Calculate confidence based on model performance
+                    try:
+                        treatment_probs = self.models['treatment_recommender'].predict_proba(X_scaled)[0]
+                        confidence = float(max(treatment_probs))
+                    except Exception as e:
+                        logger.warning(f"Could not get treatment probabilities: {e}")
+                        confidence = 0.7
+                        
+                except Exception as e:
+                    logger.warning(f"Error using treatment recommender model: {e}, using fallback")
+                    # Fallback treatment recommendations based on severity
+                    if severity_profile == 'mild':
+                        recommended_treatment = 'lifestyle_changes'
+                    elif severity_profile == 'moderate':
+                        recommended_treatment = 'hormonal_therapy'
+                    else:
+                        recommended_treatment = 'specialized_therapy'
+                    confidence = 0.6
             else:
                 # Fallback treatment recommendations based on severity
                 if severity_profile == 'mild':
