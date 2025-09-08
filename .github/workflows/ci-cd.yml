@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/paincare-ai
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   test:
@@ -115,6 +115,9 @@ jobs:
     needs: [test, security, codeql]
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      packages: write
     
     steps:
     - name: Checkout code
@@ -137,9 +140,11 @@ jobs:
         images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
         tags: |
           type=ref,event=branch
-          type=ref,event=pr
           type=sha,prefix={{branch}}-
           type=raw,value=latest,enable={{is_default_branch}}
+        labels: |
+          org.opencontainers.image.title=PainCare AI Model
+          org.opencontainers.image.description=AI-powered pain assessment and treatment recommendation system
           
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
