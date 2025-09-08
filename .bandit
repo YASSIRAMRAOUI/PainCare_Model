@@ -1,0 +1,17 @@
+exclude_dirs:
+  - tests
+  - .venv
+  - venv
+  - __pycache__
+  - .git
+
+skips:
+  - B101  # Test for use of assert
+
+tests:
+  - B201  # Test for use of assert
+  - B301  # Pickle usage
+
+exclude:
+  - "*/tests/*"
+  - "*/.venv/*"

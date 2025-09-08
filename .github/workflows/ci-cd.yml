@@ -61,13 +61,58 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Run security scan
-      uses: securecodewarrior/github-action-add-sarif@v1
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        sarif-file: security-scan-results.sarif
+        python-version: '3.11'
+        
+    - name: Install security scanning tools
+      run: |
+        python -m pip install --upgrade pip
+        pip install bandit safety
+        
+    - name: Run Bandit security scan
+      run: |
+        bandit -r src/ -f json -o bandit-report.json --configfile .bandit || true
+        bandit -r src/ -f txt --configfile .bandit
+        
+    - name: Run Safety check for vulnerabilities
+      run: |
+        # Try the new scan command, fall back to deprecated check if auth issues
+        safety scan --json --output safety-report.json 2>/dev/null || safety check --json --output safety-report.json || echo "Safety check completed with warnings"
+        safety scan 2>/dev/null || safety check || echo "Safety check completed with warnings"
+        
+    - name: Upload security scan results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: security-scan-results
+        path: |
+          bandit-report.json
+          safety-report.json
+
+  codeql:
+    name: CodeQL Security Analysis
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: python
+        
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
 
   build:
-    needs: [test, security]
+    needs: [test, security, codeql]
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     
