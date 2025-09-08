@@ -20,6 +20,7 @@ from ..models.ai_model import PainCareAIModel
 from ..xai.explainer import XAIExplainer
 from ..config import config
 from ..services.firebase_service import FirebaseService
+from .health import router as health_router, HealthChecker, set_health_checker
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -43,6 +44,9 @@ app.add_middleware(
 
 # Security
 security = HTTPBearer()
+
+# Include routers
+app.include_router(health_router, prefix="/api/v1", tags=["health"])
 
 # Global instances
 ai_model = None
@@ -134,6 +138,15 @@ async def startup_event():
             logger.error(f"XAI explainer initialization failed: {e}")
             # Continue without XAI explainer for now
             xai_explainer = None
+        
+        # Initialize health checker
+        try:
+            health_checker_instance = HealthChecker(ai_model, firebase_service)
+            set_health_checker(health_checker_instance)
+            logger.info("Health checker initialized")
+        except Exception as e:
+            logger.error(f"Health checker initialization failed: {e}")
+            # Continue without health checker for now
         
         logger.info("PainCare AI services initialized successfully")
         

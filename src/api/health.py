@@ -118,9 +118,15 @@ class HealthChecker:
 health_checker = None
 
 
+def set_health_checker(checker: HealthChecker):
+    """Set the global health checker instance"""
+    global health_checker
+    health_checker = checker
+
+
 def get_health_checker() -> HealthChecker:
     """Get health checker instance"""
-    global health_checker
+    global health_checker  # noqa: F824
     if not health_checker:
         raise HTTPException(status_code=503, detail="Health checker not initialized")
     return health_checker
