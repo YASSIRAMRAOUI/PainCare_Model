@@ -71,13 +71,22 @@ class NewsAPIService:
             if not self.session:
                 self.session = aiohttp.ClientSession()
             
-            async with self.session.get(f"{self.base_url}/everything", params=params) as response:
-                if response.status == 200:
-                    data = await response.json()
-                    return self._process_articles(data.get('articles', []))
-                else:
-                    logger.warning(f"News API request failed: {response.status}")
-                    return self._get_fallback_sources(query)
+            try:
+                async with self.session.get(f"{self.base_url}/everything", params=params) as response:
+                    if response.status == 200:
+                        data = await response.json()
+                        return self._process_articles(data.get('articles', []))
+                    else:
+                        logger.warning(f"News API request failed: {response.status}")
+                        return self._get_fallback_sources(query)
+            except Exception as request_error:
+                logger.warning(f"News API request failed: {request_error}")
+                return self._get_fallback_sources(query)
+            finally:
+                # Close session after each request to prevent unclosed session warnings
+                if self.session and not self.session.closed:
+                    await self.session.close()
+                    self.session = None
                     
         except Exception as e:
             logger.error(f"Error fetching articles: {e}")

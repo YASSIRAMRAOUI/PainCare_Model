@@ -78,9 +78,9 @@ class FirebaseService:
                 
                 # Filter by userId and date range using recordedAt field (from indexes)
                 query = (symptoms_ref
-                        .where('userId', '==', user_id)
-                        .where('recordedAt', '>=', start_date)
-                        .where('recordedAt', '<=', end_date)
+                        .where(filter=firestore.FieldFilter('userId', '==', user_id))
+                        .where(filter=firestore.FieldFilter('recordedAt', '>=', start_date))
+                        .where(filter=firestore.FieldFilter('recordedAt', '<=', end_date))
                         .order_by('recordedAt', direction='DESCENDING'))
                 
                 docs = query.stream()
@@ -117,7 +117,7 @@ class FirebaseService:
                 def fallback_fetch():
                     symptoms_ref = self.db.collection('Symptoms')
                     query = (symptoms_ref
-                            .where('userId', '==', user_id)
+                        .where(filter=firestore.FieldFilter('userId', '==', user_id))
                             .limit(10))
                     
                     docs = query.stream()
@@ -239,9 +239,9 @@ class FirebaseService:
                 
                 feedback_ref = self.db.collection('UserFeedback')
                 query = (feedback_ref
-                        .where('userId', '==', user_id)
-                        .where('timestamp', '>=', start_date)
-                        .where('timestamp', '<=', end_date)
+                        .where(filter=firestore.FieldFilter('userId', '==', user_id))
+                        .where(filter=firestore.FieldFilter('timestamp', '>=', start_date))
+                        .where(filter=firestore.FieldFilter('timestamp', '<=', end_date))
                         .order_by('timestamp', direction='DESCENDING'))
                 
                 docs = query.stream()
@@ -413,9 +413,9 @@ class FirebaseService:
                 
                 treatments_ref = self.db.collection('Treatments')
                 query = (treatments_ref
-                        .where('userId', '==', user_id)
-                        .where('timestamp', '>=', start_date)
-                        .where('timestamp', '<=', end_date)
+                        .where(filter=firestore.FieldFilter('userId', '==', user_id))
+                        .where(filter=firestore.FieldFilter('timestamp', '>=', start_date))
+                        .where(filter=firestore.FieldFilter('timestamp', '<=', end_date))
                         .order_by('timestamp', direction='DESCENDING'))
                 
                 docs = query.stream()
@@ -477,9 +477,9 @@ class FirebaseService:
                 try:
                     tests_ref = self.db.collection('DiagnosisTests')
                     query = (tests_ref
-                            .where('userId', '==', user_id)
-                            .where('updatedAt', '>=', start_date)
-                            .where('updatedAt', '<=', end_date)
+                            .where(filter=firestore.FieldFilter('userId', '==', user_id))
+                            .where(filter=firestore.FieldFilter('updatedAt', '>=', start_date))
+                            .where(filter=firestore.FieldFilter('updatedAt', '<=', end_date))
                             .order_by('updatedAt', direction='DESCENDING'))
                     
                     docs = query.stream()
@@ -507,9 +507,9 @@ class FirebaseService:
                 try:
                     diagnostic_ref = self.db.collection('Diagnostic')
                     query = (diagnostic_ref
-                            .where('userId', '==', user_id)
-                            .where('updatedAt', '>=', start_date)
-                            .where('updatedAt', '<=', end_date)
+                            .where(filter=firestore.FieldFilter('userId', '==', user_id))
+                            .where(filter=firestore.FieldFilter('updatedAt', '>=', start_date))
+                            .where(filter=firestore.FieldFilter('updatedAt', '<=', end_date))
                             .order_by('updatedAt', direction='DESCENDING'))
                     
                     docs = query.stream()
@@ -565,7 +565,7 @@ class FirebaseService:
                 try:
                     feedback_ref = self.db.collection('TreatmentFeedback')
                     if user_id:
-                        query = feedback_ref.where('userId', '==', user_id)
+                        query = feedback_ref.where(filter=firestore.FieldFilter('userId', '==', user_id))
                     else:
                         query = feedback_ref.limit(1000)  # Get recent feedback from all users
                     
@@ -586,7 +586,7 @@ class FirebaseService:
                 try:
                     symptoms_ref = self.db.collection('Symptoms')
                     if user_id:
-                        query = symptoms_ref.where('userId', '==', user_id).order_by('recordedAt', direction='DESCENDING').limit(100)
+                        query = symptoms_ref.where(filter=firestore.FieldFilter('userId', '==', user_id)).order_by('recordedAt', direction='DESCENDING').limit(100)
                     else:
                         query = symptoms_ref.order_by('recordedAt', direction='DESCENDING').limit(1000)
                     
@@ -670,4 +670,135 @@ class FirebaseService:
             
         except Exception as e:
             logger.error(f"Error saving model performance: {e}")
+            return False
+
+    async def get_user_diagnostic_data(self, user_id: str) -> List[Dict]:
+        """
+        Get user's diagnostic test results and quiz data for personalized insights
+        """
+        if self.db is None:
+            logger.warning("Firestore not connected, returning empty diagnostic data")
+            return []
+            
+        try:
+            def fetch_diagnostic_data():
+                diagnostic_data = []
+                
+                # Get diagnostic test results
+                diagnostic_ref = self.db.collection('Diagnostic')
+                diagnostic_query = diagnostic_ref.where(filter=firestore.FieldFilter('userId', '==', user_id))
+                
+                for doc in diagnostic_query.stream():
+                    diag_data = doc.to_dict()
+                    diag_data['id'] = doc.id
+                    diag_data['data_type'] = 'diagnostic'
+                    diagnostic_data.append(diag_data)
+                
+                # Get quiz results
+                quiz_ref = self.db.collection('Quiz')
+                quiz_query = quiz_ref.where(filter=firestore.FieldFilter('userId', '==', user_id))
+                
+                for doc in quiz_query.stream():
+                    quiz_data = doc.to_dict()
+                    quiz_data['id'] = doc.id
+                    quiz_data['data_type'] = 'quiz'
+                    diagnostic_data.append(quiz_data)
+                
+                logger.info(f"Found {len(diagnostic_data)} diagnostic/quiz records for user {user_id}")
+                return diagnostic_data
+            
+            # Run in executor
+            data = await asyncio.get_event_loop().run_in_executor(
+                self.executor, fetch_diagnostic_data
+            )
+            
+            return data
+            
+        except Exception as e:
+            logger.error(f"Error fetching user diagnostic data: {e}")
+            return []
+
+    async def get_user_complete_profile(self, user_id: str) -> Dict[str, Any]:
+        """
+        Get complete user profile including symptoms, diagnostics, and demographics for personalized AI
+        """
+        if self.db is None:
+            logger.warning("Firestore not connected, returning empty profile")
+            return {}
+            
+        try:
+            # Get recent symptoms (last 30 days)
+            end_date = datetime.now()
+            start_date = end_date - timedelta(days=30)
+            
+            symptoms = await self.get_user_symptoms(user_id, start_date, end_date)
+            diagnostics = await self.get_user_diagnostic_data(user_id)
+            
+            # Get user basic info
+            def fetch_user_info():
+                try:
+                    user_ref = self.db.collection('Users').document(user_id)
+                    user_doc = user_ref.get()
+                    if user_doc.exists:
+                        return user_doc.to_dict()
+                    return {}
+                except Exception as e:
+                    logger.warning(f"Could not fetch user info: {e}")
+                    return {}
+            
+            user_info = await asyncio.get_event_loop().run_in_executor(
+                self.executor, fetch_user_info
+            )
+            
+            # Compile complete profile
+            profile = {
+                'user_id': user_id,
+                'symptoms': symptoms,
+                'diagnostics': diagnostics,
+                'user_info': user_info,
+                'data_completeness': {
+                    'has_symptoms': len(symptoms) > 0,
+                    'has_diagnostics': len(diagnostics) > 0,
+                    'has_user_info': len(user_info) > 0,
+                    'symptom_count': len(symptoms),
+                    'diagnostic_count': len(diagnostics)
+                }
+            }
+            
+            logger.info(f"Compiled profile for user {user_id}: {len(symptoms)} symptoms, {len(diagnostics)} diagnostics")
+            return profile
+            
+        except Exception as e:
+            logger.error(f"Error fetching complete user profile: {e}")
+            return {}
+    
+    async def save_explanation(self, user_id: str, explanation_data: Dict[str, Any], collection_name: str = "explanations") -> bool:
+        """
+        Save XAI explanation to Firestore for user reference
+        """
+        if self.db is None:
+            logger.warning("Firestore not connected, cannot save explanation")
+            return False
+            
+        try:
+            def save_to_firestore():
+                explanation_doc = {
+                    'user_id': user_id,
+                    'timestamp': datetime.now(),
+                    'explanation': explanation_data,
+                    'type': 'xai_explanation'
+                }
+                
+                doc_ref = self.db.collection(collection_name).add(explanation_doc)
+                return doc_ref[1].id  # Return document ID
+            
+            doc_id = await asyncio.get_event_loop().run_in_executor(
+                self.executor, save_to_firestore
+            )
+            
+            logger.info(f"Saved explanation for user {user_id}, doc_id: {doc_id}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error saving explanation: {e}")
             return False

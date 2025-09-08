@@ -87,9 +87,14 @@ class XAIExplainer:
         Generate comprehensive explanation for pain level prediction with research evidence
         """
         try:
-            # Convert symptoms to feature array
-            symptoms_df = pd.DataFrame([symptoms])
-            processed_symptoms = self.model.preprocess_data(symptoms_df, fit=False)
+            # Convert symptoms to feature array with proper categorical handling
+            try:
+                symptoms_df = pd.DataFrame([symptoms])
+                processed_symptoms = self.model.preprocess_data(symptoms_df, fit=False)
+            except (KeyError, ValueError) as preprocessing_error:
+                logger.warning(f"Error preprocessing symptoms for explanation: {preprocessing_error}")
+                # Create a basic feature explanation without model preprocessing
+                processed_symptoms = symptoms_df
             
             # Get user history for context
             user_history = await self.model.fetch_user_data(user_id, days=30)
