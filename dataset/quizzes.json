@@ -1,0 +1,3198 @@
+[
+  {
+    "userId": "amandascott",
+    "quizId": "endometriosis_assessment",
+    "score": 41,
+    "percentage": 41.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "bleeding_between_periods",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 36,
+    "createdAt": "2022-07-31T23:16:51.047348",
+    "version": 1
+  },
+  {
+    "userId": "enguyen23",
+    "quizId": "endometriosis_assessment",
+    "score": 84,
+    "percentage": 84.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "diarrhea",
+      "bloating",
+      "infertility"
+    ],
+    "pain_locations": [
+      "legs",
+      "rectum"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 32,
+    "createdAt": "2021-04-10T23:16:51.049664",
+    "version": 1
+  },
+  {
+    "userId": "katherinemorris",
+    "quizId": "endometriosis_assessment",
+    "score": 64,
+    "percentage": 64.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bloating",
+      "infertility",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "legs",
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 31,
+    "createdAt": "2024-07-27T23:16:51.052533",
+    "version": 1
+  },
+  {
+    "userId": "kayla.campbell",
+    "quizId": "endometriosis_assessment",
+    "score": 30,
+    "percentage": 30.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "bloating",
+      "bleeding_between_periods",
+      "infertility"
+    ],
+    "pain_locations": [
+      "vagina",
+      "pelvis",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 46,
+    "createdAt": "2023-10-30T23:16:51.054841",
+    "version": 1
+  },
+  {
+    "userId": "melissa.thomas86",
+    "quizId": "endometriosis_assessment",
+    "score": 62,
+    "percentage": 62.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "bleeding_between_periods",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "bladder",
+      "legs"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 59,
+    "createdAt": "2023-09-28T23:16:51.056369",
+    "version": 1
+  },
+  {
+    "userId": "maya_moore",
+    "quizId": "endometriosis_assessment",
+    "score": 74,
+    "percentage": 74.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "fatigue",
+      "constipation",
+      "bloating",
+      "nausea",
+      "pain_with_urination",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "legs",
+      "bladder"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 33,
+    "createdAt": "2022-06-22T23:16:51.058363",
+    "version": 1
+  },
+  {
+    "userId": "sophia.baker",
+    "quizId": "endometriosis_assessment",
+    "score": 45,
+    "percentage": 45.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "fatigue",
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 81,
+    "createdAt": "2024-07-01T23:16:51.061862",
+    "version": 1
+  },
+  {
+    "userId": "lily_ramirez",
+    "quizId": "endometriosis_assessment",
+    "score": 59,
+    "percentage": 59.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "pelvic_pain",
+      "infertility",
+      "fatigue",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_back",
+      "rectum"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 90,
+    "createdAt": "2023-05-07T23:16:51.064355",
+    "version": 1
+  },
+  {
+    "userId": "nicole_g567",
+    "quizId": "endometriosis_assessment",
+    "score": 69,
+    "percentage": 69.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "pain_with_urination",
+      "fatigue",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "upper_abdomen",
+      "rectum"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 83,
+    "createdAt": "2022-01-31T23:16:51.066291",
+    "version": 1
+  },
+  {
+    "userId": "ljackson150",
+    "quizId": "endometriosis_assessment",
+    "score": 31,
+    "percentage": 31.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "bloating",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "legs",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 78,
+    "createdAt": "2021-10-10T23:16:51.068880",
+    "version": 1
+  },
+  {
+    "userId": "mphillips212",
+    "quizId": "endometriosis_assessment",
+    "score": 53,
+    "percentage": 53.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "fatigue",
+      "infertility"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_back",
+      "pelvis"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 63,
+    "createdAt": "2022-04-26T23:16:51.070064",
+    "version": 1
+  },
+  {
+    "userId": "courtney.gonzalez",
+    "quizId": "endometriosis_assessment",
+    "score": 19,
+    "percentage": 19.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "infertility",
+      "pain_with_urination",
+      "excessive_bleeding",
+      "bloating"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 39,
+    "createdAt": "2022-07-30T23:16:51.072582",
+    "version": 1
+  },
+  {
+    "userId": "lisaa89",
+    "quizId": "endometriosis_assessment",
+    "score": 33,
+    "percentage": 33.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bloating",
+      "pain_with_urination",
+      "constipation"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 72,
+    "createdAt": "2025-05-27T23:16:51.073858",
+    "version": 1
+  },
+  {
+    "userId": "angelasmith",
+    "quizId": "endometriosis_assessment",
+    "score": 83,
+    "percentage": 83.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "infertility",
+      "pelvic_pain",
+      "excessive_bleeding",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 38,
+    "createdAt": "2024-10-31T23:16:51.075068",
+    "version": 1
+  },
+  {
+    "userId": "danielles87",
+    "quizId": "endometriosis_assessment",
+    "score": 36,
+    "percentage": 36.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "bleeding_between_periods",
+      "pain_during_intercourse",
+      "bloating",
+      "constipation"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 39,
+    "createdAt": "2023-12-29T23:16:51.077802",
+    "version": 1
+  },
+  {
+    "userId": "rachel_lewis",
+    "quizId": "endometriosis_assessment",
+    "score": 34,
+    "percentage": 34.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "diarrhea",
+      "fatigue",
+      "pain_with_urination",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 76,
+    "createdAt": "2025-06-30T23:16:51.079562",
+    "version": 1
+  },
+  {
+    "userId": "ellatorres",
+    "quizId": "endometriosis_assessment",
+    "score": 47,
+    "percentage": 47.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pain_with_urination",
+      "pelvic_pain",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_abdomen",
+      "lower_back"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 33,
+    "createdAt": "2024-03-04T23:16:51.080633",
+    "version": 1
+  },
+  {
+    "userId": "christina588",
+    "quizId": "endometriosis_assessment",
+    "score": 45,
+    "percentage": 45.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "upper_abdomen",
+      "legs"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 57,
+    "createdAt": "2021-08-27T23:16:51.082584",
+    "version": 1
+  },
+  {
+    "userId": "samantha_wilson",
+    "quizId": "endometriosis_assessment",
+    "score": 30,
+    "percentage": 30.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "constipation",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "pelvis"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 69,
+    "createdAt": "2023-04-29T23:16:51.084801",
+    "version": 1
+  },
+  {
+    "userId": "natalie.garcia",
+    "quizId": "endometriosis_assessment",
+    "score": 18,
+    "percentage": 18.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "legs",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 36,
+    "createdAt": "2023-02-16T23:16:51.086044",
+    "version": 1
+  },
+  {
+    "userId": "sophia.ramirez05",
+    "quizId": "endometriosis_assessment",
+    "score": 46,
+    "percentage": 46.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "diarrhea",
+      "pain_with_urination",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_back",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 86,
+    "createdAt": "2020-11-11T23:16:51.087481",
+    "version": 1
+  },
+  {
+    "userId": "olivia.anderson",
+    "quizId": "endometriosis_assessment",
+    "score": 65,
+    "percentage": 65.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "bleeding_between_periods",
+      "excessive_bleeding",
+      "nausea",
+      "bloating",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 57,
+    "createdAt": "2024-05-12T23:16:51.089762",
+    "version": 1
+  },
+  {
+    "userId": "rmartinez642",
+    "quizId": "endometriosis_assessment",
+    "score": 53,
+    "percentage": 53.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "bloating",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "vagina",
+      "pelvis"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 46,
+    "createdAt": "2023-10-01T23:16:51.091615",
+    "version": 1
+  },
+  {
+    "userId": "courtneyl05",
+    "quizId": "endometriosis_assessment",
+    "score": 74,
+    "percentage": 74.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_bowel_movements",
+      "diarrhea",
+      "fatigue",
+      "constipation",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 83,
+    "createdAt": "2021-08-01T23:16:51.093695",
+    "version": 1
+  },
+  {
+    "userId": "isabellat99",
+    "quizId": "endometriosis_assessment",
+    "score": 26,
+    "percentage": 26.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "pain_during_intercourse",
+      "infertility"
+    ],
+    "pain_locations": [
+      "legs",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 49,
+    "createdAt": "2024-06-08T23:16:51.097301",
+    "version": 1
+  },
+  {
+    "userId": "oliviac04",
+    "quizId": "endometriosis_assessment",
+    "score": 74,
+    "percentage": 74.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "fatigue",
+      "bloating",
+      "excessive_bleeding",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "vagina",
+      "legs"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 88,
+    "createdAt": "2021-04-23T23:16:51.098363",
+    "version": 1
+  },
+  {
+    "userId": "luna_t482",
+    "quizId": "endometriosis_assessment",
+    "score": 44,
+    "percentage": 44.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "bloating",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "rectum",
+      "pelvis"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 46,
+    "createdAt": "2021-06-02T23:16:51.100939",
+    "version": 1
+  },
+  {
+    "userId": "lindseycampbell",
+    "quizId": "endometriosis_assessment",
+    "score": 83,
+    "percentage": 83.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "bloating",
+      "infertility",
+      "menstrual_pain",
+      "diarrhea",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder",
+      "legs",
+      "vagina"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 45,
+    "createdAt": "2025-05-01T23:16:51.103323",
+    "version": 1
+  },
+  {
+    "userId": "myoung678",
+    "quizId": "endometriosis_assessment",
+    "score": 57,
+    "percentage": 56.99999999999999,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "excessive_bleeding",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "bloating",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_back"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 59,
+    "createdAt": "2024-08-22T23:16:51.106591",
+    "version": 1
+  },
+  {
+    "userId": "lisa.moore",
+    "quizId": "endometriosis_assessment",
+    "score": 32,
+    "percentage": 32.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "infertility",
+      "constipation",
+      "pain_during_intercourse",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_back",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 30,
+    "createdAt": "2024-04-10T23:16:51.108890",
+    "version": 1
+  },
+  {
+    "userId": "evelyn_s634",
+    "quizId": "endometriosis_assessment",
+    "score": 77,
+    "percentage": 77.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_urination",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "bladder",
+      "rectum",
+      "pelvis"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 90,
+    "createdAt": "2022-07-05T23:16:51.109983",
+    "version": 1
+  },
+  {
+    "userId": "chloe_w276",
+    "quizId": "endometriosis_assessment",
+    "score": 31,
+    "percentage": 31.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "fatigue",
+      "constipation",
+      "bloating",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "rectum",
+      "legs",
+      "vagina"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 75,
+    "createdAt": "2020-10-20T23:16:51.112782",
+    "version": 1
+  },
+  {
+    "userId": "jessicac01",
+    "quizId": "endometriosis_assessment",
+    "score": 59,
+    "percentage": 59.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "excessive_bleeding",
+      "pain_with_urination",
+      "infertility",
+      "constipation",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 66,
+    "createdAt": "2025-07-25T23:16:51.114301",
+    "version": 1
+  },
+  {
+    "userId": "courtneycarter",
+    "quizId": "endometriosis_assessment",
+    "score": 48,
+    "percentage": 48.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "constipation",
+      "menstrual_pain",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_back"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 72,
+    "createdAt": "2023-02-23T23:16:51.116485",
+    "version": 1
+  },
+  {
+    "userId": "rachelgarcia",
+    "quizId": "endometriosis_assessment",
+    "score": 39,
+    "percentage": 39.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "fatigue",
+      "constipation"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 75,
+    "createdAt": "2025-03-31T23:16:51.118846",
+    "version": 1
+  },
+  {
+    "userId": "brooket81",
+    "quizId": "endometriosis_assessment",
+    "score": 39,
+    "percentage": 39.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "constipation",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 69,
+    "createdAt": "2023-09-24T23:16:51.121014",
+    "version": 1
+  },
+  {
+    "userId": "ellahernandez",
+    "quizId": "endometriosis_assessment",
+    "score": 52,
+    "percentage": 52.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "fatigue",
+      "nausea",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "rectum",
+      "legs"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 64,
+    "createdAt": "2025-06-11T23:16:51.123744",
+    "version": 1
+  },
+  {
+    "userId": "mayalopez",
+    "quizId": "endometriosis_assessment",
+    "score": 77,
+    "percentage": 77.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "diarrhea",
+      "pain_with_bowel_movements",
+      "nausea",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 60,
+    "createdAt": "2025-05-24T23:16:51.125996",
+    "version": 1
+  },
+  {
+    "userId": "mia_d88",
+    "quizId": "endometriosis_assessment",
+    "score": 26,
+    "percentage": 26.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "bloating",
+      "bleeding_between_periods",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 54,
+    "createdAt": "2022-04-10T23:16:51.128663",
+    "version": 1
+  },
+  {
+    "userId": "stephanie69",
+    "quizId": "endometriosis_assessment",
+    "score": 48,
+    "percentage": 48.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "constipation",
+      "nausea",
+      "diarrhea",
+      "bloating",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "legs",
+      "pelvis"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 37,
+    "createdAt": "2022-12-14T23:16:51.129826",
+    "version": 1
+  },
+  {
+    "userId": "amanda_e317",
+    "quizId": "endometriosis_assessment",
+    "score": 54,
+    "percentage": 54.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "excessive_bleeding",
+      "diarrhea",
+      "pelvic_pain",
+      "bloating",
+      "constipation"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "legs"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 33,
+    "createdAt": "2024-05-08T23:16:51.132136",
+    "version": 1
+  },
+  {
+    "userId": "luna.martin93",
+    "quizId": "endometriosis_assessment",
+    "score": 51,
+    "percentage": 51.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "fatigue",
+      "diarrhea",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "infertility",
+      "nausea"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 31,
+    "createdAt": "2021-12-22T23:16:51.134146",
+    "version": 1
+  },
+  {
+    "userId": "julie156",
+    "quizId": "endometriosis_assessment",
+    "score": 30,
+    "percentage": 30.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "nausea",
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "pain_with_urination",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "lower_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 72,
+    "createdAt": "2021-01-27T23:16:51.136127",
+    "version": 1
+  },
+  {
+    "userId": "kelly_r445",
+    "quizId": "endometriosis_assessment",
+    "score": 41,
+    "percentage": 41.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "diarrhea",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "rectum",
+      "vagina",
+      "bladder"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 63,
+    "createdAt": "2025-01-28T23:16:51.137670",
+    "version": 1
+  },
+  {
+    "userId": "ava.murphy",
+    "quizId": "endometriosis_assessment",
+    "score": 31,
+    "percentage": 31.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "constipation",
+      "fatigue",
+      "pain_with_urination",
+      "nausea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 82,
+    "createdAt": "2023-09-03T23:16:51.139657",
+    "version": 1
+  },
+  {
+    "userId": "abigail_young",
+    "quizId": "endometriosis_assessment",
+    "score": 57,
+    "percentage": 56.99999999999999,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "constipation",
+      "fatigue",
+      "infertility",
+      "menstrual_pain",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "bladder",
+      "lower_back"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 67,
+    "createdAt": "2025-04-25T23:16:51.140857",
+    "version": 1
+  },
+  {
+    "userId": "maya.edwards",
+    "quizId": "endometriosis_assessment",
+    "score": 44,
+    "percentage": 44.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bloating",
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "diarrhea",
+      "excessive_bleeding",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "vagina",
+      "bladder",
+      "rectum"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 36,
+    "createdAt": "2021-08-12T23:16:51.143029",
+    "version": 1
+  },
+  {
+    "userId": "elizabethc87",
+    "quizId": "endometriosis_assessment",
+    "score": 20,
+    "percentage": 20.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "infertility",
+      "pain_with_bowel_movements",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 46,
+    "createdAt": "2023-06-24T23:16:51.145123",
+    "version": 1
+  },
+  {
+    "userId": "natalie.gomez94",
+    "quizId": "endometriosis_assessment",
+    "score": 77,
+    "percentage": 77.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "constipation",
+      "bleeding_between_periods",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 47,
+    "createdAt": "2024-12-04T23:16:51.146523",
+    "version": 1
+  },
+  {
+    "userId": "lilyp80",
+    "quizId": "endometriosis_assessment",
+    "score": 69,
+    "percentage": 69.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "infertility",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_abdomen"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 58,
+    "createdAt": "2023-09-21T23:16:51.149104",
+    "version": 1
+  },
+  {
+    "userId": "emmaedwards",
+    "quizId": "endometriosis_assessment",
+    "score": 49,
+    "percentage": 49.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "constipation",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "upper_abdomen",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 43,
+    "createdAt": "2023-02-22T23:16:51.152599",
+    "version": 1
+  },
+  {
+    "userId": "megan_brown",
+    "quizId": "endometriosis_assessment",
+    "score": 82,
+    "percentage": 82.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_back"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 62,
+    "createdAt": "2023-03-16T23:16:51.155403",
+    "version": 1
+  },
+  {
+    "userId": "mayaw92",
+    "quizId": "endometriosis_assessment",
+    "score": 22,
+    "percentage": 22.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "diarrhea",
+      "infertility",
+      "fatigue",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 71,
+    "createdAt": "2020-10-06T23:16:51.158302",
+    "version": 1
+  },
+  {
+    "userId": "elizabeth.parker",
+    "quizId": "endometriosis_assessment",
+    "score": 58,
+    "percentage": 57.99999999999999,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "pelvic_pain",
+      "constipation",
+      "pain_during_intercourse",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 41,
+    "createdAt": "2022-11-25T23:16:51.159838",
+    "version": 1
+  },
+  {
+    "userId": "kelly.williams03",
+    "quizId": "endometriosis_assessment",
+    "score": 25,
+    "percentage": 25.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "infertility",
+      "pelvic_pain",
+      "constipation"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 42,
+    "createdAt": "2025-03-23T23:16:51.161914",
+    "version": 1
+  },
+  {
+    "userId": "charlotter84",
+    "quizId": "endometriosis_assessment",
+    "score": 21,
+    "percentage": 21.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_urination",
+      "pain_during_intercourse",
+      "bloating",
+      "infertility",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 69,
+    "createdAt": "2024-06-02T23:16:51.163336",
+    "version": 1
+  },
+  {
+    "userId": "kelly647",
+    "quizId": "endometriosis_assessment",
+    "score": 35,
+    "percentage": 35.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "diarrhea",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 50,
+    "createdAt": "2024-06-21T23:16:51.164372",
+    "version": 1
+  },
+  {
+    "userId": "amartin222",
+    "quizId": "endometriosis_assessment",
+    "score": 42,
+    "percentage": 42.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "pain_during_intercourse",
+      "bloating",
+      "nausea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 69,
+    "createdAt": "2024-11-17T23:16:51.165586",
+    "version": 1
+  },
+  {
+    "userId": "crystal_m649",
+    "quizId": "endometriosis_assessment",
+    "score": 54,
+    "percentage": 54.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "constipation",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "legs",
+      "rectum",
+      "vagina"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 34,
+    "createdAt": "2025-07-31T23:16:51.167889",
+    "version": 1
+  },
+  {
+    "userId": "jennifer390",
+    "quizId": "endometriosis_assessment",
+    "score": 58,
+    "percentage": 57.99999999999999,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "constipation",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 74,
+    "createdAt": "2023-07-24T23:16:51.170104",
+    "version": 1
+  },
+  {
+    "userId": "taylor_d60",
+    "quizId": "endometriosis_assessment",
+    "score": 63,
+    "percentage": 63.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "nausea",
+      "pelvic_pain",
+      "bloating",
+      "excessive_bleeding",
+      "constipation"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 81,
+    "createdAt": "2023-01-29T23:16:51.171863",
+    "version": 1
+  },
+  {
+    "userId": "natalie_g848",
+    "quizId": "endometriosis_assessment",
+    "score": 46,
+    "percentage": 46.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "fatigue",
+      "pain_during_intercourse",
+      "menstrual_pain",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "rectum"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 69,
+    "createdAt": "2022-05-25T23:16:51.174075",
+    "version": 1
+  },
+  {
+    "userId": "miabaker",
+    "quizId": "endometriosis_assessment",
+    "score": 28,
+    "percentage": 28.000000000000004,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "nausea",
+      "infertility",
+      "diarrhea",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 54,
+    "createdAt": "2020-11-23T23:16:51.176346",
+    "version": 1
+  },
+  {
+    "userId": "elizabeth405",
+    "quizId": "endometriosis_assessment",
+    "score": 24,
+    "percentage": 24.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "upper_abdomen"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 71,
+    "createdAt": "2023-01-25T23:16:51.177715",
+    "version": 1
+  },
+  {
+    "userId": "rachelwilson",
+    "quizId": "endometriosis_assessment",
+    "score": 31,
+    "percentage": 31.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "constipation",
+      "pelvic_pain",
+      "pain_during_intercourse",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "bladder"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 82,
+    "createdAt": "2023-04-23T23:16:51.179416",
+    "version": 1
+  },
+  {
+    "userId": "mayar89",
+    "quizId": "endometriosis_assessment",
+    "score": 45,
+    "percentage": 45.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "nausea",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "rectum",
+      "legs"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 47,
+    "createdAt": "2025-03-03T23:16:51.180947",
+    "version": 1
+  },
+  {
+    "userId": "miaf83",
+    "quizId": "endometriosis_assessment",
+    "score": 72,
+    "percentage": 72.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "nausea",
+      "menstrual_pain",
+      "constipation",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "rectum",
+      "vagina"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 40,
+    "createdAt": "2021-03-04T23:16:51.183027",
+    "version": 1
+  },
+  {
+    "userId": "maya_c136",
+    "quizId": "endometriosis_assessment",
+    "score": 66,
+    "percentage": 66.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pelvic_pain",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 44,
+    "createdAt": "2022-06-06T23:16:51.185657",
+    "version": 1
+  },
+  {
+    "userId": "cclark382",
+    "quizId": "endometriosis_assessment",
+    "score": 41,
+    "percentage": 41.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "constipation",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 55,
+    "createdAt": "2024-12-07T23:16:51.188520",
+    "version": 1
+  },
+  {
+    "userId": "melissa.mitchell",
+    "quizId": "endometriosis_assessment",
+    "score": 54,
+    "percentage": 54.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bloating",
+      "infertility",
+      "diarrhea",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 43,
+    "createdAt": "2024-12-29T23:16:51.190730",
+    "version": 1
+  },
+  {
+    "userId": "kayla_taylor",
+    "quizId": "endometriosis_assessment",
+    "score": 32,
+    "percentage": 32.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "excessive_bleeding",
+      "nausea"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "rectum"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 47,
+    "createdAt": "2025-08-03T23:16:51.193665",
+    "version": 1
+  },
+  {
+    "userId": "isabella356",
+    "quizId": "endometriosis_assessment",
+    "score": 65,
+    "percentage": 65.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "bloating",
+      "infertility",
+      "diarrhea",
+      "constipation",
+      "nausea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_back",
+      "legs"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 85,
+    "createdAt": "2022-02-01T23:16:51.194997",
+    "version": 1
+  },
+  {
+    "userId": "sofiahill",
+    "quizId": "endometriosis_assessment",
+    "score": 48,
+    "percentage": 48.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "fatigue",
+      "menstrual_pain",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 30,
+    "createdAt": "2025-06-15T23:16:51.198046",
+    "version": 1
+  },
+  {
+    "userId": "atorres957",
+    "quizId": "endometriosis_assessment",
+    "score": 51,
+    "percentage": 51.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "infertility",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "upper_abdomen",
+      "vagina"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 33,
+    "createdAt": "2023-04-02T23:16:51.200464",
+    "version": 1
+  },
+  {
+    "userId": "natasha_w144",
+    "quizId": "endometriosis_assessment",
+    "score": 35,
+    "percentage": 35.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "infertility",
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 53,
+    "createdAt": "2024-03-16T23:16:51.202565",
+    "version": 1
+  },
+  {
+    "userId": "sophiet93",
+    "quizId": "endometriosis_assessment",
+    "score": 22,
+    "percentage": 22.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "pain_during_intercourse",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "pelvis",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 52,
+    "createdAt": "2024-01-11T23:16:51.203987",
+    "version": 1
+  },
+  {
+    "userId": "charlotte198",
+    "quizId": "endometriosis_assessment",
+    "score": 62,
+    "percentage": 62.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "diarrhea",
+      "fatigue",
+      "pain_with_bowel_movements",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_abdomen",
+      "legs"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 75,
+    "createdAt": "2022-08-25T23:16:51.205464",
+    "version": 1
+  },
+  {
+    "userId": "natashar82",
+    "quizId": "endometriosis_assessment",
+    "score": 21,
+    "percentage": 21.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "fatigue",
+      "pelvic_pain",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "bladder"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 76,
+    "createdAt": "2025-01-08T23:16:51.207293",
+    "version": 1
+  },
+  {
+    "userId": "abigail.campbell",
+    "quizId": "endometriosis_assessment",
+    "score": 53,
+    "percentage": 53.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "infertility",
+      "constipation",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 47,
+    "createdAt": "2020-12-16T23:16:51.209291",
+    "version": 1
+  },
+  {
+    "userId": "abigail641",
+    "quizId": "endometriosis_assessment",
+    "score": 64,
+    "percentage": 64.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "legs",
+      "vagina"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 81,
+    "createdAt": "2022-10-01T23:16:51.211540",
+    "version": 1
+  },
+  {
+    "userId": "samantha.moore",
+    "quizId": "endometriosis_assessment",
+    "score": 38,
+    "percentage": 38.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "bleeding_between_periods",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 56,
+    "createdAt": "2021-12-27T23:16:51.213331",
+    "version": 1
+  },
+  {
+    "userId": "laurencollins",
+    "quizId": "endometriosis_assessment",
+    "score": 16,
+    "percentage": 16.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "pain_during_intercourse",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 87,
+    "createdAt": "2021-12-03T23:16:51.215327",
+    "version": 1
+  },
+  {
+    "userId": "anna.miller93",
+    "quizId": "endometriosis_assessment",
+    "score": 84,
+    "percentage": 84.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "diarrhea",
+      "nausea",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_back"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 84,
+    "createdAt": "2023-02-02T23:16:51.217063",
+    "version": 1
+  },
+  {
+    "userId": "ariayoung",
+    "quizId": "endometriosis_assessment",
+    "score": 57,
+    "percentage": 56.99999999999999,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "pain_with_urination",
+      "bleeding_between_periods",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 49,
+    "createdAt": "2023-06-03T23:16:51.220254",
+    "version": 1
+  },
+  {
+    "userId": "mwhite854",
+    "quizId": "endometriosis_assessment",
+    "score": 44,
+    "percentage": 44.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pelvic_pain",
+      "nausea",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "bladder"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 40,
+    "createdAt": "2023-08-15T23:16:51.222623",
+    "version": 1
+  },
+  {
+    "userId": "cbaker981",
+    "quizId": "endometriosis_assessment",
+    "score": 36,
+    "percentage": 36.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 43,
+    "createdAt": "2024-03-24T23:16:51.224728",
+    "version": 1
+  },
+  {
+    "userId": "tiffany.harris06",
+    "quizId": "endometriosis_assessment",
+    "score": 16,
+    "percentage": 16.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "bloating",
+      "pelvic_pain",
+      "constipation",
+      "infertility"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 69,
+    "createdAt": "2022-12-25T23:16:51.226929",
+    "version": 1
+  },
+  {
+    "userId": "tiffanyg80",
+    "quizId": "endometriosis_assessment",
+    "score": 61,
+    "percentage": 61.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 62,
+    "createdAt": "2022-05-27T23:16:51.228632",
+    "version": 1
+  },
+  {
+    "userId": "olivia_garcia",
+    "quizId": "endometriosis_assessment",
+    "score": 85,
+    "percentage": 85.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "diarrhea",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "constipation",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 32,
+    "createdAt": "2021-07-31T23:16:51.230803",
+    "version": 1
+  },
+  {
+    "userId": "rachel468",
+    "quizId": "endometriosis_assessment",
+    "score": 26,
+    "percentage": 26.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "nausea",
+      "pelvic_pain",
+      "fatigue",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 75,
+    "createdAt": "2023-11-11T23:16:51.233641",
+    "version": 1
+  },
+  {
+    "userId": "oliviadavis",
+    "quizId": "endometriosis_assessment",
+    "score": 22,
+    "percentage": 22.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "bleeding_between_periods",
+      "diarrhea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "legs"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 34,
+    "createdAt": "2022-03-24T23:16:51.235106",
+    "version": 1
+  },
+  {
+    "userId": "abigaill04",
+    "quizId": "endometriosis_assessment",
+    "score": 22,
+    "percentage": 22.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "fatigue",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "vagina",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 58,
+    "createdAt": "2020-11-25T23:16:51.236629",
+    "version": 1
+  },
+  {
+    "userId": "isabella_hill",
+    "quizId": "endometriosis_assessment",
+    "score": 47,
+    "percentage": 47.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "constipation",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 37,
+    "createdAt": "2025-08-14T23:16:51.237826",
+    "version": 1
+  },
+  {
+    "userId": "hannahd83",
+    "quizId": "endometriosis_assessment",
+    "score": 16,
+    "percentage": 16.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "nausea",
+      "bleeding_between_periods",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_abdomen"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 46,
+    "createdAt": "2021-10-19T23:16:51.240135",
+    "version": 1
+  },
+  {
+    "userId": "sophie.robinson01",
+    "quizId": "endometriosis_assessment",
+    "score": 74,
+    "percentage": 74.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bloating",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_abdomen",
+      "rectum"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 54,
+    "createdAt": "2024-04-20T23:16:51.242172",
+    "version": 1
+  },
+  {
+    "userId": "rachela06",
+    "quizId": "endometriosis_assessment",
+    "score": 46,
+    "percentage": 46.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "menstrual_pain",
+      "infertility",
+      "bloating"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 38,
+    "createdAt": "2024-06-23T23:16:51.244772",
+    "version": 1
+  },
+  {
+    "userId": "luna525",
+    "quizId": "endometriosis_assessment",
+    "score": 51,
+    "percentage": 51.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "pelvic_pain",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "bladder",
+      "legs",
+      "lower_back"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 41,
+    "createdAt": "2023-09-11T23:16:51.246848",
+    "version": 1
+  },
+  {
+    "userId": "sophiat90",
+    "quizId": "endometriosis_assessment",
+    "score": 52,
+    "percentage": 52.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_during_intercourse",
+      "nausea"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "upper_abdomen",
+      "vagina"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 90,
+    "createdAt": "2022-09-12T23:16:51.248762",
+    "version": 1
+  },
+  {
+    "userId": "eharris34",
+    "quizId": "endometriosis_assessment",
+    "score": 27,
+    "percentage": 27.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pain_with_urination",
+      "pelvic_pain",
+      "constipation",
+      "pain_with_bowel_movements",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "legs"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 70,
+    "createdAt": "2023-11-25T23:16:51.250478",
+    "version": 1
+  },
+  {
+    "userId": "brookeevans",
+    "quizId": "endometriosis_assessment",
+    "score": 45,
+    "percentage": 45.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "infertility",
+      "diarrhea",
+      "bloating"
+    ],
+    "pain_locations": [
+      "bladder",
+      "legs"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 86,
+    "createdAt": "2023-08-04T23:16:51.251563",
+    "version": 1
+  },
+  {
+    "userId": "rebecca381",
+    "quizId": "endometriosis_assessment",
+    "score": 46,
+    "percentage": 46.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "diarrhea",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 42,
+    "createdAt": "2022-04-27T23:16:51.253576",
+    "version": 1
+  },
+  {
+    "userId": "natashah84",
+    "quizId": "endometriosis_assessment",
+    "score": 17,
+    "percentage": 17.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "diarrhea",
+      "pelvic_pain",
+      "excessive_bleeding",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 6,
+    "quality_of_life_score": 89,
+    "createdAt": "2023-10-25T23:16:51.255647",
+    "version": 1
+  },
+  {
+    "userId": "twhite451",
+    "quizId": "endometriosis_assessment",
+    "score": 46,
+    "percentage": 46.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "pain_during_intercourse",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "bladder",
+      "upper_abdomen",
+      "vagina"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 40,
+    "createdAt": "2021-01-15T23:16:51.256837",
+    "version": 1
+  },
+  {
+    "userId": "kimberly756",
+    "quizId": "endometriosis_assessment",
+    "score": 64,
+    "percentage": 64.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "diarrhea",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "infertility"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 75,
+    "createdAt": "2024-09-14T23:16:51.259263",
+    "version": 1
+  },
+  {
+    "userId": "ering07",
+    "quizId": "endometriosis_assessment",
+    "score": 65,
+    "percentage": 65.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "nausea",
+      "pain_with_urination",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 42,
+    "createdAt": "2021-02-28T23:16:51.261268",
+    "version": 1
+  },
+  {
+    "userId": "zoe_f329",
+    "quizId": "endometriosis_assessment",
+    "score": 51,
+    "percentage": 51.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_urination",
+      "pelvic_pain",
+      "pain_with_bowel_movements",
+      "excessive_bleeding",
+      "bloating"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_abdomen",
+      "legs"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 67,
+    "createdAt": "2023-09-26T23:16:51.264379",
+    "version": 1
+  },
+  {
+    "userId": "lily.cruz",
+    "quizId": "endometriosis_assessment",
+    "score": 55,
+    "percentage": 55.00000000000001,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "constipation",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "infertility",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 39,
+    "createdAt": "2022-03-20T23:16:51.266468",
+    "version": 1
+  },
+  {
+    "userId": "rtaylor130",
+    "quizId": "endometriosis_assessment",
+    "score": 44,
+    "percentage": 44.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "nausea",
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "fatigue",
+      "bloating"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "legs"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 84,
+    "createdAt": "2024-03-10T23:16:51.268418",
+    "version": 1
+  },
+  {
+    "userId": "ashley_johnson",
+    "quizId": "endometriosis_assessment",
+    "score": 38,
+    "percentage": 38.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "excessive_bleeding",
+      "diarrhea",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 59,
+    "createdAt": "2023-11-20T23:16:51.270479",
+    "version": 1
+  },
+  {
+    "userId": "ariareyes",
+    "quizId": "endometriosis_assessment",
+    "score": 25,
+    "percentage": 25.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "infertility",
+      "pelvic_pain",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "rectum"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 86,
+    "createdAt": "2025-02-09T23:16:51.272740",
+    "version": 1
+  },
+  {
+    "userId": "melissas88",
+    "quizId": "endometriosis_assessment",
+    "score": 54,
+    "percentage": 54.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "excessive_bleeding",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_abdomen"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 78,
+    "createdAt": "2020-10-19T23:16:51.274816",
+    "version": 1
+  },
+  {
+    "userId": "harper.reyes",
+    "quizId": "endometriosis_assessment",
+    "score": 17,
+    "percentage": 17.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "bloating",
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen",
+      "lower_back"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 32,
+    "createdAt": "2022-04-21T23:16:51.277249",
+    "version": 1
+  },
+  {
+    "userId": "kimberly.clark",
+    "quizId": "endometriosis_assessment",
+    "score": 34,
+    "percentage": 34.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "infertility",
+      "pain_with_bowel_movements",
+      "bloating",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 61,
+    "createdAt": "2025-06-30T23:16:51.278520",
+    "version": 1
+  },
+  {
+    "userId": "crystal707",
+    "quizId": "endometriosis_assessment",
+    "score": 17,
+    "percentage": 17.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "excessive_bleeding",
+      "diarrhea",
+      "pelvic_pain",
+      "pain_with_urination",
+      "nausea"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 89,
+    "createdAt": "2024-08-21T23:16:51.279826",
+    "version": 1
+  },
+  {
+    "userId": "michellej93",
+    "quizId": "endometriosis_assessment",
+    "score": 36,
+    "percentage": 36.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "menstrual_pain",
+      "nausea",
+      "constipation",
+      "bloating"
+    ],
+    "pain_locations": [
+      "vagina",
+      "legs"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 79,
+    "createdAt": "2023-07-20T23:16:51.280924",
+    "version": 1
+  },
+  {
+    "userId": "bperez458",
+    "quizId": "endometriosis_assessment",
+    "score": 84,
+    "percentage": 84.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "bloating"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "rectum"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 48,
+    "createdAt": "2023-10-15T23:16:51.283465",
+    "version": 1
+  },
+  {
+    "userId": "lisa_s963",
+    "quizId": "endometriosis_assessment",
+    "score": 41,
+    "percentage": 41.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "infertility",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "upper_abdomen"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 76,
+    "createdAt": "2020-10-18T23:16:51.286247",
+    "version": 1
+  },
+  {
+    "userId": "madison.allen",
+    "quizId": "endometriosis_assessment",
+    "score": 79,
+    "percentage": 79.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "diarrhea",
+      "nausea",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "vagina",
+      "bladder",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 86,
+    "createdAt": "2023-09-19T23:16:51.288144",
+    "version": 1
+  },
+  {
+    "userId": "madison.phillips",
+    "quizId": "endometriosis_assessment",
+    "score": 26,
+    "percentage": 26.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "excessive_bleeding",
+      "bloating",
+      "diarrhea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 83,
+    "createdAt": "2024-11-02T23:16:51.291074",
+    "version": 1
+  },
+  {
+    "userId": "lauren_p139",
+    "quizId": "endometriosis_assessment",
+    "score": 74,
+    "percentage": 74.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "fatigue",
+      "infertility"
+    ],
+    "pain_locations": [
+      "vagina",
+      "legs",
+      "pelvis"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 44,
+    "createdAt": "2023-12-07T23:16:51.292470",
+    "version": 1
+  },
+  {
+    "userId": "christina.gonzalez",
+    "quizId": "endometriosis_assessment",
+    "score": 33,
+    "percentage": 33.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "menstrual_pain",
+      "nausea",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 80,
+    "createdAt": "2024-08-17T23:16:51.295524",
+    "version": 1
+  },
+  {
+    "userId": "abigail882",
+    "quizId": "endometriosis_assessment",
+    "score": 84,
+    "percentage": 84.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "fatigue",
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 87,
+    "createdAt": "2023-03-02T23:16:51.296945",
+    "version": 1
+  },
+  {
+    "userId": "lisa_g970",
+    "quizId": "endometriosis_assessment",
+    "score": 49,
+    "percentage": 49.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "pelvic_pain",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder",
+      "vagina"
+    ],
+    "impact_on_life": 5,
+    "quality_of_life_score": 56,
+    "createdAt": "2022-11-06T23:16:51.299892",
+    "version": 1
+  },
+  {
+    "userId": "chloe.carter",
+    "quizId": "endometriosis_assessment",
+    "score": 57,
+    "percentage": 56.99999999999999,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "infertility",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "constipation"
+    ],
+    "pain_locations": [
+      "upper_abdomen"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 90,
+    "createdAt": "2024-06-04T23:16:51.301633",
+    "version": 1
+  },
+  {
+    "userId": "lisa_mitchell",
+    "quizId": "endometriosis_assessment",
+    "score": 28,
+    "percentage": 28.000000000000004,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "pain_with_urination",
+      "nausea",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "vagina",
+      "legs"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 65,
+    "createdAt": "2024-06-09T23:16:51.303592",
+    "version": 1
+  },
+  {
+    "userId": "lauren.nelson",
+    "quizId": "endometriosis_assessment",
+    "score": 39,
+    "percentage": 39.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "nausea",
+      "pain_during_intercourse",
+      "infertility",
+      "excessive_bleeding",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 46,
+    "createdAt": "2024-04-02T23:16:51.304808",
+    "version": 1
+  },
+  {
+    "userId": "julie_b283",
+    "quizId": "endometriosis_assessment",
+    "score": 67,
+    "percentage": 67.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "fatigue",
+      "menstrual_pain",
+      "pelvic_pain",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "legs"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 30,
+    "createdAt": "2023-02-03T23:16:51.307509",
+    "version": 1
+  },
+  {
+    "userId": "lily.turner02",
+    "quizId": "endometriosis_assessment",
+    "score": 60,
+    "percentage": 60.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bloating",
+      "menstrual_pain",
+      "pain_with_urination",
+      "nausea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "legs",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 85,
+    "createdAt": "2022-09-28T23:16:51.310532",
+    "version": 1
+  },
+  {
+    "userId": "sarahgarcia",
+    "quizId": "endometriosis_assessment",
+    "score": 47,
+    "percentage": 47.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "bleeding_between_periods",
+      "nausea"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "lower_abdomen",
+      "pelvis"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 85,
+    "createdAt": "2021-11-22T23:16:51.313354",
+    "version": 1
+  },
+  {
+    "userId": "lunaw07",
+    "quizId": "endometriosis_assessment",
+    "score": 34,
+    "percentage": 34.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "diarrhea",
+      "pain_during_intercourse",
+      "menstrual_pain",
+      "bloating"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 58,
+    "createdAt": "2023-07-08T23:16:51.315659",
+    "version": 1
+  },
+  {
+    "userId": "amys80",
+    "quizId": "endometriosis_assessment",
+    "score": 64,
+    "percentage": 64.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "menstrual_pain",
+      "diarrhea",
+      "nausea",
+      "bloating",
+      "infertility"
+    ],
+    "pain_locations": [
+      "rectum",
+      "pelvis",
+      "legs"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 58,
+    "createdAt": "2024-09-19T23:16:51.317191",
+    "version": 1
+  },
+  {
+    "userId": "sophie_w544",
+    "quizId": "endometriosis_assessment",
+    "score": 43,
+    "percentage": 43.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "fatigue",
+      "constipation",
+      "pelvic_pain",
+      "nausea"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "vagina"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 80,
+    "createdAt": "2021-03-12T23:16:51.319445",
+    "version": 1
+  },
+  {
+    "userId": "elizabethdavis",
+    "quizId": "endometriosis_assessment",
+    "score": 17,
+    "percentage": 17.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pain_with_urination",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "impact_on_life": 8,
+    "quality_of_life_score": 86,
+    "createdAt": "2021-07-24T23:16:51.321824",
+    "version": 1
+  },
+  {
+    "userId": "zoe_p755",
+    "quizId": "endometriosis_assessment",
+    "score": 47,
+    "percentage": 47.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "diarrhea",
+      "menstrual_pain",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 69,
+    "createdAt": "2023-01-17T23:16:51.323284",
+    "version": 1
+  },
+  {
+    "userId": "charlottem98",
+    "quizId": "endometriosis_assessment",
+    "score": 26,
+    "percentage": 26.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "infertility",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "bladder"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 41,
+    "createdAt": "2025-02-11T23:16:51.325605",
+    "version": 1
+  },
+  {
+    "userId": "christinacampbell",
+    "quizId": "endometriosis_assessment",
+    "score": 26,
+    "percentage": 26.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "diarrhea",
+      "nausea"
+    ],
+    "pain_locations": [
+      "bladder",
+      "upper_abdomen"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 47,
+    "createdAt": "2024-04-08T23:16:51.326988",
+    "version": 1
+  },
+  {
+    "userId": "sophie605",
+    "quizId": "endometriosis_assessment",
+    "score": 60,
+    "percentage": 60.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 61,
+    "createdAt": "2024-01-24T23:16:51.328414",
+    "version": 1
+  },
+  {
+    "userId": "rachel_g723",
+    "quizId": "endometriosis_assessment",
+    "score": 30,
+    "percentage": 30.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "constipation",
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "bloating",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "pelvis",
+      "bladder"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 42,
+    "createdAt": "2020-10-02T23:16:51.330682",
+    "version": 1
+  },
+  {
+    "userId": "chloen82",
+    "quizId": "endometriosis_assessment",
+    "score": 59,
+    "percentage": 59.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "excessive_bleeding",
+      "bleeding_between_periods",
+      "bloating",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "bladder",
+      "rectum"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 68,
+    "createdAt": "2024-03-14T23:16:51.332090",
+    "version": 1
+  },
+  {
+    "userId": "samantha.williams97",
+    "quizId": "endometriosis_assessment",
+    "score": 36,
+    "percentage": 36.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "infertility",
+      "pain_with_bowel_movements",
+      "pain_with_urination",
+      "excessive_bleeding",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 4,
+    "quality_of_life_score": 33,
+    "createdAt": "2021-05-12T23:16:51.334244",
+    "version": 1
+  },
+  {
+    "userId": "katherinegreen",
+    "quizId": "endometriosis_assessment",
+    "score": 70,
+    "percentage": 70.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 41,
+    "createdAt": "2022-12-12T23:16:51.336401",
+    "version": 1
+  },
+  {
+    "userId": "rachel_gonzalez",
+    "quizId": "endometriosis_assessment",
+    "score": 61,
+    "percentage": 61.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "constipation"
+    ],
+    "pain_locations": [
+      "rectum",
+      "legs"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 78,
+    "createdAt": "2022-03-14T23:16:51.339264",
+    "version": 1
+  },
+  {
+    "userId": "mariam07",
+    "quizId": "endometriosis_assessment",
+    "score": 15,
+    "percentage": 15.0,
+    "severity_level": "mild",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "bloating",
+      "excessive_bleeding",
+      "nausea",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 68,
+    "createdAt": "2020-09-29T23:16:51.341096",
+    "version": 1
+  },
+  {
+    "userId": "jessica_y382",
+    "quizId": "endometriosis_assessment",
+    "score": 84,
+    "percentage": 84.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "constipation",
+      "pain_with_bowel_movements",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "fatigue",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "impact_on_life": 10,
+    "quality_of_life_score": 46,
+    "createdAt": "2024-04-25T23:16:51.342475",
+    "version": 1
+  },
+  {
+    "userId": "angela_e216",
+    "quizId": "endometriosis_assessment",
+    "score": 70,
+    "percentage": 70.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "diarrhea",
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "nausea",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 73,
+    "createdAt": "2023-03-12T23:16:51.345554",
+    "version": 1
+  },
+  {
+    "userId": "nnguyen15",
+    "quizId": "endometriosis_assessment",
+    "score": 61,
+    "percentage": 61.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pelvic_pain",
+      "diarrhea",
+      "menstrual_pain",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "impact_on_life": 9,
+    "quality_of_life_score": 33,
+    "createdAt": "2025-01-30T23:16:51.348441",
+    "version": 1
+  },
+  {
+    "userId": "hannah_g747",
+    "quizId": "endometriosis_assessment",
+    "score": 44,
+    "percentage": 44.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "pain_during_intercourse",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "impact_on_life": 7,
+    "quality_of_life_score": 72,
+    "createdAt": "2022-12-17T23:16:51.350770",
+    "version": 1
+  },
+  {
+    "userId": "annap91",
+    "quizId": "endometriosis_assessment",
+    "score": 80,
+    "percentage": 80.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_back"
+    ],
+    "impact_on_life": 2,
+    "quality_of_life_score": 49,
+    "createdAt": "2022-11-13T23:16:51.352735",
+    "version": 1
+  },
+  {
+    "userId": "mia.robinson",
+    "quizId": "endometriosis_assessment",
+    "score": 50,
+    "percentage": 50.0,
+    "severity_level": "moderate",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_urination",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina",
+      "rectum"
+    ],
+    "impact_on_life": 3,
+    "quality_of_life_score": 71,
+    "createdAt": "2024-02-09T23:16:51.355642",
+    "version": 1
+  },
+  {
+    "userId": "anna387",
+    "quizId": "endometriosis_assessment",
+    "score": 72,
+    "percentage": 72.0,
+    "severity_level": "severe",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "fatigue",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "rectum"
+    ],
+    "impact_on_life": 1,
+    "quality_of_life_score": 66,
+    "createdAt": "2021-10-07T23:16:51.357687",
+    "version": 1
+  }
+]

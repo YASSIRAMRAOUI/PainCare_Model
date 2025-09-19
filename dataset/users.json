@@ -1,0 +1,4698 @@
+[
+  {
+    "userId": "amandascott",
+    "email": "amanda.scott@hotmail.com",
+    "firstName": "Amanda",
+    "lastName": "Scott",
+    "displayName": "Amanda S.",
+    "location": "Nashville, TN",
+    "timezone": "America/Los_Angeles",
+    "age": 37,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-07-31 23:16:51.047348",
+    "primary_symptoms": [
+      "diarrhea",
+      "bleeding_between_periods",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-05-01 23:16:51.047392",
+    "lastActiveAt": "2025-09-16 23:16:51.047395",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "enguyen23",
+    "email": "enguyen23@comcast.net",
+    "firstName": "Emma",
+    "lastName": "Nguyen",
+    "displayName": "Emma N.",
+    "location": "Denver, CO",
+    "timezone": "America/New_York",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-04-10 23:16:51.049664",
+    "primary_symptoms": [
+      "diarrhea",
+      "bloating",
+      "infertility"
+    ],
+    "pain_locations": [
+      "legs",
+      "rectum"
+    ],
+    "joinedAt": "2025-02-21 23:16:51.049675",
+    "lastActiveAt": "2025-09-16 23:16:51.049677",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "katherinemorris",
+    "email": "katherinemorris@aol.com",
+    "firstName": "Katherine",
+    "lastName": "Morris",
+    "displayName": "Katherine M.",
+    "location": "New York, NY",
+    "timezone": "America/Chicago",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-07-27 23:16:51.052533",
+    "primary_symptoms": [
+      "bloating",
+      "infertility",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "legs",
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2024-11-11 23:16:51.052544",
+    "lastActiveAt": "2025-09-14 23:16:51.052545",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kayla.campbell",
+    "email": "kayla.campbell@comcast.net",
+    "firstName": "Kayla",
+    "lastName": "Campbell",
+    "displayName": "Kayla C.",
+    "location": "Austin, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 20,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-10-30 23:16:51.054841",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "bloating",
+      "bleeding_between_periods",
+      "infertility"
+    ],
+    "pain_locations": [
+      "vagina",
+      "pelvis",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2024-11-06 23:16:51.054851",
+    "lastActiveAt": "2025-09-14 23:16:51.054853",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "melissa.thomas86",
+    "email": "melissa.thomas@verizon.net",
+    "firstName": "Melissa",
+    "lastName": "Thomas",
+    "displayName": "Melissa T.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 39,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-09-28 23:16:51.056369",
+    "primary_symptoms": [
+      "nausea",
+      "bleeding_between_periods",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "bladder",
+      "legs"
+    ],
+    "joinedAt": "2024-12-29 23:16:51.056379",
+    "lastActiveAt": "2025-09-17 23:16:51.056380",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "maya_moore",
+    "email": "maya_moore@cox.net",
+    "firstName": "Maya",
+    "lastName": "Moore",
+    "displayName": "Maya M.",
+    "location": "Portland, OR",
+    "timezone": "America/New_York",
+    "age": 40,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-06-22 23:16:51.058363",
+    "primary_symptoms": [
+      "fatigue",
+      "constipation",
+      "bloating",
+      "nausea",
+      "pain_with_urination",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "legs",
+      "bladder"
+    ],
+    "joinedAt": "2025-07-06 23:16:51.058381",
+    "lastActiveAt": "2025-09-12 23:16:51.058383",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophia.baker",
+    "email": "sophia.baker@verizon.net",
+    "firstName": "Sophia",
+    "lastName": "Baker",
+    "displayName": "Sophia B.",
+    "location": "San Jose, CA",
+    "timezone": "America/New_York",
+    "age": 37,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-07-01 23:16:51.061862",
+    "primary_symptoms": [
+      "fatigue",
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2024-10-02 23:16:51.061881",
+    "lastActiveAt": "2025-09-14 23:16:51.061884",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lily_ramirez",
+    "email": "lily_ramirez@hotmail.com",
+    "firstName": "Lily",
+    "lastName": "Ramirez",
+    "displayName": "Lily R.",
+    "location": "Dallas, TX",
+    "timezone": "America/New_York",
+    "age": 39,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-05-07 23:16:51.064355",
+    "primary_symptoms": [
+      "diarrhea",
+      "pelvic_pain",
+      "infertility",
+      "fatigue",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_back",
+      "rectum"
+    ],
+    "joinedAt": "2025-01-16 23:16:51.064367",
+    "lastActiveAt": "2025-09-12 23:16:51.064369",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "nicole_g567",
+    "email": "nicole_g567@comcast.net",
+    "firstName": "Nicole",
+    "lastName": "Green",
+    "displayName": "Nicole G.",
+    "location": "New York, NY",
+    "timezone": "America/New_York",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-01-31 23:16:51.066291",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "pain_with_urination",
+      "fatigue",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "upper_abdomen",
+      "rectum"
+    ],
+    "joinedAt": "2024-09-21 23:16:51.066302",
+    "lastActiveAt": "2025-09-17 23:16:51.066303",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ljackson150",
+    "email": "ljackson150@gmail.com",
+    "firstName": "Luna",
+    "lastName": "Jackson",
+    "displayName": "Luna J.",
+    "location": "San Jose, CA",
+    "timezone": "America/Indiana/Indianapolis",
+    "age": 25,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-10-10 23:16:51.068880",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "bloating",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "legs",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-03-24 23:16:51.068891",
+    "lastActiveAt": "2025-09-13 23:16:51.068893",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mphillips212",
+    "email": "mphillips212@hotmail.com",
+    "firstName": "Madison",
+    "lastName": "Phillips",
+    "displayName": "Madison P.",
+    "location": "Denver, CO",
+    "timezone": "America/Chicago",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-04-26 23:16:51.070064",
+    "primary_symptoms": [
+      "nausea",
+      "fatigue",
+      "infertility"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_back",
+      "pelvis"
+    ],
+    "joinedAt": "2025-03-22 23:16:51.070075",
+    "lastActiveAt": "2025-09-15 23:16:51.070077",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "courtney.gonzalez",
+    "email": "courtney.gonzalez@aol.com",
+    "firstName": "Courtney",
+    "lastName": "Gonzalez",
+    "displayName": "Courtney G.",
+    "location": "Portland, OR",
+    "timezone": "America/New_York",
+    "age": 38,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-07-30 23:16:51.072582",
+    "primary_symptoms": [
+      "constipation",
+      "infertility",
+      "pain_with_urination",
+      "excessive_bleeding",
+      "bloating"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2025-03-19 23:16:51.072592",
+    "lastActiveAt": "2025-09-14 23:16:51.072594",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lisaa89",
+    "email": "lisa.anderson@att.net",
+    "firstName": "Lisa",
+    "lastName": "Anderson",
+    "displayName": "Lisa A.",
+    "location": "Denver, CO",
+    "timezone": "America/Chicago",
+    "age": 36,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2025-05-27 23:16:51.073858",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bloating",
+      "pain_with_urination",
+      "constipation"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2024-11-17 23:16:51.073868",
+    "lastActiveAt": "2025-09-19 23:16:51.073870",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "angelasmith",
+    "email": "angela.smith@yahoo.com",
+    "firstName": "Angela",
+    "lastName": "Smith",
+    "displayName": "Angela S.",
+    "location": "Washington, DC",
+    "timezone": "America/Phoenix",
+    "age": 29,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-10-31 23:16:51.075068",
+    "primary_symptoms": [
+      "infertility",
+      "pelvic_pain",
+      "excessive_bleeding",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2024-12-02 23:16:51.075078",
+    "lastActiveAt": "2025-09-12 23:16:51.075080",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "danielles87",
+    "email": "danielle.stewart@cox.net",
+    "firstName": "Danielle",
+    "lastName": "Stewart",
+    "displayName": "Danielle S.",
+    "location": "Portland, OR",
+    "timezone": "America/New_York",
+    "age": 38,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-12-29 23:16:51.077802",
+    "primary_symptoms": [
+      "diarrhea",
+      "bleeding_between_periods",
+      "pain_during_intercourse",
+      "bloating",
+      "constipation"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2025-05-20 23:16:51.077832",
+    "lastActiveAt": "2025-09-14 23:16:51.077834",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachel_lewis",
+    "email": "rachel_lewis@outlook.com",
+    "firstName": "Rachel",
+    "lastName": "Lewis",
+    "displayName": "Rachel L.",
+    "location": "Portland, OR",
+    "timezone": "America/New_York",
+    "age": 34,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-06-30 23:16:51.079562",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "diarrhea",
+      "fatigue",
+      "pain_with_urination",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2025-07-22 23:16:51.079576",
+    "lastActiveAt": "2025-09-18 23:16:51.079578",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ellatorres",
+    "email": "ellatorres@comcast.net",
+    "firstName": "Ella",
+    "lastName": "Torres",
+    "displayName": "Ella T.",
+    "location": "New York, NY",
+    "timezone": "America/Los_Angeles",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-03-04 23:16:51.080633",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pain_with_urination",
+      "pelvic_pain",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_abdomen",
+      "lower_back"
+    ],
+    "joinedAt": "2024-12-25 23:16:51.080643",
+    "lastActiveAt": "2025-09-17 23:16:51.080644",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "christina588",
+    "email": "christina588@icloud.com",
+    "firstName": "Christina",
+    "lastName": "Walker",
+    "displayName": "Christina W.",
+    "location": "Charlotte, NC",
+    "timezone": "America/New_York",
+    "age": 28,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-08-27 23:16:51.082584",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "upper_abdomen",
+      "legs"
+    ],
+    "joinedAt": "2025-06-12 23:16:51.082603",
+    "lastActiveAt": "2025-09-19 23:16:51.082606",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "samantha_wilson",
+    "email": "samantha.wilson@comcast.net",
+    "firstName": "Samantha",
+    "lastName": "Wilson",
+    "displayName": "Samantha W.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 36,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-04-29 23:16:51.084801",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "constipation",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "pelvis"
+    ],
+    "joinedAt": "2025-05-03 23:16:51.084813",
+    "lastActiveAt": "2025-09-16 23:16:51.084816",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "natalie.garcia",
+    "email": "natalie.garcia@icloud.com",
+    "firstName": "Natalie",
+    "lastName": "Garcia",
+    "displayName": "Natalie G.",
+    "location": "New York, NY",
+    "timezone": "America/Indiana/Indianapolis",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-02-16 23:16:51.086044",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "legs",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-05-04 23:16:51.086062",
+    "lastActiveAt": "2025-09-16 23:16:51.086065",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophia.ramirez05",
+    "email": "sophia.ramirez05@att.net",
+    "firstName": "Sophia",
+    "lastName": "Ramirez",
+    "displayName": "Sophia R.",
+    "location": "Columbus, OH",
+    "timezone": "America/New_York",
+    "age": 20,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-11-11 23:16:51.087481",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "diarrhea",
+      "pain_with_urination",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_back",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-08-02 23:16:51.087492",
+    "lastActiveAt": "2025-09-14 23:16:51.087494",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "olivia.anderson",
+    "email": "olivia.anderson@yahoo.com",
+    "firstName": "Olivia",
+    "lastName": "Anderson",
+    "displayName": "Olivia A.",
+    "location": "Portland, OR",
+    "timezone": "America/Los_Angeles",
+    "age": 36,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-05-12 23:16:51.089762",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "bleeding_between_periods",
+      "excessive_bleeding",
+      "nausea",
+      "bloating",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2025-03-06 23:16:51.089776",
+    "lastActiveAt": "2025-09-14 23:16:51.089777",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rmartinez642",
+    "email": "rachel.martinez@cox.net",
+    "firstName": "Rachel",
+    "lastName": "Martinez",
+    "displayName": "Rachel M.",
+    "location": "San Diego, CA",
+    "timezone": "America/New_York",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-10-01 23:16:51.091615",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "bloating",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "vagina",
+      "pelvis"
+    ],
+    "joinedAt": "2025-07-28 23:16:51.091625",
+    "lastActiveAt": "2025-09-14 23:16:51.091627",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "courtneyl05",
+    "email": "courtneyl05@aol.com",
+    "firstName": "Courtney",
+    "lastName": "Lewis",
+    "displayName": "Courtney L.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/New_York",
+    "age": 20,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-08-01 23:16:51.093695",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_bowel_movements",
+      "diarrhea",
+      "fatigue",
+      "constipation",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "joinedAt": "2025-06-01 23:16:51.093711",
+    "lastActiveAt": "2025-09-18 23:16:51.093713",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "isabellat99",
+    "email": "isabellat99@att.net",
+    "firstName": "Isabella",
+    "lastName": "Thomas",
+    "displayName": "Isabella T.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/Los_Angeles",
+    "age": 26,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-06-08 23:16:51.097301",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "pain_during_intercourse",
+      "infertility"
+    ],
+    "pain_locations": [
+      "legs",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-06-13 23:16:51.097314",
+    "lastActiveAt": "2025-09-18 23:16:51.097316",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "oliviac04",
+    "email": "oliviac04@icloud.com",
+    "firstName": "Olivia",
+    "lastName": "Collins",
+    "displayName": "Olivia C.",
+    "location": "Washington, DC",
+    "timezone": "America/Chicago",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-04-23 23:16:51.098363",
+    "primary_symptoms": [
+      "fatigue",
+      "bloating",
+      "excessive_bleeding",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "vagina",
+      "legs"
+    ],
+    "joinedAt": "2025-07-16 23:16:51.098374",
+    "lastActiveAt": "2025-09-17 23:16:51.098375",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "luna_t482",
+    "email": "luna_t482@comcast.net",
+    "firstName": "Luna",
+    "lastName": "Thompson",
+    "displayName": "Luna T.",
+    "location": "San Francisco, CA",
+    "timezone": "America/New_York",
+    "age": 39,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2021-06-02 23:16:51.100939",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "bloating",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "rectum",
+      "pelvis"
+    ],
+    "joinedAt": "2024-10-05 23:16:51.100958",
+    "lastActiveAt": "2025-09-19 23:16:51.100961",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lindseycampbell",
+    "email": "lindseycampbell@aol.com",
+    "firstName": "Lindsey",
+    "lastName": "Campbell",
+    "displayName": "Lindsey C.",
+    "location": "Charlotte, NC",
+    "timezone": "America/Denver",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-05-01 23:16:51.103323",
+    "primary_symptoms": [
+      "bloating",
+      "infertility",
+      "menstrual_pain",
+      "diarrhea",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder",
+      "legs",
+      "vagina"
+    ],
+    "joinedAt": "2025-03-20 23:16:51.103335",
+    "lastActiveAt": "2025-09-13 23:16:51.103337",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "myoung678",
+    "email": "myoung678@cox.net",
+    "firstName": "Mia",
+    "lastName": "Young",
+    "displayName": "Mia Y.",
+    "location": "Boston, MA",
+    "timezone": "America/New_York",
+    "age": 33,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-08-22 23:16:51.106591",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "excessive_bleeding",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "bloating",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_back"
+    ],
+    "joinedAt": "2025-03-03 23:16:51.106607",
+    "lastActiveAt": "2025-09-18 23:16:51.106609",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lisa.moore",
+    "email": "lisa.moore@verizon.net",
+    "firstName": "Lisa",
+    "lastName": "Moore",
+    "displayName": "Lisa M.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/New_York",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-04-10 23:16:51.108890",
+    "primary_symptoms": [
+      "infertility",
+      "constipation",
+      "pain_during_intercourse",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_back",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-01-30 23:16:51.108901",
+    "lastActiveAt": "2025-09-12 23:16:51.108904",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "evelyn_s634",
+    "email": "evelyn_s634@att.net",
+    "firstName": "Evelyn",
+    "lastName": "Sanchez",
+    "displayName": "Evelyn S.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/Chicago",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-07-05 23:16:51.109983",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_urination",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "bladder",
+      "rectum",
+      "pelvis"
+    ],
+    "joinedAt": "2024-12-21 23:16:51.109993",
+    "lastActiveAt": "2025-09-13 23:16:51.109994",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "chloe_w276",
+    "email": "chloe_w276@outlook.com",
+    "firstName": "Chloe",
+    "lastName": "Williams",
+    "displayName": "Chloe W.",
+    "location": "New York, NY",
+    "timezone": "America/Denver",
+    "age": 23,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-10-20 23:16:51.112782",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "fatigue",
+      "constipation",
+      "bloating",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "rectum",
+      "legs",
+      "vagina"
+    ],
+    "joinedAt": "2025-08-16 23:16:51.112796",
+    "lastActiveAt": "2025-09-16 23:16:51.112798",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "jessicac01",
+    "email": "jessicac01@att.net",
+    "firstName": "Jessica",
+    "lastName": "Carter",
+    "displayName": "Jessica C.",
+    "location": "Philadelphia, PA",
+    "timezone": "America/Chicago",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-07-25 23:16:51.114301",
+    "primary_symptoms": [
+      "nausea",
+      "excessive_bleeding",
+      "pain_with_urination",
+      "infertility",
+      "constipation",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2024-10-28 23:16:51.114316",
+    "lastActiveAt": "2025-09-19 23:16:51.114319",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "courtneycarter",
+    "email": "courtneycarter@verizon.net",
+    "firstName": "Courtney",
+    "lastName": "Carter",
+    "displayName": "Courtney C.",
+    "location": "Portland, OR",
+    "timezone": "America/New_York",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-02-23 23:16:51.116485",
+    "primary_symptoms": [
+      "constipation",
+      "menstrual_pain",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_back"
+    ],
+    "joinedAt": "2025-06-18 23:16:51.116495",
+    "lastActiveAt": "2025-09-17 23:16:51.116496",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachelgarcia",
+    "email": "rachelgarcia@yahoo.com",
+    "firstName": "Rachel",
+    "lastName": "Garcia",
+    "displayName": "Rachel G.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-03-31 23:16:51.118846",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "fatigue",
+      "constipation"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2025-08-16 23:16:51.118860",
+    "lastActiveAt": "2025-09-14 23:16:51.118862",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "brooket81",
+    "email": "brooket81@outlook.com",
+    "firstName": "Brooke",
+    "lastName": "Torres",
+    "displayName": "Brooke T.",
+    "location": "Denver, CO",
+    "timezone": "America/New_York",
+    "age": 44,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-09-24 23:16:51.121014",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "constipation",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-06-11 23:16:51.121026",
+    "lastActiveAt": "2025-09-13 23:16:51.121028",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ellahernandez",
+    "email": "ellahernandez@yahoo.com",
+    "firstName": "Ella",
+    "lastName": "Hernandez",
+    "displayName": "Ella H.",
+    "location": "San Jose, CA",
+    "timezone": "America/Los_Angeles",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-06-11 23:16:51.123744",
+    "primary_symptoms": [
+      "diarrhea",
+      "fatigue",
+      "nausea",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "rectum",
+      "legs"
+    ],
+    "joinedAt": "2025-01-21 23:16:51.123755",
+    "lastActiveAt": "2025-09-15 23:16:51.123757",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mayalopez",
+    "email": "mayalopez@icloud.com",
+    "firstName": "Maya",
+    "lastName": "Lopez",
+    "displayName": "Maya L.",
+    "location": "Dallas, TX",
+    "timezone": "America/New_York",
+    "age": 33,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-05-24 23:16:51.125996",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "diarrhea",
+      "pain_with_bowel_movements",
+      "nausea",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina"
+    ],
+    "joinedAt": "2025-03-08 23:16:51.126011",
+    "lastActiveAt": "2025-09-19 23:16:51.126013",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mia_d88",
+    "email": "mia_d88@att.net",
+    "firstName": "Mia",
+    "lastName": "Davis",
+    "displayName": "Mia D.",
+    "location": "Houston, TX",
+    "timezone": "America/New_York",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-04-10 23:16:51.128663",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "bloating",
+      "bleeding_between_periods",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-06-16 23:16:51.128673",
+    "lastActiveAt": "2025-09-16 23:16:51.128674",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "stephanie69",
+    "email": "stephanie.rivera@hotmail.com",
+    "firstName": "Stephanie",
+    "lastName": "Rivera",
+    "displayName": "Stephanie R.",
+    "location": "Boston, MA",
+    "timezone": "America/Los_Angeles",
+    "age": 36,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-12-14 23:16:51.129826",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "constipation",
+      "nausea",
+      "diarrhea",
+      "bloating",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "legs",
+      "pelvis"
+    ],
+    "joinedAt": "2024-12-24 23:16:51.129841",
+    "lastActiveAt": "2025-09-19 23:16:51.129843",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "amanda_e317",
+    "email": "amanda_e317@aol.com",
+    "firstName": "Amanda",
+    "lastName": "Evans",
+    "displayName": "Amanda E.",
+    "location": "San Diego, CA",
+    "timezone": "America/New_York",
+    "age": 37,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-05-08 23:16:51.132136",
+    "primary_symptoms": [
+      "nausea",
+      "excessive_bleeding",
+      "diarrhea",
+      "pelvic_pain",
+      "bloating",
+      "constipation"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "legs"
+    ],
+    "joinedAt": "2025-04-21 23:16:51.132151",
+    "lastActiveAt": "2025-09-12 23:16:51.132152",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "luna.martin93",
+    "email": "luna.martin93@yahoo.com",
+    "firstName": "Luna",
+    "lastName": "Martin",
+    "displayName": "Luna M.",
+    "location": "Washington, DC",
+    "timezone": "America/Los_Angeles",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-12-22 23:16:51.134146",
+    "primary_symptoms": [
+      "fatigue",
+      "diarrhea",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "infertility",
+      "nausea"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-05-31 23:16:51.134158",
+    "lastActiveAt": "2025-09-15 23:16:51.134160",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "julie156",
+    "email": "julie156@outlook.com",
+    "firstName": "Julie",
+    "lastName": "Gonzalez",
+    "displayName": "Julie G.",
+    "location": "San Antonio, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 20,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-01-27 23:16:51.136127",
+    "primary_symptoms": [
+      "constipation",
+      "nausea",
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "pain_with_urination",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "lower_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2024-12-15 23:16:51.136139",
+    "lastActiveAt": "2025-09-19 23:16:51.136141",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kelly_r445",
+    "email": "kelly_r445@gmail.com",
+    "firstName": "Kelly",
+    "lastName": "Roberts",
+    "displayName": "Kelly R.",
+    "location": "Portland, OR",
+    "timezone": "America/New_York",
+    "age": 44,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2025-01-28 23:16:51.137670",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "diarrhea",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "rectum",
+      "vagina",
+      "bladder"
+    ],
+    "joinedAt": "2024-11-19 23:16:51.137680",
+    "lastActiveAt": "2025-09-18 23:16:51.137682",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ava.murphy",
+    "email": "ava.murphy@outlook.com",
+    "firstName": "Ava",
+    "lastName": "Murphy",
+    "displayName": "Ava M.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 35,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-09-03 23:16:51.139657",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "constipation",
+      "fatigue",
+      "pain_with_urination",
+      "nausea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-07-07 23:16:51.139667",
+    "lastActiveAt": "2025-09-19 23:16:51.139669",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "abigail_young",
+    "email": "abigail_young@gmail.com",
+    "firstName": "Abigail",
+    "lastName": "Young",
+    "displayName": "Abigail Y.",
+    "location": "New York, NY",
+    "timezone": "America/Chicago",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-04-25 23:16:51.140857",
+    "primary_symptoms": [
+      "constipation",
+      "fatigue",
+      "infertility",
+      "menstrual_pain",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "bladder",
+      "lower_back"
+    ],
+    "joinedAt": "2025-06-21 23:16:51.140867",
+    "lastActiveAt": "2025-09-17 23:16:51.140868",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "maya.edwards",
+    "email": "maya.edwards@cox.net",
+    "firstName": "Maya",
+    "lastName": "Edwards",
+    "displayName": "Maya E.",
+    "location": "Columbus, OH",
+    "timezone": "America/Chicago",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-08-12 23:16:51.143029",
+    "primary_symptoms": [
+      "bloating",
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "diarrhea",
+      "excessive_bleeding",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "vagina",
+      "bladder",
+      "rectum"
+    ],
+    "joinedAt": "2025-06-12 23:16:51.143044",
+    "lastActiveAt": "2025-09-18 23:16:51.143046",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "elizabethc87",
+    "email": "elizabethc87@comcast.net",
+    "firstName": "Elizabeth",
+    "lastName": "Campbell",
+    "displayName": "Elizabeth C.",
+    "location": "Dallas, TX",
+    "timezone": "America/New_York",
+    "age": 38,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-06-24 23:16:51.145123",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "infertility",
+      "pain_with_bowel_movements",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2025-04-30 23:16:51.145133",
+    "lastActiveAt": "2025-09-13 23:16:51.145134",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "natalie.gomez94",
+    "email": "natalie.gomez@icloud.com",
+    "firstName": "Natalie",
+    "lastName": "Gomez",
+    "displayName": "Natalie G.",
+    "location": "Indianapolis, IN",
+    "timezone": "America/Phoenix",
+    "age": 31,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-12-04 23:16:51.146523",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "constipation",
+      "bleeding_between_periods",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-07-11 23:16:51.146533",
+    "lastActiveAt": "2025-09-13 23:16:51.146535",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lilyp80",
+    "email": "lily.phillips@aol.com",
+    "firstName": "Lily",
+    "lastName": "Phillips",
+    "displayName": "Lily P.",
+    "location": "Dallas, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 45,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-09-21 23:16:51.149104",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "infertility",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-08-04 23:16:51.149122",
+    "lastActiveAt": "2025-09-15 23:16:51.149125",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "emmaedwards",
+    "email": "emmaedwards@comcast.net",
+    "firstName": "Emma",
+    "lastName": "Edwards",
+    "displayName": "Emma E.",
+    "location": "New York, NY",
+    "timezone": "America/New_York",
+    "age": 37,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-02-22 23:16:51.152599",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "constipation",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "upper_abdomen",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2024-09-24 23:16:51.152616",
+    "lastActiveAt": "2025-09-18 23:16:51.152619",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "megan_brown",
+    "email": "megan_brown@cox.net",
+    "firstName": "Megan",
+    "lastName": "Brown",
+    "displayName": "Megan B.",
+    "location": "Nashville, TN",
+    "timezone": "America/New_York",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-03-16 23:16:51.155403",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_back"
+    ],
+    "joinedAt": "2025-01-23 23:16:51.155414",
+    "lastActiveAt": "2025-09-12 23:16:51.155417",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mayaw92",
+    "email": "mayaw92@cox.net",
+    "firstName": "Maya",
+    "lastName": "White",
+    "displayName": "Maya W.",
+    "location": "Philadelphia, PA",
+    "timezone": "America/Los_Angeles",
+    "age": 33,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2020-10-06 23:16:51.158302",
+    "primary_symptoms": [
+      "diarrhea",
+      "infertility",
+      "fatigue",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2024-11-06 23:16:51.158312",
+    "lastActiveAt": "2025-09-13 23:16:51.158314",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "elizabeth.parker",
+    "email": "elizabeth.parker@cox.net",
+    "firstName": "Elizabeth",
+    "lastName": "Parker",
+    "displayName": "Elizabeth P.",
+    "location": "Austin, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 45,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-11-25 23:16:51.159838",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "pelvic_pain",
+      "constipation",
+      "pain_during_intercourse",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2024-10-25 23:16:51.159849",
+    "lastActiveAt": "2025-09-19 23:16:51.159851",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kelly.williams03",
+    "email": "kelly.williams@gmail.com",
+    "firstName": "Kelly",
+    "lastName": "Williams",
+    "displayName": "Kelly W.",
+    "location": "Chicago, IL",
+    "timezone": "America/Phoenix",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-03-23 23:16:51.161914",
+    "primary_symptoms": [
+      "infertility",
+      "pelvic_pain",
+      "constipation"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-08-06 23:16:51.161925",
+    "lastActiveAt": "2025-09-14 23:16:51.161926",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "charlotter84",
+    "email": "charlotter84@outlook.com",
+    "firstName": "Charlotte",
+    "lastName": "Roberts",
+    "displayName": "Charlotte R.",
+    "location": "Charlotte, NC",
+    "timezone": "America/Chicago",
+    "age": 41,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-06-02 23:16:51.163336",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_urination",
+      "pain_during_intercourse",
+      "bloating",
+      "infertility",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2025-07-04 23:16:51.163349",
+    "lastActiveAt": "2025-09-13 23:16:51.163351",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kelly647",
+    "email": "kelly647@outlook.com",
+    "firstName": "Kelly",
+    "lastName": "Hill",
+    "displayName": "Kelly H.",
+    "location": "Washington, DC",
+    "timezone": "America/Los_Angeles",
+    "age": 30,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-06-21 23:16:51.164372",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "diarrhea",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-02-11 23:16:51.164381",
+    "lastActiveAt": "2025-09-16 23:16:51.164383",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "amartin222",
+    "email": "amartin222@verizon.net",
+    "firstName": "Alexis",
+    "lastName": "Martin",
+    "displayName": "Alexis M.",
+    "location": "Indianapolis, IN",
+    "timezone": "America/Los_Angeles",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-11-17 23:16:51.165586",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "pain_during_intercourse",
+      "bloating",
+      "nausea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-01-18 23:16:51.165598",
+    "lastActiveAt": "2025-09-15 23:16:51.165600",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "crystal_m649",
+    "email": "crystal_m649@aol.com",
+    "firstName": "Crystal",
+    "lastName": "Martinez",
+    "displayName": "Crystal M.",
+    "location": "Dallas, TX",
+    "timezone": "America/Chicago",
+    "age": 18,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-07-31 23:16:51.167889",
+    "primary_symptoms": [
+      "diarrhea",
+      "constipation",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "legs",
+      "rectum",
+      "vagina"
+    ],
+    "joinedAt": "2025-02-15 23:16:51.167900",
+    "lastActiveAt": "2025-09-12 23:16:51.167901",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "jennifer390",
+    "email": "jennifer390@aol.com",
+    "firstName": "Jennifer",
+    "lastName": "Thomas",
+    "displayName": "Jennifer T.",
+    "location": "Denver, CO",
+    "timezone": "America/New_York",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-07-24 23:16:51.170104",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "constipation",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-08-18 23:16:51.170114",
+    "lastActiveAt": "2025-09-18 23:16:51.170116",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "taylor_d60",
+    "email": "taylor.davis@hotmail.com",
+    "firstName": "Taylor",
+    "lastName": "Davis",
+    "displayName": "Taylor D.",
+    "location": "Austin, TX",
+    "timezone": "America/New_York",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-01-29 23:16:51.171863",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "nausea",
+      "pelvic_pain",
+      "bloating",
+      "excessive_bleeding",
+      "constipation"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2025-01-14 23:16:51.171876",
+    "lastActiveAt": "2025-09-18 23:16:51.171878",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "natalie_g848",
+    "email": "natalie.garcia@outlook.com",
+    "firstName": "Natalie",
+    "lastName": "Garcia",
+    "displayName": "Natalie G.",
+    "location": "Nashville, TN",
+    "timezone": "America/Chicago",
+    "age": 25,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-05-25 23:16:51.174075",
+    "primary_symptoms": [
+      "fatigue",
+      "pain_during_intercourse",
+      "menstrual_pain",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "rectum"
+    ],
+    "joinedAt": "2025-01-07 23:16:51.174089",
+    "lastActiveAt": "2025-09-13 23:16:51.174091",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "miabaker",
+    "email": "miabaker@yahoo.com",
+    "firstName": "Mia",
+    "lastName": "Baker",
+    "displayName": "Mia B.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/New_York",
+    "age": 19,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-11-23 23:16:51.176346",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "nausea",
+      "infertility",
+      "diarrhea",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder"
+    ],
+    "joinedAt": "2025-07-25 23:16:51.176356",
+    "lastActiveAt": "2025-09-15 23:16:51.176358",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "elizabeth405",
+    "email": "elizabeth405@comcast.net",
+    "firstName": "Elizabeth",
+    "lastName": "Diaz",
+    "displayName": "Elizabeth D.",
+    "location": "Houston, TX",
+    "timezone": "America/Chicago",
+    "age": 40,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-01-25 23:16:51.177715",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-08-11 23:16:51.177724",
+    "lastActiveAt": "2025-09-18 23:16:51.177726",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachelwilson",
+    "email": "rachelwilson@yahoo.com",
+    "firstName": "Rachel",
+    "lastName": "Wilson",
+    "displayName": "Rachel W.",
+    "location": "Oklahoma City, OK",
+    "timezone": "America/New_York",
+    "age": 43,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-04-23 23:16:51.179416",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "constipation",
+      "pelvic_pain",
+      "pain_during_intercourse",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "bladder"
+    ],
+    "joinedAt": "2025-03-22 23:16:51.179434",
+    "lastActiveAt": "2025-09-14 23:16:51.179437",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mayar89",
+    "email": "mayar89@hotmail.com",
+    "firstName": "Maya",
+    "lastName": "Rodriguez",
+    "displayName": "Maya R.",
+    "location": "Nashville, TN",
+    "timezone": "America/New_York",
+    "age": 36,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2025-03-03 23:16:51.180947",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "nausea",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "rectum",
+      "legs"
+    ],
+    "joinedAt": "2025-03-15 23:16:51.180960",
+    "lastActiveAt": "2025-09-12 23:16:51.180962",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "miaf83",
+    "email": "miaf83@verizon.net",
+    "firstName": "Mia",
+    "lastName": "Flores",
+    "displayName": "Mia F.",
+    "location": "Oklahoma City, OK",
+    "timezone": "America/New_York",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2021-03-04 23:16:51.183027",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "nausea",
+      "menstrual_pain",
+      "constipation",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "rectum",
+      "vagina"
+    ],
+    "joinedAt": "2024-12-04 23:16:51.183037",
+    "lastActiveAt": "2025-09-16 23:16:51.183039",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "maya_c136",
+    "email": "maya_c136@verizon.net",
+    "firstName": "Maya",
+    "lastName": "Campbell",
+    "displayName": "Maya C.",
+    "location": "Houston, TX",
+    "timezone": "America/New_York",
+    "age": 33,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-06-06 23:16:51.185657",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pelvic_pain",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-01-07 23:16:51.185669",
+    "lastActiveAt": "2025-09-15 23:16:51.185671",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "cclark382",
+    "email": "cclark382@outlook.com",
+    "firstName": "Charlotte",
+    "lastName": "Clark",
+    "displayName": "Charlotte C.",
+    "location": "Los Angeles, CA",
+    "timezone": "America/Los_Angeles",
+    "age": 44,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-12-07 23:16:51.188520",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "constipation",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "joinedAt": "2025-01-26 23:16:51.188533",
+    "lastActiveAt": "2025-09-13 23:16:51.188535",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "melissa.mitchell",
+    "email": "melissa.mitchell@comcast.net",
+    "firstName": "Melissa",
+    "lastName": "Mitchell",
+    "displayName": "Melissa M.",
+    "location": "Philadelphia, PA",
+    "timezone": "America/Los_Angeles",
+    "age": 27,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-12-29 23:16:51.190730",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bloating",
+      "infertility",
+      "diarrhea",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2025-08-11 23:16:51.190742",
+    "lastActiveAt": "2025-09-19 23:16:51.190744",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kayla_taylor",
+    "email": "kayla_taylor@att.net",
+    "firstName": "Kayla",
+    "lastName": "Taylor",
+    "displayName": "Kayla T.",
+    "location": "Indianapolis, IN",
+    "timezone": "America/Chicago",
+    "age": 27,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-08-03 23:16:51.193665",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "excessive_bleeding",
+      "nausea"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "rectum"
+    ],
+    "joinedAt": "2025-01-28 23:16:51.193677",
+    "lastActiveAt": "2025-09-14 23:16:51.193679",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "isabella356",
+    "email": "isabella356@verizon.net",
+    "firstName": "Isabella",
+    "lastName": "Reyes",
+    "displayName": "Isabella R.",
+    "location": "Chicago, IL",
+    "timezone": "America/Chicago",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-02-01 23:16:51.194997",
+    "primary_symptoms": [
+      "bloating",
+      "infertility",
+      "diarrhea",
+      "constipation",
+      "nausea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_back",
+      "legs"
+    ],
+    "joinedAt": "2025-07-09 23:16:51.195010",
+    "lastActiveAt": "2025-09-16 23:16:51.195012",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sofiahill",
+    "email": "sofia.hill@outlook.com",
+    "firstName": "Sofia",
+    "lastName": "Hill",
+    "displayName": "Sofia H.",
+    "location": "Columbus, OH",
+    "timezone": "America/Chicago",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-06-15 23:16:51.198046",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "fatigue",
+      "menstrual_pain",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder"
+    ],
+    "joinedAt": "2025-03-23 23:16:51.198060",
+    "lastActiveAt": "2025-09-19 23:16:51.198062",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "atorres957",
+    "email": "atorres957@verizon.net",
+    "firstName": "Andrea",
+    "lastName": "Torres",
+    "displayName": "Andrea T.",
+    "location": "Washington, DC",
+    "timezone": "America/Chicago",
+    "age": 34,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-04-02 23:16:51.200464",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "infertility",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "upper_abdomen",
+      "vagina"
+    ],
+    "joinedAt": "2025-05-16 23:16:51.200477",
+    "lastActiveAt": "2025-09-14 23:16:51.200479",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "natasha_w144",
+    "email": "natasha.walker@gmail.com",
+    "firstName": "Natasha",
+    "lastName": "Walker",
+    "displayName": "Natasha W.",
+    "location": "Oklahoma City, OK",
+    "timezone": "America/New_York",
+    "age": 45,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-03-16 23:16:51.202565",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "infertility",
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2024-11-10 23:16:51.202576",
+    "lastActiveAt": "2025-09-18 23:16:51.202578",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophiet93",
+    "email": "sophiet93@aol.com",
+    "firstName": "Sophie",
+    "lastName": "Torres",
+    "displayName": "Sophie T.",
+    "location": "Dallas, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-01-11 23:16:51.203987",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "pain_during_intercourse",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "pelvis",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-04-29 23:16:51.203998",
+    "lastActiveAt": "2025-09-12 23:16:51.204000",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "charlotte198",
+    "email": "charlotte198@outlook.com",
+    "firstName": "Charlotte",
+    "lastName": "Johnson",
+    "displayName": "Charlotte J.",
+    "location": "Nashville, TN",
+    "timezone": "America/Los_Angeles",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-08-25 23:16:51.205464",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "diarrhea",
+      "fatigue",
+      "pain_with_bowel_movements",
+      "constipation"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_abdomen",
+      "legs"
+    ],
+    "joinedAt": "2024-11-02 23:16:51.205477",
+    "lastActiveAt": "2025-09-13 23:16:51.205479",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "natashar82",
+    "email": "natashar82@cox.net",
+    "firstName": "Natasha",
+    "lastName": "Robinson",
+    "displayName": "Natasha R.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/Indiana/Indianapolis",
+    "age": 43,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2025-01-08 23:16:51.207293",
+    "primary_symptoms": [
+      "fatigue",
+      "pelvic_pain",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "bladder"
+    ],
+    "joinedAt": "2024-11-27 23:16:51.207304",
+    "lastActiveAt": "2025-09-14 23:16:51.207306",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "abigail.campbell",
+    "email": "abigail.campbell@att.net",
+    "firstName": "Abigail",
+    "lastName": "Campbell",
+    "displayName": "Abigail C.",
+    "location": "San Diego, CA",
+    "timezone": "America/New_York",
+    "age": 25,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-12-16 23:16:51.209291",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "infertility",
+      "constipation",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-07-23 23:16:51.209304",
+    "lastActiveAt": "2025-09-12 23:16:51.209306",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "abigail641",
+    "email": "abigail641@verizon.net",
+    "firstName": "Abigail",
+    "lastName": "Clark",
+    "displayName": "Abigail C.",
+    "location": "Nashville, TN",
+    "timezone": "America/Chicago",
+    "age": 26,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-10-01 23:16:51.211540",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "legs",
+      "vagina"
+    ],
+    "joinedAt": "2025-05-03 23:16:51.211550",
+    "lastActiveAt": "2025-09-13 23:16:51.211552",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "samantha.moore",
+    "email": "samantha.moore@aol.com",
+    "firstName": "Samantha",
+    "lastName": "Moore",
+    "displayName": "Samantha M.",
+    "location": "Washington, DC",
+    "timezone": "America/New_York",
+    "age": 25,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-12-27 23:16:51.213331",
+    "primary_symptoms": [
+      "diarrhea",
+      "bleeding_between_periods",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-01-13 23:16:51.213342",
+    "lastActiveAt": "2025-09-12 23:16:51.213343",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "laurencollins",
+    "email": "laurencollins@yahoo.com",
+    "firstName": "Lauren",
+    "lastName": "Collins",
+    "displayName": "Lauren C.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/New_York",
+    "age": 23,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-12-03 23:16:51.215327",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "pain_during_intercourse",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina"
+    ],
+    "joinedAt": "2024-12-07 23:16:51.215340",
+    "lastActiveAt": "2025-09-18 23:16:51.215342",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "anna.miller93",
+    "email": "anna.miller93@hotmail.com",
+    "firstName": "Anna",
+    "lastName": "Miller",
+    "displayName": "Anna M.",
+    "location": "Dallas, TX",
+    "timezone": "America/Chicago",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-02-02 23:16:51.217063",
+    "primary_symptoms": [
+      "diarrhea",
+      "nausea",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_back"
+    ],
+    "joinedAt": "2025-08-14 23:16:51.217076",
+    "lastActiveAt": "2025-09-12 23:16:51.217078",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ariayoung",
+    "email": "ariayoung@gmail.com",
+    "firstName": "Aria",
+    "lastName": "Young",
+    "displayName": "Aria Y.",
+    "location": "Austin, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 20,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-06-03 23:16:51.220254",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "pain_with_urination",
+      "bleeding_between_periods",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "joinedAt": "2025-06-10 23:16:51.220272",
+    "lastActiveAt": "2025-09-13 23:16:51.220275",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mwhite854",
+    "email": "mwhite854@aol.com",
+    "firstName": "Melissa",
+    "lastName": "White",
+    "displayName": "Melissa W.",
+    "location": "New York, NY",
+    "timezone": "America/Los_Angeles",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-08-15 23:16:51.222623",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pelvic_pain",
+      "nausea",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "bladder"
+    ],
+    "joinedAt": "2025-03-09 23:16:51.222633",
+    "lastActiveAt": "2025-09-15 23:16:51.222635",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "cbaker981",
+    "email": "courtney.baker@aol.com",
+    "firstName": "Courtney",
+    "lastName": "Baker",
+    "displayName": "Courtney B.",
+    "location": "Nashville, TN",
+    "timezone": "America/Chicago",
+    "age": 23,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-03-24 23:16:51.224728",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2024-11-24 23:16:51.224738",
+    "lastActiveAt": "2025-09-13 23:16:51.224740",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "tiffany.harris06",
+    "email": "tiffany.harris@gmail.com",
+    "firstName": "Tiffany",
+    "lastName": "Harris",
+    "displayName": "Tiffany H.",
+    "location": "Jacksonville, FL",
+    "timezone": "America/New_York",
+    "age": 19,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-12-25 23:16:51.226929",
+    "primary_symptoms": [
+      "bloating",
+      "pelvic_pain",
+      "constipation",
+      "infertility"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-07-15 23:16:51.226942",
+    "lastActiveAt": "2025-09-14 23:16:51.226944",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "tiffanyg80",
+    "email": "tiffanyg80@verizon.net",
+    "firstName": "Tiffany",
+    "lastName": "Gomez",
+    "displayName": "Tiffany G.",
+    "location": "Portland, OR",
+    "timezone": "America/Chicago",
+    "age": 45,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-05-27 23:16:51.228632",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2025-05-08 23:16:51.228646",
+    "lastActiveAt": "2025-09-17 23:16:51.228648",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "olivia_garcia",
+    "email": "olivia_garcia@hotmail.com",
+    "firstName": "Olivia",
+    "lastName": "Garcia",
+    "displayName": "Olivia G.",
+    "location": "Columbus, OH",
+    "timezone": "America/Phoenix",
+    "age": 26,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-07-31 23:16:51.230803",
+    "primary_symptoms": [
+      "diarrhea",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "constipation",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2024-09-30 23:16:51.230815",
+    "lastActiveAt": "2025-09-19 23:16:51.230817",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachel468",
+    "email": "rachel.williams@att.net",
+    "firstName": "Rachel",
+    "lastName": "Williams",
+    "displayName": "Rachel W.",
+    "location": "Seattle, WA",
+    "timezone": "America/New_York",
+    "age": 39,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-11-11 23:16:51.233641",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "nausea",
+      "pelvic_pain",
+      "fatigue",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder"
+    ],
+    "joinedAt": "2025-07-24 23:16:51.233654",
+    "lastActiveAt": "2025-09-12 23:16:51.233655",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "oliviadavis",
+    "email": "olivia.davis@verizon.net",
+    "firstName": "Olivia",
+    "lastName": "Davis",
+    "displayName": "Olivia D.",
+    "location": "Jacksonville, FL",
+    "timezone": "America/New_York",
+    "age": 40,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-03-24 23:16:51.235106",
+    "primary_symptoms": [
+      "constipation",
+      "bleeding_between_periods",
+      "diarrhea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "legs"
+    ],
+    "joinedAt": "2025-07-17 23:16:51.235118",
+    "lastActiveAt": "2025-09-12 23:16:51.235119",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "abigaill04",
+    "email": "abigaill04@yahoo.com",
+    "firstName": "Abigail",
+    "lastName": "Lewis",
+    "displayName": "Abigail L.",
+    "location": "Charlotte, NC",
+    "timezone": "America/New_York",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-11-25 23:16:51.236629",
+    "primary_symptoms": [
+      "constipation",
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "fatigue",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "vagina",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2024-11-12 23:16:51.236642",
+    "lastActiveAt": "2025-09-12 23:16:51.236644",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "isabella_hill",
+    "email": "isabella_hill@att.net",
+    "firstName": "Isabella",
+    "lastName": "Hill",
+    "displayName": "Isabella H.",
+    "location": "Portland, OR",
+    "timezone": "America/Chicago",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2025-08-14 23:16:51.237826",
+    "primary_symptoms": [
+      "diarrhea",
+      "constipation",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-01-16 23:16:51.237836",
+    "lastActiveAt": "2025-09-19 23:16:51.237838",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "hannahd83",
+    "email": "hannahd83@comcast.net",
+    "firstName": "Hannah",
+    "lastName": "Davis",
+    "displayName": "Hannah D.",
+    "location": "Chicago, IL",
+    "timezone": "America/New_York",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2021-10-19 23:16:51.240135",
+    "primary_symptoms": [
+      "nausea",
+      "bleeding_between_periods",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-07-19 23:16:51.240151",
+    "lastActiveAt": "2025-09-17 23:16:51.240154",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophie.robinson01",
+    "email": "sophie.robinson01@hotmail.com",
+    "firstName": "Sophie",
+    "lastName": "Robinson",
+    "displayName": "Sophie R.",
+    "location": "Houston, TX",
+    "timezone": "America/New_York",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-04-20 23:16:51.242172",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bloating",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "legs",
+      "lower_abdomen",
+      "rectum"
+    ],
+    "joinedAt": "2025-08-06 23:16:51.242183",
+    "lastActiveAt": "2025-09-15 23:16:51.242185",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachela06",
+    "email": "rachela06@yahoo.com",
+    "firstName": "Rachel",
+    "lastName": "Adams",
+    "displayName": "Rachel A.",
+    "location": "Denver, CO",
+    "timezone": "America/Phoenix",
+    "age": 19,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-06-23 23:16:51.244772",
+    "primary_symptoms": [
+      "nausea",
+      "menstrual_pain",
+      "infertility",
+      "bloating"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2025-02-08 23:16:51.244781",
+    "lastActiveAt": "2025-09-12 23:16:51.244783",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "luna525",
+    "email": "luna525@cox.net",
+    "firstName": "Luna",
+    "lastName": "Phillips",
+    "displayName": "Luna P.",
+    "location": "San Francisco, CA",
+    "timezone": "America/Phoenix",
+    "age": 41,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-09-11 23:16:51.246848",
+    "primary_symptoms": [
+      "nausea",
+      "pelvic_pain",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "bladder",
+      "legs",
+      "lower_back"
+    ],
+    "joinedAt": "2025-07-07 23:16:51.246859",
+    "lastActiveAt": "2025-09-12 23:16:51.246860",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophiat90",
+    "email": "sophia.torres@yahoo.com",
+    "firstName": "Sophia",
+    "lastName": "Torres",
+    "displayName": "Sophia T.",
+    "location": "New York, NY",
+    "timezone": "America/Los_Angeles",
+    "age": 35,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-09-12 23:16:51.248762",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_during_intercourse",
+      "nausea"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "upper_abdomen",
+      "vagina"
+    ],
+    "joinedAt": "2025-03-25 23:16:51.248773",
+    "lastActiveAt": "2025-09-13 23:16:51.248774",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "eharris34",
+    "email": "eharris34@gmail.com",
+    "firstName": "Emily",
+    "lastName": "Harris",
+    "displayName": "Emily H.",
+    "location": "San Francisco, CA",
+    "timezone": "America/Los_Angeles",
+    "age": 23,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-11-25 23:16:51.250478",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pain_with_urination",
+      "pelvic_pain",
+      "constipation",
+      "pain_with_bowel_movements",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "legs"
+    ],
+    "joinedAt": "2025-08-07 23:16:51.250490",
+    "lastActiveAt": "2025-09-16 23:16:51.250492",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "brookeevans",
+    "email": "brookeevans@gmail.com",
+    "firstName": "Brooke",
+    "lastName": "Evans",
+    "displayName": "Brooke E.",
+    "location": "Charlotte, NC",
+    "timezone": "America/Los_Angeles",
+    "age": 27,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-08-04 23:16:51.251563",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "infertility",
+      "diarrhea",
+      "bloating"
+    ],
+    "pain_locations": [
+      "bladder",
+      "legs"
+    ],
+    "joinedAt": "2024-11-06 23:16:51.251573",
+    "lastActiveAt": "2025-09-19 23:16:51.251574",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rebecca381",
+    "email": "rebecca.baker@verizon.net",
+    "firstName": "Rebecca",
+    "lastName": "Baker",
+    "displayName": "Rebecca B.",
+    "location": "Chicago, IL",
+    "timezone": "America/Los_Angeles",
+    "age": 18,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-04-27 23:16:51.253576",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "diarrhea",
+      "excessive_bleeding"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2025-01-23 23:16:51.253588",
+    "lastActiveAt": "2025-09-12 23:16:51.253589",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "natashah84",
+    "email": "natasha.hill@gmail.com",
+    "firstName": "Natasha",
+    "lastName": "Hill",
+    "displayName": "Natasha H.",
+    "location": "Nashville, TN",
+    "timezone": "America/Phoenix",
+    "age": 41,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-10-25 23:16:51.255647",
+    "primary_symptoms": [
+      "diarrhea",
+      "pelvic_pain",
+      "excessive_bleeding",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-02-19 23:16:51.255660",
+    "lastActiveAt": "2025-09-13 23:16:51.255663",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "twhite451",
+    "email": "twhite451@gmail.com",
+    "firstName": "Taylor",
+    "lastName": "White",
+    "displayName": "Taylor W.",
+    "location": "Nashville, TN",
+    "timezone": "America/Los_Angeles",
+    "age": 22,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-01-15 23:16:51.256837",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "pain_during_intercourse",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "bladder",
+      "upper_abdomen",
+      "vagina"
+    ],
+    "joinedAt": "2024-10-27 23:16:51.256851",
+    "lastActiveAt": "2025-09-12 23:16:51.256852",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kimberly756",
+    "email": "kimberly756@yahoo.com",
+    "firstName": "Kimberly",
+    "lastName": "Torres",
+    "displayName": "Kimberly T.",
+    "location": "Columbus, OH",
+    "timezone": "America/Los_Angeles",
+    "age": 41,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-09-14 23:16:51.259263",
+    "primary_symptoms": [
+      "nausea",
+      "diarrhea",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "infertility"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2024-11-21 23:16:51.259283",
+    "lastActiveAt": "2025-09-12 23:16:51.259286",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ering07",
+    "email": "ering07@aol.com",
+    "firstName": "Erin",
+    "lastName": "Garcia",
+    "displayName": "Erin G.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 18,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-02-28 23:16:51.261268",
+    "primary_symptoms": [
+      "nausea",
+      "pain_with_urination",
+      "excessive_bleeding",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2024-12-11 23:16:51.261281",
+    "lastActiveAt": "2025-09-15 23:16:51.261283",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "zoe_f329",
+    "email": "zoe_f329@cox.net",
+    "firstName": "Zoe",
+    "lastName": "Flores",
+    "displayName": "Zoe F.",
+    "location": "Indianapolis, IN",
+    "timezone": "America/Chicago",
+    "age": 44,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-09-26 23:16:51.264379",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_urination",
+      "pelvic_pain",
+      "pain_with_bowel_movements",
+      "excessive_bleeding",
+      "bloating"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_abdomen",
+      "legs"
+    ],
+    "joinedAt": "2025-08-06 23:16:51.264394",
+    "lastActiveAt": "2025-09-19 23:16:51.264396",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lily.cruz",
+    "email": "lily.cruz@comcast.net",
+    "firstName": "Lily",
+    "lastName": "Cruz",
+    "displayName": "Lily C.",
+    "location": "Denver, CO",
+    "timezone": "America/Los_Angeles",
+    "age": 43,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-03-20 23:16:51.266468",
+    "primary_symptoms": [
+      "nausea",
+      "constipation",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "infertility",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "rectum",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-03-05 23:16:51.266482",
+    "lastActiveAt": "2025-09-14 23:16:51.266484",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rtaylor130",
+    "email": "rtaylor130@cox.net",
+    "firstName": "Rebecca",
+    "lastName": "Taylor",
+    "displayName": "Rebecca T.",
+    "location": "Columbus, OH",
+    "timezone": "America/New_York",
+    "age": 41,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-03-10 23:16:51.268418",
+    "primary_symptoms": [
+      "nausea",
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "fatigue",
+      "bloating"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "legs"
+    ],
+    "joinedAt": "2025-02-23 23:16:51.268428",
+    "lastActiveAt": "2025-09-18 23:16:51.268430",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ashley_johnson",
+    "email": "ashley_johnson@aol.com",
+    "firstName": "Ashley",
+    "lastName": "Johnson",
+    "displayName": "Ashley J.",
+    "location": "San Antonio, TX",
+    "timezone": "America/Chicago",
+    "age": 37,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-11-20 23:16:51.270479",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "excessive_bleeding",
+      "diarrhea",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2024-11-06 23:16:51.270490",
+    "lastActiveAt": "2025-09-18 23:16:51.270492",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "ariareyes",
+    "email": "ariareyes@outlook.com",
+    "firstName": "Aria",
+    "lastName": "Reyes",
+    "displayName": "Aria R.",
+    "location": "Dallas, TX",
+    "timezone": "America/New_York",
+    "age": 30,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-02-09 23:16:51.272740",
+    "primary_symptoms": [
+      "infertility",
+      "pelvic_pain",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "rectum"
+    ],
+    "joinedAt": "2025-04-15 23:16:51.272754",
+    "lastActiveAt": "2025-09-14 23:16:51.272756",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "melissas88",
+    "email": "melissa.stewart@comcast.net",
+    "firstName": "Melissa",
+    "lastName": "Stewart",
+    "displayName": "Melissa S.",
+    "location": "Oklahoma City, OK",
+    "timezone": "America/Indiana/Indianapolis",
+    "age": 37,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2020-10-19 23:16:51.274816",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "nausea",
+      "excessive_bleeding",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_abdomen"
+    ],
+    "joinedAt": "2024-10-11 23:16:51.274827",
+    "lastActiveAt": "2025-09-16 23:16:51.274829",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "harper.reyes",
+    "email": "harper.reyes@att.net",
+    "firstName": "Harper",
+    "lastName": "Reyes",
+    "displayName": "Harper R.",
+    "location": "Charlotte, NC",
+    "timezone": "America/Chicago",
+    "age": 27,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-04-21 23:16:51.277249",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "bloating",
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen",
+      "lower_back"
+    ],
+    "joinedAt": "2025-07-23 23:16:51.277262",
+    "lastActiveAt": "2025-09-12 23:16:51.277264",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "kimberly.clark",
+    "email": "kimberly.clark@yahoo.com",
+    "firstName": "Kimberly",
+    "lastName": "Clark",
+    "displayName": "Kimberly C.",
+    "location": "San Francisco, CA",
+    "timezone": "America/New_York",
+    "age": 28,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-06-30 23:16:51.278520",
+    "primary_symptoms": [
+      "constipation",
+      "infertility",
+      "pain_with_bowel_movements",
+      "bloating",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "joinedAt": "2024-10-31 23:16:51.278530",
+    "lastActiveAt": "2025-09-12 23:16:51.278532",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "crystal707",
+    "email": "crystal707@comcast.net",
+    "firstName": "Crystal",
+    "lastName": "Garcia",
+    "displayName": "Crystal G.",
+    "location": "Denver, CO",
+    "timezone": "America/Chicago",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-08-21 23:16:51.279826",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "excessive_bleeding",
+      "diarrhea",
+      "pelvic_pain",
+      "pain_with_urination",
+      "nausea"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2024-12-26 23:16:51.279839",
+    "lastActiveAt": "2025-09-14 23:16:51.279841",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "michellej93",
+    "email": "michellej93@verizon.net",
+    "firstName": "Michelle",
+    "lastName": "Jones",
+    "displayName": "Michelle J.",
+    "location": "Jacksonville, FL",
+    "timezone": "America/New_York",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-07-20 23:16:51.280924",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "menstrual_pain",
+      "nausea",
+      "constipation",
+      "bloating"
+    ],
+    "pain_locations": [
+      "vagina",
+      "legs"
+    ],
+    "joinedAt": "2025-05-14 23:16:51.280934",
+    "lastActiveAt": "2025-09-18 23:16:51.280936",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "bperez458",
+    "email": "bperez458@comcast.net",
+    "firstName": "Brooke",
+    "lastName": "Perez",
+    "displayName": "Brooke P.",
+    "location": "Seattle, WA",
+    "timezone": "America/New_York",
+    "age": 43,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-10-15 23:16:51.283465",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "bloating"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "rectum"
+    ],
+    "joinedAt": "2025-02-27 23:16:51.283480",
+    "lastActiveAt": "2025-09-13 23:16:51.283482",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lisa_s963",
+    "email": "lisa.scott@yahoo.com",
+    "firstName": "Lisa",
+    "lastName": "Scott",
+    "displayName": "Lisa S.",
+    "location": "Denver, CO",
+    "timezone": "America/New_York",
+    "age": 20,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-10-18 23:16:51.286247",
+    "primary_symptoms": [
+      "excessive_bleeding",
+      "infertility",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "upper_abdomen"
+    ],
+    "joinedAt": "2024-10-07 23:16:51.286256",
+    "lastActiveAt": "2025-09-16 23:16:51.286258",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "madison.allen",
+    "email": "madison.allen@outlook.com",
+    "firstName": "Madison",
+    "lastName": "Allen",
+    "displayName": "Madison A.",
+    "location": "Nashville, TN",
+    "timezone": "America/Chicago",
+    "age": 30,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2023-09-19 23:16:51.288144",
+    "primary_symptoms": [
+      "diarrhea",
+      "nausea",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "vagina",
+      "bladder",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-02-03 23:16:51.288163",
+    "lastActiveAt": "2025-09-12 23:16:51.288166",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "madison.phillips",
+    "email": "madison.phillips@hotmail.com",
+    "firstName": "Madison",
+    "lastName": "Phillips",
+    "displayName": "Madison P.",
+    "location": "Austin, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 30,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-11-02 23:16:51.291074",
+    "primary_symptoms": [
+      "constipation",
+      "excessive_bleeding",
+      "bloating",
+      "diarrhea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "vagina",
+      "upper_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2025-05-10 23:16:51.291085",
+    "lastActiveAt": "2025-09-12 23:16:51.291087",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lauren_p139",
+    "email": "lauren.parker@hotmail.com",
+    "firstName": "Lauren",
+    "lastName": "Parker",
+    "displayName": "Lauren P.",
+    "location": "Portland, OR",
+    "timezone": "America/Los_Angeles",
+    "age": 38,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-12-07 23:16:51.292470",
+    "primary_symptoms": [
+      "pain_during_intercourse",
+      "fatigue",
+      "infertility"
+    ],
+    "pain_locations": [
+      "vagina",
+      "legs",
+      "pelvis"
+    ],
+    "joinedAt": "2025-01-15 23:16:51.292480",
+    "lastActiveAt": "2025-09-16 23:16:51.292482",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "christina.gonzalez",
+    "email": "christina.gonzalez@icloud.com",
+    "firstName": "Christina",
+    "lastName": "Gonzalez",
+    "displayName": "Christina G.",
+    "location": "Baltimore, MD",
+    "timezone": "America/New_York",
+    "age": 40,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-08-17 23:16:51.295524",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "menstrual_pain",
+      "nausea",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2024-11-19 23:16:51.295539",
+    "lastActiveAt": "2025-09-12 23:16:51.295541",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "abigail882",
+    "email": "abigail882@hotmail.com",
+    "firstName": "Abigail",
+    "lastName": "Gonzalez",
+    "displayName": "Abigail G.",
+    "location": "Jacksonville, FL",
+    "timezone": "America/Indiana/Indianapolis",
+    "age": 45,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-03-02 23:16:51.296945",
+    "primary_symptoms": [
+      "fatigue",
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2025-01-07 23:16:51.296956",
+    "lastActiveAt": "2025-09-13 23:16:51.296958",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lisa_g970",
+    "email": "lisa_g970@hotmail.com",
+    "firstName": "Lisa",
+    "lastName": "Gonzalez",
+    "displayName": "Lisa G.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-11-06 23:16:51.299892",
+    "primary_symptoms": [
+      "diarrhea",
+      "pelvic_pain",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder",
+      "vagina"
+    ],
+    "joinedAt": "2025-05-02 23:16:51.299903",
+    "lastActiveAt": "2025-09-16 23:16:51.299905",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "chloe.carter",
+    "email": "chloe.carter@verizon.net",
+    "firstName": "Chloe",
+    "lastName": "Carter",
+    "displayName": "Chloe C.",
+    "location": "Seattle, WA",
+    "timezone": "America/New_York",
+    "age": 35,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-06-04 23:16:51.301633",
+    "primary_symptoms": [
+      "infertility",
+      "pain_with_bowel_movements",
+      "fatigue",
+      "constipation"
+    ],
+    "pain_locations": [
+      "upper_abdomen"
+    ],
+    "joinedAt": "2024-11-05 23:16:51.301644",
+    "lastActiveAt": "2025-09-12 23:16:51.301646",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lisa_mitchell",
+    "email": "lisa_mitchell@icloud.com",
+    "firstName": "Lisa",
+    "lastName": "Mitchell",
+    "displayName": "Lisa M.",
+    "location": "San Antonio, TX",
+    "timezone": "America/Chicago",
+    "age": 31,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-06-09 23:16:51.303592",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "pain_with_urination",
+      "nausea",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "vagina",
+      "legs"
+    ],
+    "joinedAt": "2025-06-22 23:16:51.303602",
+    "lastActiveAt": "2025-09-18 23:16:51.303604",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lauren.nelson",
+    "email": "lauren.nelson@verizon.net",
+    "firstName": "Lauren",
+    "lastName": "Nelson",
+    "displayName": "Lauren N.",
+    "location": "Austin, TX",
+    "timezone": "America/New_York",
+    "age": 28,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-04-02 23:16:51.304808",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "nausea",
+      "pain_during_intercourse",
+      "infertility",
+      "excessive_bleeding",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-08-04 23:16:51.304821",
+    "lastActiveAt": "2025-09-18 23:16:51.304823",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "julie_b283",
+    "email": "julie_b283@att.net",
+    "firstName": "Julie",
+    "lastName": "Brown",
+    "displayName": "Julie B.",
+    "location": "Nashville, TN",
+    "timezone": "America/New_York",
+    "age": 43,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-02-03 23:16:51.307509",
+    "primary_symptoms": [
+      "fatigue",
+      "menstrual_pain",
+      "pelvic_pain",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "legs"
+    ],
+    "joinedAt": "2025-04-30 23:16:51.307527",
+    "lastActiveAt": "2025-09-14 23:16:51.307529",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lily.turner02",
+    "email": "lily.turner02@aol.com",
+    "firstName": "Lily",
+    "lastName": "Turner",
+    "displayName": "Lily T.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/New_York",
+    "age": 23,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-09-28 23:16:51.310532",
+    "primary_symptoms": [
+      "bloating",
+      "menstrual_pain",
+      "pain_with_urination",
+      "nausea",
+      "pain_during_intercourse"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "legs",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-02-07 23:16:51.310551",
+    "lastActiveAt": "2025-09-14 23:16:51.310554",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sarahgarcia",
+    "email": "sarah.garcia@att.net",
+    "firstName": "Sarah",
+    "lastName": "Garcia",
+    "displayName": "Sarah G.",
+    "location": "Seattle, WA",
+    "timezone": "America/New_York",
+    "age": 19,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2021-11-22 23:16:51.313354",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "bleeding_between_periods",
+      "nausea"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "lower_abdomen",
+      "pelvis"
+    ],
+    "joinedAt": "2025-01-22 23:16:51.313365",
+    "lastActiveAt": "2025-09-18 23:16:51.313367",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "lunaw07",
+    "email": "lunaw07@hotmail.com",
+    "firstName": "Luna",
+    "lastName": "Wilson",
+    "displayName": "Luna W.",
+    "location": "Dallas, TX",
+    "timezone": "America/New_York",
+    "age": 18,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2023-07-08 23:16:51.315659",
+    "primary_symptoms": [
+      "diarrhea",
+      "pain_during_intercourse",
+      "menstrual_pain",
+      "bloating"
+    ],
+    "pain_locations": [
+      "pelvis"
+    ],
+    "joinedAt": "2025-07-22 23:16:51.315669",
+    "lastActiveAt": "2025-09-13 23:16:51.315671",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "amys80",
+    "email": "amy.smith@att.net",
+    "firstName": "Amy",
+    "lastName": "Smith",
+    "displayName": "Amy S.",
+    "location": "Indianapolis, IN",
+    "timezone": "America/New_York",
+    "age": 45,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-09-19 23:16:51.317191",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "menstrual_pain",
+      "diarrhea",
+      "nausea",
+      "bloating",
+      "infertility"
+    ],
+    "pain_locations": [
+      "rectum",
+      "pelvis",
+      "legs"
+    ],
+    "joinedAt": "2025-05-23 23:16:51.317205",
+    "lastActiveAt": "2025-09-12 23:16:51.317207",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophie_w544",
+    "email": "sophie_w544@outlook.com",
+    "firstName": "Sophie",
+    "lastName": "Wilson",
+    "displayName": "Sophie W.",
+    "location": "Fort Worth, TX",
+    "timezone": "America/New_York",
+    "age": 32,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-03-12 23:16:51.319445",
+    "primary_symptoms": [
+      "pain_with_bowel_movements",
+      "fatigue",
+      "constipation",
+      "pelvic_pain",
+      "nausea"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "vagina"
+    ],
+    "joinedAt": "2025-06-08 23:16:51.319459",
+    "lastActiveAt": "2025-09-16 23:16:51.319461",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "elizabethdavis",
+    "email": "elizabeth.davis@hotmail.com",
+    "firstName": "Elizabeth",
+    "lastName": "Davis",
+    "displayName": "Elizabeth D.",
+    "location": "Jacksonville, FL",
+    "timezone": "America/Chicago",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "mild",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2021-07-24 23:16:51.321824",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pain_with_urination",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "vagina"
+    ],
+    "joinedAt": "2024-12-05 23:16:51.321835",
+    "lastActiveAt": "2025-09-12 23:16:51.321837",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "zoe_p755",
+    "email": "zoe_p755@cox.net",
+    "firstName": "Zoe",
+    "lastName": "Perez",
+    "displayName": "Zoe P.",
+    "location": "Seattle, WA",
+    "timezone": "America/New_York",
+    "age": 40,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-01-17 23:16:51.323284",
+    "primary_symptoms": [
+      "diarrhea",
+      "menstrual_pain",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "bladder",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2024-10-29 23:16:51.323297",
+    "lastActiveAt": "2025-09-19 23:16:51.323299",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "charlottem98",
+    "email": "charlottem98@yahoo.com",
+    "firstName": "Charlotte",
+    "lastName": "Murphy",
+    "displayName": "Charlotte M.",
+    "location": "Phoenix, AZ",
+    "timezone": "America/Los_Angeles",
+    "age": 27,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2025-02-11 23:16:51.325605",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "infertility",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "bladder"
+    ],
+    "joinedAt": "2024-12-23 23:16:51.325617",
+    "lastActiveAt": "2025-09-12 23:16:51.325619",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "christinacampbell",
+    "email": "christinacampbell@hotmail.com",
+    "firstName": "Christina",
+    "lastName": "Campbell",
+    "displayName": "Christina C.",
+    "location": "Boston, MA",
+    "timezone": "America/New_York",
+    "age": 30,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2024-04-08 23:16:51.326988",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "bleeding_between_periods",
+      "diarrhea",
+      "nausea"
+    ],
+    "pain_locations": [
+      "bladder",
+      "upper_abdomen"
+    ],
+    "joinedAt": "2025-08-18 23:16:51.326999",
+    "lastActiveAt": "2025-09-19 23:16:51.327001",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "sophie605",
+    "email": "sophie605@outlook.com",
+    "firstName": "Sophie",
+    "lastName": "Wright",
+    "displayName": "Sophie W.",
+    "location": "Portland, OR",
+    "timezone": "America/Phoenix",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-01-24 23:16:51.328414",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "pain_with_bowel_movements",
+      "menstrual_pain",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2025-07-15 23:16:51.328424",
+    "lastActiveAt": "2025-09-16 23:16:51.328425",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachel_g723",
+    "email": "rachel_g723@aol.com",
+    "firstName": "Rachel",
+    "lastName": "Green",
+    "displayName": "Rachel G.",
+    "location": "Los Angeles, CA",
+    "timezone": "America/Denver",
+    "age": 34,
+    "age_group": "adult",
+    "severity_profile": "mild",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2020-10-02 23:16:51.330682",
+    "primary_symptoms": [
+      "constipation",
+      "pain_during_intercourse",
+      "pelvic_pain",
+      "bloating",
+      "infertility"
+    ],
+    "pain_locations": [
+      "lower_abdomen",
+      "pelvis",
+      "bladder"
+    ],
+    "joinedAt": "2025-06-16 23:16:51.330699",
+    "lastActiveAt": "2025-09-13 23:16:51.330702",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "chloen82",
+    "email": "chloen82@att.net",
+    "firstName": "Chloe",
+    "lastName": "Nguyen",
+    "displayName": "Chloe N.",
+    "location": "Columbus, OH",
+    "timezone": "America/Los_Angeles",
+    "age": 43,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-03-14 23:16:51.332090",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "excessive_bleeding",
+      "bleeding_between_periods",
+      "bloating",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "bladder",
+      "rectum"
+    ],
+    "joinedAt": "2025-06-08 23:16:51.332101",
+    "lastActiveAt": "2025-09-13 23:16:51.332103",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "samantha.williams97",
+    "email": "samantha.williams97@aol.com",
+    "firstName": "Samantha",
+    "lastName": "Williams",
+    "displayName": "Samantha W.",
+    "location": "Columbus, OH",
+    "timezone": "America/New_York",
+    "age": 28,
+    "age_group": "adult",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-05-12 23:16:51.334244",
+    "primary_symptoms": [
+      "infertility",
+      "pain_with_bowel_movements",
+      "pain_with_urination",
+      "excessive_bleeding",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-04-22 23:16:51.334255",
+    "lastActiveAt": "2025-09-17 23:16:51.334257",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "katherinegreen",
+    "email": "katherinegreen@yahoo.com",
+    "firstName": "Katherine",
+    "lastName": "Green",
+    "displayName": "Katherine G.",
+    "location": "Nashville, TN",
+    "timezone": "America/New_York",
+    "age": 21,
+    "age_group": "young",
+    "severity_profile": "severe",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-12-12 23:16:51.336401",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "pain_with_bowel_movements",
+      "pain_during_intercourse",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina"
+    ],
+    "joinedAt": "2024-11-15 23:16:51.336413",
+    "lastActiveAt": "2025-09-13 23:16:51.336415",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "rachel_gonzalez",
+    "email": "rachel_gonzalez@att.net",
+    "firstName": "Rachel",
+    "lastName": "Gonzalez",
+    "displayName": "Rachel G.",
+    "location": "Charlotte, NC",
+    "timezone": "America/New_York",
+    "age": 24,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2022-03-14 23:16:51.339264",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "pain_with_bowel_movements",
+      "constipation"
+    ],
+    "pain_locations": [
+      "rectum",
+      "legs"
+    ],
+    "joinedAt": "2024-10-27 23:16:51.339274",
+    "lastActiveAt": "2025-09-16 23:16:51.339276",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mariam07",
+    "email": "maria.morris@cox.net",
+    "firstName": "Maria",
+    "lastName": "Morris",
+    "displayName": "Maria M.",
+    "location": "Dallas, TX",
+    "timezone": "America/Indiana/Indianapolis",
+    "age": 18,
+    "age_group": "young",
+    "severity_profile": "mild",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2020-09-29 23:16:51.341096",
+    "primary_symptoms": [
+      "pain_with_urination",
+      "bloating",
+      "excessive_bleeding",
+      "nausea",
+      "menstrual_pain"
+    ],
+    "pain_locations": [
+      "pelvis",
+      "lower_abdomen"
+    ],
+    "joinedAt": "2025-01-27 23:16:51.341106",
+    "lastActiveAt": "2025-09-12 23:16:51.341107",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "jessica_y382",
+    "email": "jessica_y382@att.net",
+    "firstName": "Jessica",
+    "lastName": "Young",
+    "displayName": "Jessica Y.",
+    "location": "Jacksonville, FL",
+    "timezone": "America/Phoenix",
+    "age": 44,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2024-04-25 23:16:51.342475",
+    "primary_symptoms": [
+      "constipation",
+      "pain_with_bowel_movements",
+      "bleeding_between_periods",
+      "menstrual_pain",
+      "fatigue",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "rectum"
+    ],
+    "joinedAt": "2025-06-10 23:16:51.342492",
+    "lastActiveAt": "2025-09-19 23:16:51.342495",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "angela_e216",
+    "email": "angela_e216@outlook.com",
+    "firstName": "Angela",
+    "lastName": "Evans",
+    "displayName": "Angela E.",
+    "location": "Oklahoma City, OK",
+    "timezone": "America/Los_Angeles",
+    "age": 42,
+    "age_group": "mature",
+    "severity_profile": "severe",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2023-03-12 23:16:51.345554",
+    "primary_symptoms": [
+      "diarrhea",
+      "pain_during_intercourse",
+      "pain_with_bowel_movements",
+      "nausea",
+      "fatigue"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2025-06-22 23:16:51.345565",
+    "lastActiveAt": "2025-09-19 23:16:51.345567",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "nnguyen15",
+    "email": "natalie.nguyen@icloud.com",
+    "firstName": "Natalie",
+    "lastName": "Nguyen",
+    "displayName": "Natalie N.",
+    "location": "Chicago, IL",
+    "timezone": "America/Chicago",
+    "age": 44,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2025-01-30 23:16:51.348441",
+    "primary_symptoms": [
+      "bleeding_between_periods",
+      "pelvic_pain",
+      "diarrhea",
+      "menstrual_pain",
+      "pain_with_bowel_movements"
+    ],
+    "pain_locations": [
+      "lower_back"
+    ],
+    "joinedAt": "2025-03-10 23:16:51.348455",
+    "lastActiveAt": "2025-09-14 23:16:51.348457",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "hannah_g747",
+    "email": "hannah_g747@cox.net",
+    "firstName": "Hannah",
+    "lastName": "Green",
+    "displayName": "Hannah G.",
+    "location": "Chicago, IL",
+    "timezone": "America/Los_Angeles",
+    "age": 39,
+    "age_group": "mature",
+    "severity_profile": "moderate",
+    "severity_modifier": 1.2,
+    "diagnosed_date": "2022-12-17 23:16:51.350770",
+    "primary_symptoms": [
+      "fatigue",
+      "excessive_bleeding",
+      "pain_during_intercourse",
+      "pelvic_pain"
+    ],
+    "pain_locations": [
+      "legs"
+    ],
+    "joinedAt": "2025-03-31 23:16:51.350781",
+    "lastActiveAt": "2025-09-18 23:16:51.350783",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "annap91",
+    "email": "annap91@verizon.net",
+    "firstName": "Anna",
+    "lastName": "Perez",
+    "displayName": "Anna P.",
+    "location": "San Antonio, TX",
+    "timezone": "America/New_York",
+    "age": 34,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2022-11-13 23:16:51.352735",
+    "primary_symptoms": [
+      "menstrual_pain",
+      "nausea",
+      "diarrhea"
+    ],
+    "pain_locations": [
+      "bladder",
+      "lower_back"
+    ],
+    "joinedAt": "2024-12-06 23:16:51.352745",
+    "lastActiveAt": "2025-09-12 23:16:51.352746",
+    "privacySettings": {
+      "shareDataForResearch": true,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "mia.robinson",
+    "email": "mia.robinson@gmail.com",
+    "firstName": "Mia",
+    "lastName": "Robinson",
+    "displayName": "Mia R.",
+    "location": "San Antonio, TX",
+    "timezone": "America/Los_Angeles",
+    "age": 19,
+    "age_group": "young",
+    "severity_profile": "moderate",
+    "severity_modifier": 0.8,
+    "diagnosed_date": "2024-02-09 23:16:51.355642",
+    "primary_symptoms": [
+      "bloating",
+      "pain_with_urination",
+      "bleeding_between_periods"
+    ],
+    "pain_locations": [
+      "lower_back",
+      "vagina",
+      "rectum"
+    ],
+    "joinedAt": "2024-10-14 23:16:51.355657",
+    "lastActiveAt": "2025-09-17 23:16:51.355659",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": false,
+      "publicProfile": false
+    }
+  },
+  {
+    "userId": "anna387",
+    "email": "anna.martinez@gmail.com",
+    "firstName": "Anna",
+    "lastName": "Martinez",
+    "displayName": "Anna M.",
+    "location": "New York, NY",
+    "timezone": "America/New_York",
+    "age": 33,
+    "age_group": "adult",
+    "severity_profile": "severe",
+    "severity_modifier": 1.0,
+    "diagnosed_date": "2021-10-07 23:16:51.357687",
+    "primary_symptoms": [
+      "pelvic_pain",
+      "fatigue",
+      "pain_with_urination"
+    ],
+    "pain_locations": [
+      "upper_abdomen",
+      "rectum"
+    ],
+    "joinedAt": "2024-10-10 23:16:51.357698",
+    "lastActiveAt": "2025-09-19 23:16:51.357700",
+    "privacySettings": {
+      "shareDataForResearch": false,
+      "allowAnalytics": true,
+      "publicProfile": false
+    }
+  }
+]

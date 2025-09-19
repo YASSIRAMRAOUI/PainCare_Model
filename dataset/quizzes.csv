@@ -1,0 +1,151 @@
+userId,quizId,score,percentage,severity_level,primary_symptoms,pain_locations,impact_on_life,quality_of_life_score,createdAt,version
+amandascott,endometriosis_assessment,41,41.0,moderate,"['diarrhea', 'bleeding_between_periods', 'pelvic_pain']",['pelvis'],8,36,2022-07-31T23:16:51.047348,1
+enguyen23,endometriosis_assessment,84,84.0,severe,"['diarrhea', 'bloating', 'infertility']","['legs', 'rectum']",10,32,2021-04-10T23:16:51.049664,1
+katherinemorris,endometriosis_assessment,64,64.0,moderate,"['bloating', 'infertility', 'pain_with_bowel_movements']","['legs', 'upper_abdomen', 'pelvis']",1,31,2024-07-27T23:16:51.052533,1
+kayla.campbell,endometriosis_assessment,30,30.0,mild,"['pain_during_intercourse', 'bloating', 'bleeding_between_periods', 'infertility']","['vagina', 'pelvis', 'upper_abdomen']",2,46,2023-10-30T23:16:51.054841,1
+melissa.thomas86,endometriosis_assessment,62,62.0,moderate,"['nausea', 'bleeding_between_periods', 'pelvic_pain']","['pelvis', 'bladder', 'legs']",8,59,2023-09-28T23:16:51.056369,1
+maya_moore,endometriosis_assessment,74,74.0,severe,"['fatigue', 'constipation', 'bloating', 'nausea', 'pain_with_urination', 'excessive_bleeding']","['legs', 'bladder']",7,33,2022-06-22T23:16:51.058363,1
+sophia.baker,endometriosis_assessment,45,45.0,moderate,"['fatigue', 'pelvic_pain', 'bleeding_between_periods', 'pain_with_bowel_movements']","['bladder', 'lower_abdomen']",7,81,2024-07-01T23:16:51.061862,1
+lily_ramirez,endometriosis_assessment,59,59.0,moderate,"['diarrhea', 'pelvic_pain', 'infertility', 'fatigue', 'excessive_bleeding']","['pelvis', 'lower_back', 'rectum']",7,90,2023-05-07T23:16:51.064355,1
+nicole_g567,endometriosis_assessment,69,69.0,severe,"['pelvic_pain', 'pain_with_urination', 'fatigue', 'diarrhea']","['pelvis', 'upper_abdomen', 'rectum']",5,83,2022-01-31T23:16:51.066291,1
+ljackson150,endometriosis_assessment,31,31.0,mild,"['pain_with_urination', 'bloating', 'diarrhea']","['legs', 'upper_abdomen']",8,78,2021-10-10T23:16:51.068880,1
+mphillips212,endometriosis_assessment,53,53.0,moderate,"['nausea', 'fatigue', 'infertility']","['rectum', 'lower_back', 'pelvis']",4,63,2022-04-26T23:16:51.070064,1
+courtney.gonzalez,endometriosis_assessment,19,19.0,mild,"['constipation', 'infertility', 'pain_with_urination', 'excessive_bleeding', 'bloating']",['vagina'],3,39,2022-07-30T23:16:51.072582,1
+lisaa89,endometriosis_assessment,33,33.0,mild,"['pelvic_pain', 'bloating', 'pain_with_urination', 'constipation']",['vagina'],10,72,2025-05-27T23:16:51.073858,1
+angelasmith,endometriosis_assessment,83,83.0,severe,"['infertility', 'pelvic_pain', 'excessive_bleeding', 'menstrual_pain']",['lower_back'],1,38,2024-10-31T23:16:51.075068,1
+danielles87,endometriosis_assessment,36,36.0,moderate,"['diarrhea', 'bleeding_between_periods', 'pain_during_intercourse', 'bloating', 'constipation']",['lower_back'],7,39,2023-12-29T23:16:51.077802,1
+rachel_lewis,endometriosis_assessment,34,34.0,mild,"['menstrual_pain', 'pain_with_bowel_movements', 'diarrhea', 'fatigue', 'pain_with_urination', 'pain_during_intercourse']",['vagina'],5,76,2025-06-30T23:16:51.079562,1
+ellatorres,endometriosis_assessment,47,47.0,moderate,"['pain_during_intercourse', 'pain_with_urination', 'pelvic_pain', 'constipation']","['bladder', 'lower_abdomen', 'lower_back']",3,33,2024-03-04T23:16:51.080633,1
+christina588,endometriosis_assessment,45,45.0,moderate,"['bloating', 'pain_with_bowel_movements', 'pain_during_intercourse']","['lower_abdomen', 'upper_abdomen', 'legs']",4,57,2021-08-27T23:16:51.082584,1
+samantha_wilson,endometriosis_assessment,30,30.0,mild,"['menstrual_pain', 'constipation', 'fatigue']","['lower_back', 'pelvis']",3,69,2023-04-29T23:16:51.084801,1
+natalie.garcia,endometriosis_assessment,18,18.0,mild,"['excessive_bleeding', 'pain_with_urination', 'pain_with_bowel_movements', 'infertility']","['lower_back', 'legs', 'lower_abdomen']",4,36,2023-02-16T23:16:51.086044,1
+sophia.ramirez05,endometriosis_assessment,46,46.0,moderate,"['pelvic_pain', 'nausea', 'diarrhea', 'pain_with_urination', 'pain_during_intercourse']","['pelvis', 'lower_back', 'lower_abdomen']",7,86,2020-11-11T23:16:51.087481,1
+olivia.anderson,endometriosis_assessment,65,65.0,moderate,"['pain_with_bowel_movements', 'bleeding_between_periods', 'excessive_bleeding', 'nausea', 'bloating', 'pain_during_intercourse']",['rectum'],4,57,2024-05-12T23:16:51.089762,1
+rmartinez642,endometriosis_assessment,53,53.0,moderate,"['fatigue', 'excessive_bleeding', 'bloating', 'pain_with_bowel_movements']","['vagina', 'pelvis']",7,46,2023-10-01T23:16:51.091615,1
+courtneyl05,endometriosis_assessment,74,74.0,severe,"['bloating', 'pain_with_bowel_movements', 'diarrhea', 'fatigue', 'constipation', 'pain_with_urination']",['legs'],7,83,2021-08-01T23:16:51.093695,1
+isabellat99,endometriosis_assessment,26,26.0,mild,"['pain_with_urination', 'pain_during_intercourse', 'infertility']","['legs', 'upper_abdomen']",7,49,2024-06-08T23:16:51.097301,1
+oliviac04,endometriosis_assessment,74,74.0,severe,"['fatigue', 'bloating', 'excessive_bleeding', 'menstrual_pain']","['pelvis', 'vagina', 'legs']",2,88,2021-04-23T23:16:51.098363,1
+luna_t482,endometriosis_assessment,44,44.0,moderate,"['bleeding_between_periods', 'bloating', 'pain_with_bowel_movements']","['rectum', 'pelvis']",10,46,2021-06-02T23:16:51.100939,1
+lindseycampbell,endometriosis_assessment,83,83.0,severe,"['bloating', 'infertility', 'menstrual_pain', 'diarrhea', 'constipation']","['bladder', 'legs', 'vagina']",6,45,2025-05-01T23:16:51.103323,1
+myoung678,endometriosis_assessment,57,56.99999999999999,moderate,"['pain_with_bowel_movements', 'excessive_bleeding', 'bleeding_between_periods', 'menstrual_pain', 'bloating', 'pain_during_intercourse']","['bladder', 'lower_back']",1,59,2024-08-22T23:16:51.106591,1
+lisa.moore,endometriosis_assessment,32,32.0,mild,"['infertility', 'constipation', 'pain_during_intercourse', 'pelvic_pain']","['rectum', 'lower_back', 'lower_abdomen']",4,30,2024-04-10T23:16:51.108890,1
+evelyn_s634,endometriosis_assessment,77,77.0,severe,"['bloating', 'pain_with_urination', 'pain_during_intercourse']","['bladder', 'rectum', 'pelvis']",10,90,2022-07-05T23:16:51.109983,1
+chloe_w276,endometriosis_assessment,31,31.0,mild,"['pain_during_intercourse', 'fatigue', 'constipation', 'bloating', 'excessive_bleeding']","['rectum', 'legs', 'vagina']",1,75,2020-10-20T23:16:51.112782,1
+jessicac01,endometriosis_assessment,59,59.0,moderate,"['nausea', 'excessive_bleeding', 'pain_with_urination', 'infertility', 'constipation', 'diarrhea']","['vagina', 'lower_abdomen']",4,66,2025-07-25T23:16:51.114301,1
+courtneycarter,endometriosis_assessment,48,48.0,moderate,"['constipation', 'menstrual_pain', 'pelvic_pain']","['legs', 'lower_back']",9,72,2023-02-23T23:16:51.116485,1
+rachelgarcia,endometriosis_assessment,39,39.0,moderate,"['menstrual_pain', 'fatigue', 'constipation']",['rectum'],4,75,2025-03-31T23:16:51.118846,1
+brooket81,endometriosis_assessment,39,39.0,moderate,"['fatigue', 'excessive_bleeding', 'constipation', 'pelvic_pain']","['lower_back', 'pelvis', 'lower_abdomen']",3,69,2023-09-24T23:16:51.121014,1
+ellahernandez,endometriosis_assessment,52,52.0,moderate,"['diarrhea', 'fatigue', 'nausea', 'pelvic_pain']","['pelvis', 'rectum', 'legs']",8,64,2025-06-11T23:16:51.123744,1
+mayalopez,endometriosis_assessment,77,77.0,severe,"['fatigue', 'excessive_bleeding', 'diarrhea', 'pain_with_bowel_movements', 'nausea', 'pelvic_pain']","['lower_back', 'vagina']",9,60,2025-05-24T23:16:51.125996,1
+mia_d88,endometriosis_assessment,26,26.0,mild,"['pain_with_bowel_movements', 'bloating', 'bleeding_between_periods', 'menstrual_pain']",['pelvis'],9,54,2022-04-10T23:16:51.128663,1
+stephanie69,endometriosis_assessment,48,48.0,moderate,"['pain_with_urination', 'constipation', 'nausea', 'diarrhea', 'bloating', 'pain_with_bowel_movements']","['legs', 'pelvis']",6,37,2022-12-14T23:16:51.129826,1
+amanda_e317,endometriosis_assessment,54,54.0,moderate,"['nausea', 'excessive_bleeding', 'diarrhea', 'pelvic_pain', 'bloating', 'constipation']","['pelvis', 'legs']",2,33,2024-05-08T23:16:51.132136,1
+luna.martin93,endometriosis_assessment,51,51.0,moderate,"['fatigue', 'diarrhea', 'excessive_bleeding', 'pain_with_bowel_movements', 'infertility', 'nausea']",['pelvis'],3,31,2021-12-22T23:16:51.134146,1
+julie156,endometriosis_assessment,30,30.0,mild,"['constipation', 'nausea', 'pain_with_bowel_movements', 'menstrual_pain', 'pain_with_urination', 'pelvic_pain']","['lower_back', 'lower_abdomen', 'pelvis']",8,72,2021-01-27T23:16:51.136127,1
+kelly_r445,endometriosis_assessment,41,41.0,moderate,"['excessive_bleeding', 'diarrhea', 'pain_with_bowel_movements']","['rectum', 'vagina', 'bladder']",10,63,2025-01-28T23:16:51.137670,1
+ava.murphy,endometriosis_assessment,31,31.0,mild,"['pain_during_intercourse', 'constipation', 'fatigue', 'pain_with_urination', 'nausea']","['pelvis', 'lower_abdomen']",5,82,2023-09-03T23:16:51.139657,1
+abigail_young,endometriosis_assessment,57,56.99999999999999,moderate,"['constipation', 'fatigue', 'infertility', 'menstrual_pain', 'excessive_bleeding']","['lower_abdomen', 'bladder', 'lower_back']",8,67,2025-04-25T23:16:51.140857,1
+maya.edwards,endometriosis_assessment,44,44.0,moderate,"['bloating', 'menstrual_pain', 'pain_with_bowel_movements', 'diarrhea', 'excessive_bleeding', 'pain_with_urination']","['vagina', 'bladder', 'rectum']",10,36,2021-08-12T23:16:51.143029,1
+elizabethc87,endometriosis_assessment,20,20.0,mild,"['excessive_bleeding', 'infertility', 'pain_with_bowel_movements', 'menstrual_pain']",['vagina'],2,46,2023-06-24T23:16:51.145123,1
+natalie.gomez94,endometriosis_assessment,77,77.0,severe,"['pelvic_pain', 'constipation', 'bleeding_between_periods', 'pain_with_urination']",['pelvis'],6,47,2024-12-04T23:16:51.146523,1
+lilyp80,endometriosis_assessment,69,69.0,severe,"['pain_with_urination', 'infertility', 'menstrual_pain']",['lower_abdomen'],8,58,2023-09-21T23:16:51.149104,1
+emmaedwards,endometriosis_assessment,49,49.0,moderate,"['excessive_bleeding', 'constipation', 'menstrual_pain']","['lower_back', 'upper_abdomen', 'lower_abdomen']",10,43,2023-02-22T23:16:51.152599,1
+megan_brown,endometriosis_assessment,82,82.0,severe,"['pain_during_intercourse', 'pelvic_pain', 'bleeding_between_periods']","['bladder', 'lower_back']",9,62,2023-03-16T23:16:51.155403,1
+mayaw92,endometriosis_assessment,22,22.0,mild,"['diarrhea', 'infertility', 'fatigue', 'pain_with_bowel_movements']",['pelvis'],4,71,2020-10-06T23:16:51.158302,1
+elizabeth.parker,endometriosis_assessment,58,57.99999999999999,moderate,"['pain_with_bowel_movements', 'pelvic_pain', 'constipation', 'pain_during_intercourse', 'bleeding_between_periods']",['rectum'],10,41,2022-11-25T23:16:51.159838,1
+kelly.williams03,endometriosis_assessment,25,25.0,mild,"['infertility', 'pelvic_pain', 'constipation']","['legs', 'lower_abdomen']",6,42,2025-03-23T23:16:51.161914,1
+charlotter84,endometriosis_assessment,21,21.0,mild,"['menstrual_pain', 'pain_with_urination', 'pain_during_intercourse', 'bloating', 'infertility', 'diarrhea']",['vagina'],1,69,2024-06-02T23:16:51.163336,1
+kelly647,endometriosis_assessment,35,35.0,mild,"['pelvic_pain', 'nausea', 'diarrhea', 'bleeding_between_periods']",['pelvis'],7,50,2024-06-21T23:16:51.164372,1
+amartin222,endometriosis_assessment,42,42.0,moderate,"['pelvic_pain', 'pain_during_intercourse', 'bloating', 'nausea']","['pelvis', 'lower_abdomen']",5,69,2024-11-17T23:16:51.165586,1
+crystal_m649,endometriosis_assessment,54,54.0,moderate,"['diarrhea', 'constipation', 'pelvic_pain']","['legs', 'rectum', 'vagina']",4,34,2025-07-31T23:16:51.167889,1
+jennifer390,endometriosis_assessment,58,57.99999999999999,moderate,"['menstrual_pain', 'nausea', 'constipation', 'excessive_bleeding']","['lower_back', 'upper_abdomen']",8,74,2023-07-24T23:16:51.170104,1
+taylor_d60,endometriosis_assessment,63,63.0,moderate,"['bleeding_between_periods', 'nausea', 'pelvic_pain', 'bloating', 'excessive_bleeding', 'constipation']","['vagina', 'upper_abdomen', 'pelvis']",2,81,2023-01-29T23:16:51.171863,1
+natalie_g848,endometriosis_assessment,46,46.0,moderate,"['fatigue', 'pain_during_intercourse', 'menstrual_pain', 'pain_with_urination']","['lower_back', 'rectum']",6,69,2022-05-25T23:16:51.174075,1
+miabaker,endometriosis_assessment,28,28.000000000000004,mild,"['pain_with_bowel_movements', 'nausea', 'infertility', 'diarrhea', 'constipation']",['bladder'],6,54,2020-11-23T23:16:51.176346,1
+elizabeth405,endometriosis_assessment,24,24.0,mild,"['menstrual_pain', 'nausea', 'pain_during_intercourse']",['upper_abdomen'],6,71,2023-01-25T23:16:51.177715,1
+rachelwilson,endometriosis_assessment,31,31.0,mild,"['pain_with_bowel_movements', 'menstrual_pain', 'constipation', 'pelvic_pain', 'pain_during_intercourse', 'pain_with_urination']",['bladder'],8,82,2023-04-23T23:16:51.179416,1
+mayar89,endometriosis_assessment,45,45.0,moderate,"['bloating', 'pain_with_urination', 'pain_with_bowel_movements', 'nausea', 'diarrhea']","['pelvis', 'rectum', 'legs']",1,47,2025-03-03T23:16:51.180947,1
+miaf83,endometriosis_assessment,72,72.0,severe,"['pain_with_bowel_movements', 'nausea', 'menstrual_pain', 'constipation', 'excessive_bleeding']","['rectum', 'vagina']",9,40,2021-03-04T23:16:51.183027,1
+maya_c136,endometriosis_assessment,66,66.0,severe,"['bleeding_between_periods', 'pelvic_pain', 'excessive_bleeding', 'pain_with_bowel_movements', 'pain_with_urination']","['vagina', 'upper_abdomen']",4,44,2022-06-06T23:16:51.185657,1
+cclark382,endometriosis_assessment,41,41.0,moderate,"['excessive_bleeding', 'constipation', 'bleeding_between_periods']",['legs'],5,55,2024-12-07T23:16:51.188520,1
+melissa.mitchell,endometriosis_assessment,54,54.0,moderate,"['pelvic_pain', 'bloating', 'infertility', 'diarrhea', 'fatigue']",['rectum'],2,43,2024-12-29T23:16:51.190730,1
+kayla_taylor,endometriosis_assessment,32,32.0,mild,"['pain_during_intercourse', 'pain_with_bowel_movements', 'fatigue', 'excessive_bleeding', 'nausea']","['upper_abdomen', 'rectum']",9,47,2025-08-03T23:16:51.193665,1
+isabella356,endometriosis_assessment,65,65.0,severe,"['bloating', 'infertility', 'diarrhea', 'constipation', 'nausea', 'pain_during_intercourse']","['pelvis', 'lower_back', 'legs']",7,85,2022-02-01T23:16:51.194997,1
+sofiahill,endometriosis_assessment,48,48.0,moderate,"['pain_with_bowel_movements', 'fatigue', 'menstrual_pain', 'pain_during_intercourse']","['lower_back', 'bladder']",3,30,2025-06-15T23:16:51.198046,1
+atorres957,endometriosis_assessment,51,51.0,moderate,"['pelvic_pain', 'infertility', 'pain_with_urination']","['pelvis', 'upper_abdomen', 'vagina']",8,33,2023-04-02T23:16:51.200464,1
+natasha_w144,endometriosis_assessment,35,35.0,mild,"['pain_with_urination', 'infertility', 'menstrual_pain', 'pain_with_bowel_movements', 'diarrhea']",['vagina'],1,53,2024-03-16T23:16:51.202565,1
+sophiet93,endometriosis_assessment,22,22.0,mild,"['pelvic_pain', 'nausea', 'pain_during_intercourse', 'fatigue']","['lower_back', 'pelvis', 'upper_abdomen']",2,52,2024-01-11T23:16:51.203987,1
+charlotte198,endometriosis_assessment,62,62.0,moderate,"['menstrual_pain', 'diarrhea', 'fatigue', 'pain_with_bowel_movements', 'constipation']","['bladder', 'lower_abdomen', 'legs']",5,75,2022-08-25T23:16:51.205464,1
+natashar82,endometriosis_assessment,21,21.0,mild,"['fatigue', 'pelvic_pain', 'pain_with_bowel_movements']",['bladder'],7,76,2025-01-08T23:16:51.207293,1
+abigail.campbell,endometriosis_assessment,53,53.0,moderate,"['pelvic_pain', 'bleeding_between_periods', 'menstrual_pain', 'infertility', 'constipation', 'pain_during_intercourse']","['vagina', 'upper_abdomen']",6,47,2020-12-16T23:16:51.209291,1
+abigail641,endometriosis_assessment,64,64.0,moderate,"['pain_during_intercourse', 'pain_with_bowel_movements', 'excessive_bleeding']","['legs', 'vagina']",2,81,2022-10-01T23:16:51.211540,1
+samantha.moore,endometriosis_assessment,38,38.0,moderate,"['diarrhea', 'bleeding_between_periods', 'pain_during_intercourse']","['legs', 'lower_abdomen']",8,56,2021-12-27T23:16:51.213331,1
+laurencollins,endometriosis_assessment,16,16.0,mild,"['pain_with_bowel_movements', 'menstrual_pain', 'pain_during_intercourse', 'bleeding_between_periods']","['lower_back', 'vagina']",4,87,2021-12-03T23:16:51.215327,1
+anna.miller93,endometriosis_assessment,84,84.0,severe,"['diarrhea', 'nausea', 'bleeding_between_periods']","['rectum', 'lower_back']",10,84,2023-02-02T23:16:51.217063,1
+ariayoung,endometriosis_assessment,57,56.99999999999999,moderate,"['excessive_bleeding', 'pain_with_urination', 'bleeding_between_periods', 'diarrhea']",['legs'],9,49,2023-06-03T23:16:51.220254,1
+mwhite854,endometriosis_assessment,44,44.0,moderate,"['bleeding_between_periods', 'pelvic_pain', 'nausea', 'excessive_bleeding']","['pelvis', 'bladder']",5,40,2023-08-15T23:16:51.222623,1
+cbaker981,endometriosis_assessment,36,36.0,moderate,"['pain_with_urination', 'pain_with_bowel_movements', 'fatigue', 'pain_during_intercourse']","['lower_abdomen', 'upper_abdomen']",4,43,2024-03-24T23:16:51.224728,1
+tiffany.harris06,endometriosis_assessment,16,16.0,mild,"['bloating', 'pelvic_pain', 'constipation', 'infertility']",['pelvis'],1,69,2022-12-25T23:16:51.226929,1
+tiffanyg80,endometriosis_assessment,61,61.0,moderate,"['excessive_bleeding', 'pelvic_pain', 'bleeding_between_periods', 'menstrual_pain']","['upper_abdomen', 'pelvis']",2,62,2022-05-27T23:16:51.228632,1
+olivia_garcia,endometriosis_assessment,85,85.0,severe,"['diarrhea', 'pain_with_bowel_movements', 'pain_during_intercourse', 'constipation', 'pain_with_urination']",['rectum'],1,32,2021-07-31T23:16:51.230803,1
+rachel468,endometriosis_assessment,26,26.0,mild,"['pain_during_intercourse', 'nausea', 'pelvic_pain', 'fatigue', 'bleeding_between_periods']","['lower_back', 'bladder']",4,75,2023-11-11T23:16:51.233641,1
+oliviadavis,endometriosis_assessment,22,22.0,mild,"['constipation', 'bleeding_between_periods', 'diarrhea', 'pain_during_intercourse']","['lower_back', 'legs']",8,34,2022-03-24T23:16:51.235106,1
+abigaill04,endometriosis_assessment,22,22.0,mild,"['constipation', 'pelvic_pain', 'bleeding_between_periods', 'menstrual_pain', 'fatigue', 'infertility']","['lower_abdomen', 'vagina', 'upper_abdomen']",6,58,2020-11-25T23:16:51.236629,1
+isabella_hill,endometriosis_assessment,47,47.0,moderate,"['diarrhea', 'constipation', 'pain_with_urination']","['pelvis', 'lower_abdomen']",4,37,2025-08-14T23:16:51.237826,1
+hannahd83,endometriosis_assessment,16,16.0,mild,"['nausea', 'bleeding_between_periods', 'pelvic_pain']",['lower_abdomen'],10,46,2021-10-19T23:16:51.240135,1
+sophie.robinson01,endometriosis_assessment,74,74.0,severe,"['pelvic_pain', 'bloating', 'pain_with_urination']","['legs', 'lower_abdomen', 'rectum']",3,54,2024-04-20T23:16:51.242172,1
+rachela06,endometriosis_assessment,46,46.0,moderate,"['nausea', 'menstrual_pain', 'infertility', 'bloating']",['rectum'],1,38,2024-06-23T23:16:51.244772,1
+luna525,endometriosis_assessment,51,51.0,moderate,"['nausea', 'pelvic_pain', 'fatigue']","['bladder', 'legs', 'lower_back']",9,41,2023-09-11T23:16:51.246848,1
+sophiat90,endometriosis_assessment,52,52.0,moderate,"['menstrual_pain', 'pain_during_intercourse', 'nausea']","['lower_back', 'upper_abdomen', 'vagina']",9,90,2022-09-12T23:16:51.248762,1
+eharris34,endometriosis_assessment,27,27.0,mild,"['bleeding_between_periods', 'pain_with_urination', 'pelvic_pain', 'constipation', 'pain_with_bowel_movements', 'menstrual_pain']","['lower_abdomen', 'legs']",7,70,2023-11-25T23:16:51.250478,1
+brookeevans,endometriosis_assessment,45,45.0,moderate,"['excessive_bleeding', 'infertility', 'diarrhea', 'bloating']","['bladder', 'legs']",3,86,2023-08-04T23:16:51.251563,1
+rebecca381,endometriosis_assessment,46,46.0,moderate,"['bleeding_between_periods', 'pain_with_bowel_movements', 'pain_during_intercourse', 'diarrhea', 'excessive_bleeding']",['rectum'],8,42,2022-04-27T23:16:51.253576,1
+natashah84,endometriosis_assessment,17,17.0,mild,"['diarrhea', 'pelvic_pain', 'excessive_bleeding', 'pain_with_bowel_movements']",['pelvis'],6,89,2023-10-25T23:16:51.255647,1
+twhite451,endometriosis_assessment,46,46.0,moderate,"['pelvic_pain', 'pain_during_intercourse', 'excessive_bleeding', 'pain_with_bowel_movements', 'fatigue', 'diarrhea']","['bladder', 'upper_abdomen', 'vagina']",10,40,2021-01-15T23:16:51.256837,1
+kimberly756,endometriosis_assessment,64,64.0,moderate,"['nausea', 'diarrhea', 'pain_with_bowel_movements', 'pain_during_intercourse', 'infertility']",['rectum'],9,75,2024-09-14T23:16:51.259263,1
+ering07,endometriosis_assessment,65,65.0,severe,"['nausea', 'pain_with_urination', 'excessive_bleeding', 'pain_with_bowel_movements', 'pain_during_intercourse']","['lower_back', 'bladder', 'lower_abdomen']",7,42,2021-02-28T23:16:51.261268,1
+zoe_f329,endometriosis_assessment,51,51.0,moderate,"['menstrual_pain', 'pain_with_urination', 'pelvic_pain', 'pain_with_bowel_movements', 'excessive_bleeding', 'bloating']","['rectum', 'lower_abdomen', 'legs']",10,67,2023-09-26T23:16:51.264379,1
+lily.cruz,endometriosis_assessment,55,55.00000000000001,moderate,"['nausea', 'constipation', 'pain_with_bowel_movements', 'pain_during_intercourse', 'infertility', 'fatigue']","['rectum', 'lower_abdomen']",7,39,2022-03-20T23:16:51.266468,1
+rtaylor130,endometriosis_assessment,44,44.0,moderate,"['nausea', 'pain_during_intercourse', 'pelvic_pain', 'fatigue', 'bloating']","['lower_abdomen', 'legs']",2,84,2024-03-10T23:16:51.268418,1
+ashley_johnson,endometriosis_assessment,38,38.0,moderate,"['bleeding_between_periods', 'excessive_bleeding', 'diarrhea', 'pain_with_urination']","['lower_abdomen', 'pelvis']",7,59,2023-11-20T23:16:51.270479,1
+ariareyes,endometriosis_assessment,25,25.0,mild,"['infertility', 'pelvic_pain', 'pain_during_intercourse']","['lower_back', 'rectum']",5,86,2025-02-09T23:16:51.272740,1
+melissas88,endometriosis_assessment,54,54.0,moderate,"['pelvic_pain', 'nausea', 'excessive_bleeding', 'fatigue']",['lower_abdomen'],1,78,2020-10-19T23:16:51.274816,1
+harper.reyes,endometriosis_assessment,17,17.0,mild,"['pain_with_urination', 'bloating', 'pain_during_intercourse', 'pain_with_bowel_movements', 'menstrual_pain']","['pelvis', 'lower_abdomen', 'lower_back']",5,32,2022-04-21T23:16:51.277249,1
+kimberly.clark,endometriosis_assessment,34,34.0,mild,"['constipation', 'infertility', 'pain_with_bowel_movements', 'bloating', 'diarrhea']",['legs'],5,61,2025-06-30T23:16:51.278520,1
+crystal707,endometriosis_assessment,17,17.0,mild,"['pain_with_bowel_movements', 'excessive_bleeding', 'diarrhea', 'pelvic_pain', 'pain_with_urination', 'nausea']","['lower_back', 'lower_abdomen']",7,89,2024-08-21T23:16:51.279826,1
+michellej93,endometriosis_assessment,36,36.0,moderate,"['pain_during_intercourse', 'menstrual_pain', 'nausea', 'constipation', 'bloating']","['vagina', 'legs']",2,79,2023-07-20T23:16:51.280924,1
+bperez458,endometriosis_assessment,84,84.0,severe,"['pain_during_intercourse', 'pelvic_pain', 'bloating']","['lower_back', 'rectum']",2,48,2023-10-15T23:16:51.283465,1
+lisa_s963,endometriosis_assessment,41,41.0,moderate,"['excessive_bleeding', 'infertility', 'pain_with_urination']",['upper_abdomen'],1,76,2020-10-18T23:16:51.286247,1
+madison.allen,endometriosis_assessment,79,79.0,severe,"['diarrhea', 'nausea', 'pain_with_urination']","['vagina', 'bladder', 'upper_abdomen']",4,86,2023-09-19T23:16:51.288144,1
+madison.phillips,endometriosis_assessment,26,26.0,mild,"['constipation', 'excessive_bleeding', 'bloating', 'diarrhea', 'pain_during_intercourse']","['vagina', 'upper_abdomen', 'pelvis']",9,83,2024-11-02T23:16:51.291074,1
+lauren_p139,endometriosis_assessment,74,74.0,severe,"['pain_during_intercourse', 'fatigue', 'infertility']","['vagina', 'legs', 'pelvis']",5,44,2023-12-07T23:16:51.292470,1
+christina.gonzalez,endometriosis_assessment,33,33.0,mild,"['pelvic_pain', 'menstrual_pain', 'nausea', 'infertility']",['lower_back'],7,80,2024-08-17T23:16:51.295524,1
+abigail882,endometriosis_assessment,84,84.0,severe,"['fatigue', 'menstrual_pain', 'pain_with_bowel_movements', 'bleeding_between_periods']",['lower_back'],7,87,2023-03-02T23:16:51.296945,1
+lisa_g970,endometriosis_assessment,49,49.0,moderate,"['diarrhea', 'pelvic_pain', 'pain_during_intercourse']","['lower_back', 'bladder', 'vagina']",5,56,2022-11-06T23:16:51.299892,1
+chloe.carter,endometriosis_assessment,57,56.99999999999999,moderate,"['infertility', 'pain_with_bowel_movements', 'fatigue', 'constipation']",['upper_abdomen'],7,90,2024-06-04T23:16:51.301633,1
+lisa_mitchell,endometriosis_assessment,28,28.000000000000004,mild,"['pain_with_bowel_movements', 'pain_during_intercourse', 'pain_with_urination', 'nausea', 'fatigue']","['vagina', 'legs']",8,65,2024-06-09T23:16:51.303592,1
+lauren.nelson,endometriosis_assessment,39,39.0,moderate,"['pain_with_urination', 'nausea', 'pain_during_intercourse', 'infertility', 'excessive_bleeding', 'menstrual_pain']",['pelvis'],9,46,2024-04-02T23:16:51.304808,1
+julie_b283,endometriosis_assessment,67,67.0,severe,"['fatigue', 'menstrual_pain', 'pelvic_pain', 'pain_with_bowel_movements', 'pain_during_intercourse', 'pain_with_urination']","['pelvis', 'legs']",7,30,2023-02-03T23:16:51.307509,1
+lily.turner02,endometriosis_assessment,60,60.0,moderate,"['bloating', 'menstrual_pain', 'pain_with_urination', 'nausea', 'pain_during_intercourse']","['lower_back', 'legs', 'upper_abdomen']",4,85,2022-09-28T23:16:51.310532,1
+sarahgarcia,endometriosis_assessment,47,47.0,moderate,"['pain_with_bowel_movements', 'bleeding_between_periods', 'nausea']","['upper_abdomen', 'lower_abdomen', 'pelvis']",10,85,2021-11-22T23:16:51.313354,1
+lunaw07,endometriosis_assessment,34,34.0,mild,"['diarrhea', 'pain_during_intercourse', 'menstrual_pain', 'bloating']",['pelvis'],9,58,2023-07-08T23:16:51.315659,1
+amys80,endometriosis_assessment,64,64.0,moderate,"['pain_with_urination', 'menstrual_pain', 'diarrhea', 'nausea', 'bloating', 'infertility']","['rectum', 'pelvis', 'legs']",1,58,2024-09-19T23:16:51.317191,1
+sophie_w544,endometriosis_assessment,43,43.0,moderate,"['pain_with_bowel_movements', 'fatigue', 'constipation', 'pelvic_pain', 'nausea']","['upper_abdomen', 'vagina']",7,80,2021-03-12T23:16:51.319445,1
+elizabethdavis,endometriosis_assessment,17,17.0,mild,"['bleeding_between_periods', 'pain_with_urination', 'diarrhea']",['vagina'],8,86,2021-07-24T23:16:51.321824,1
+zoe_p755,endometriosis_assessment,47,47.0,moderate,"['diarrhea', 'menstrual_pain', 'fatigue']","['lower_back', 'bladder', 'upper_abdomen']",4,69,2023-01-17T23:16:51.323284,1
+charlottem98,endometriosis_assessment,26,26.0,mild,"['bleeding_between_periods', 'infertility', 'diarrhea']","['pelvis', 'bladder']",4,41,2025-02-11T23:16:51.325605,1
+christinacampbell,endometriosis_assessment,26,26.0,mild,"['pelvic_pain', 'bleeding_between_periods', 'diarrhea', 'nausea']","['bladder', 'upper_abdomen']",10,47,2024-04-08T23:16:51.326988,1
+sophie605,endometriosis_assessment,60,60.0,moderate,"['pain_with_urination', 'pain_with_bowel_movements', 'menstrual_pain', 'fatigue']",['lower_back'],3,61,2024-01-24T23:16:51.328414,1
+rachel_g723,endometriosis_assessment,30,30.0,mild,"['constipation', 'pain_during_intercourse', 'pelvic_pain', 'bloating', 'infertility']","['lower_abdomen', 'pelvis', 'bladder']",7,42,2020-10-02T23:16:51.330682,1
+chloen82,endometriosis_assessment,59,59.0,moderate,"['pain_with_urination', 'excessive_bleeding', 'bleeding_between_periods', 'bloating', 'menstrual_pain']","['bladder', 'rectum']",7,68,2024-03-14T23:16:51.332090,1
+samantha.williams97,endometriosis_assessment,36,36.0,moderate,"['infertility', 'pain_with_bowel_movements', 'pain_with_urination', 'excessive_bleeding', 'pelvic_pain']","['pelvis', 'lower_abdomen']",4,33,2021-05-12T23:16:51.334244,1
+katherinegreen,endometriosis_assessment,70,70.0,severe,"['menstrual_pain', 'nausea', 'pain_with_bowel_movements', 'pain_during_intercourse', 'fatigue']","['lower_back', 'vagina']",2,41,2022-12-12T23:16:51.336401,1
+rachel_gonzalez,endometriosis_assessment,61,61.0,moderate,"['menstrual_pain', 'pain_with_bowel_movements', 'constipation']","['rectum', 'legs']",3,78,2022-03-14T23:16:51.339264,1
+mariam07,endometriosis_assessment,15,15.0,mild,"['pain_with_urination', 'bloating', 'excessive_bleeding', 'nausea', 'menstrual_pain']","['pelvis', 'lower_abdomen']",2,68,2020-09-29T23:16:51.341096,1
+jessica_y382,endometriosis_assessment,84,84.0,severe,"['constipation', 'pain_with_bowel_movements', 'bleeding_between_periods', 'menstrual_pain', 'fatigue', 'pelvic_pain']",['rectum'],10,46,2024-04-25T23:16:51.342475,1
+angela_e216,endometriosis_assessment,70,70.0,severe,"['diarrhea', 'pain_during_intercourse', 'pain_with_bowel_movements', 'nausea', 'fatigue']",['lower_back'],1,73,2023-03-12T23:16:51.345554,1
+nnguyen15,endometriosis_assessment,61,61.0,moderate,"['bleeding_between_periods', 'pelvic_pain', 'diarrhea', 'menstrual_pain', 'pain_with_bowel_movements']",['lower_back'],9,33,2025-01-30T23:16:51.348441,1
+hannah_g747,endometriosis_assessment,44,44.0,moderate,"['fatigue', 'excessive_bleeding', 'pain_during_intercourse', 'pelvic_pain']",['legs'],7,72,2022-12-17T23:16:51.350770,1
+annap91,endometriosis_assessment,80,80.0,severe,"['menstrual_pain', 'nausea', 'diarrhea']","['bladder', 'lower_back']",2,49,2022-11-13T23:16:51.352735,1
+mia.robinson,endometriosis_assessment,50,50.0,moderate,"['bloating', 'pain_with_urination', 'bleeding_between_periods']","['lower_back', 'vagina', 'rectum']",3,71,2024-02-09T23:16:51.355642,1
+anna387,endometriosis_assessment,72,72.0,severe,"['pelvic_pain', 'fatigue', 'pain_with_urination']","['upper_abdomen', 'rectum']",1,66,2021-10-07T23:16:51.357687,1
