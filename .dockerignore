@@ -1,0 +1,62 @@
+# Development and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment and secrets (security)
+.env
+.env.*
+!.env.example
+firebase-service-account.json
+!firebase-service-account.example.json
+
+# Testing and development
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# Documentation and non-essential files
+*.md
+!README.md
+*.pdf
+docs/
+dataset/
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+
+# Git and version control
+.git/
+.gitignore
+.gitattributes
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Monitoring config (will be on VM)
+monitoring/
