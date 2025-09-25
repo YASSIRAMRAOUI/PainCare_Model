@@ -1,1 +1,34 @@
-{"last_update": "2025-09-08T19:54:26.981365", "is_trained": true, "model_version": "1.0.0"}
+{
+  "trained_at": "2025-09-25T09:36:29.904397",
+  "model_version": "1.0.0",
+  "features": [
+    "pain_level",
+    "sleep_hours",
+    "energy_level",
+    "mood",
+    "stress_level",
+    "physical_activity",
+    "medication_taken",
+    "weather_pressure",
+    "menstrual_cycle",
+    "location_type"
+  ],
+  "targets": [
+    "pain_improvement",
+    "treatment_effectiveness"
+  ],
+  "training_samples": 800,
+  "test_samples": 200,
+  "metrics": {
+    "pain_improvement": {
+      "mse": 0.00038764441726365714,
+      "r2": 0.9895249200682331,
+      "rmse": 0.019688687545482992
+    },
+    "treatment_effectiveness": {
+      "mse": 0.0013760399926496495,
+      "r2": 0.9275499731217522,
+      "rmse": 0.0370950130428559
+    }
+  }
+}

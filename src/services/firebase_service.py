@@ -41,25 +41,50 @@ class FirebaseService:
         try:
             if not firebase_admin._apps:
                 # Check if service account path is provided
-                if config.FIREBASE_SERVICE_ACCOUNT_PATH and os.path.exists(config.FIREBASE_SERVICE_ACCOUNT_PATH):
+                service_account_path = config.FIREBASE_SERVICE_ACCOUNT_PATH or "firebase-service-account.json"
+                
+                if os.path.exists(service_account_path):
                     # Initialize Firebase Admin SDK with credentials
-                    cred = credentials.Certificate(config.FIREBASE_SERVICE_ACCOUNT_PATH)
-                    self.app = firebase_admin.initialize_app(cred)
-                    logger.info("Firebase initialized with service account credentials")
+                    cred = credentials.Certificate(service_account_path)
+                    # Include database URL if provided
+                    if config.FIREBASE_DATABASE_URL and config.FIREBASE_DATABASE_URL != "https://your-project.firebaseio.com/":
+                        self.app = firebase_admin.initialize_app(cred, {
+                            'databaseURL': config.FIREBASE_DATABASE_URL
+                        })
+                    else:
+                        self.app = firebase_admin.initialize_app(cred)
+                    logger.info(f"Firebase initialized with service account: {service_account_path}")
                 else:
-                    # Initialize with default credentials for development
-                    logger.warning("No Firebase service account found, initializing with default credentials")
-                    self.app = firebase_admin.initialize_app()
+                    logger.error(f"Firebase service account file not found at: {service_account_path}")
+                    logger.error("Please ensure firebase-service-account.json exists in the project root")
+                    raise FileNotFoundError(f"Firebase credentials not found: {service_account_path}")
             else:
                 self.app = firebase_admin.get_app()
             
+            # Initialize Firestore client
             self.db = firestore.client()
+            
+            # Test the connection by trying to access a collection
+            try:
+                # Test with Users collection (should exist based on your rules)
+                test_collection = self.db.collection('Users')
+                # Try to get first document (without actually reading data for privacy)
+                test_docs = test_collection.limit(1).stream()
+                list(test_docs)  # Execute the query
+                logger.info("Firestore connection test successful")
+            except Exception as test_error:
+                logger.warning(f"Firestore connection test failed: {test_error}")
+                logger.warning("Firebase initialized but connection may have issues")
+            
             logger.info("Firestore service initialized successfully")
             
         except Exception as e:
             logger.error(f"Failed to initialize Firebase: {e}")
-            # For development, continue without Firebase
-            logger.warning("Continuing without Firebase integration")
+            if "credentials" in str(e).lower():
+                logger.error("Firebase credentials issue. Please check:")
+                logger.error("1. firebase-service-account.json exists in project root")
+                logger.error("2. The file contains valid Firebase credentials")
+                logger.error("3. The service account has Firestore permissions")
             self.db = None
     
     async def get_user_symptoms(self, user_id: str, start_date: datetime, end_date: datetime) -> List[Dict]:
@@ -649,28 +674,52 @@ class FirebaseService:
         if self.db is None:
             logger.warning("Firestore not connected, cannot save model performance")
             return False
-            
         try:
             def save_data():
                 performance_ref = self.db.collection('ModelPerformance')
-                performance_ref.add({
+                doc = {
                     'model_name': model_name,
-                    'metrics': metrics,
                     'timestamp': datetime.now(),
-                    'version': '1.0'
-                })
+                    'version': str(config.MODEL_VERSION),
+                    # Store full metadata as 'metadata' and metrics summary (if provided) under 'metrics'
+                    'metadata': metrics,
+                    'metrics': metrics.get('metrics', metrics),
+                    'data_source': metrics.get('data_source')
+                }
+                performance_ref.add(doc)
                 return True
-            
             result = await asyncio.get_event_loop().run_in_executor(
                 self.executor, save_data
             )
-            
             logger.info(f"Saved performance metrics for model: {model_name}")
             return result
-            
         except Exception as e:
             logger.error(f"Error saving model performance: {e}")
             return False
+
+    async def get_latest_model_performance(self, model_name: str) -> Optional[Dict[str, Any]]:
+        """Fetch the most recent performance entry for a model from Firestore"""
+        if self.db is None:
+            logger.warning("Firestore not connected, cannot fetch model performance")
+            return None
+        try:
+            def fetch_data():
+                perf_ref = self.db.collection('ModelPerformance')
+                # Order by timestamp desc and limit 1
+                query = perf_ref.where(filter=firestore.FieldFilter('model_name', '==', model_name)).order_by('timestamp', direction=firestore.Query.DESCENDING).limit(1)
+                docs = list(query.stream())
+                if not docs:
+                    return None
+                doc = docs[0]
+                data = doc.to_dict()
+                data['id'] = doc.id
+                return data
+            result = await asyncio.get_event_loop().run_in_executor(self.executor, fetch_data)
+            return result
+        except Exception as e:
+            logger.error(f"Error fetching latest model performance: {e}")
+            return None
+            
 
     async def get_user_diagnostic_data(self, user_id: str) -> List[Dict]:
         """
