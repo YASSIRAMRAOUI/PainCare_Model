@@ -24,7 +24,6 @@ COPY requirements-essential.txt ./
 # Install Python dependencies in one go with cleanup
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements-essential.txt && \
-    pip cache purge && \
     rm -rf /tmp/* /var/tmp/* /root/.cache && \
     apt-get autoremove -y gcc libc-dev && \
     apt-get clean && \
