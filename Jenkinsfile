@@ -4,7 +4,6 @@ pipeline {
   environment {
     COMPOSE_PROJECT_NAME = 'paincare'
     DOMAIN = 'paincare.vida-digital.tech'
-    CADDY_EMAIL = 'admin@vida-digital.tech'
     SECRET_KEY = 'change-me-in-production'
     FIREBASE_DATABASE_URL = ''
   }
@@ -36,7 +35,6 @@ pipeline {
         script {
           sh 'test -f .env || touch .env'
           sh 'grep -q "^DOMAIN=" .env || echo DOMAIN=${DOMAIN} >> .env'
-          sh 'grep -q "^CADDY_EMAIL=" .env || echo CADDY_EMAIL=${CADDY_EMAIL} >> .env'
           sh 'grep -q "^MANAGEMENT_PORT=" .env || echo MANAGEMENT_PORT=7000 >> .env'
           sh 'if [ -n "${SECRET_KEY}" ]; then grep -q "^SECRET_KEY=" .env || echo SECRET_KEY=${SECRET_KEY} >> .env; fi'
           sh 'if [ -n "${FIREBASE_DATABASE_URL}" ]; then grep -q "^FIREBASE_DATABASE_URL=" .env || echo FIREBASE_DATABASE_URL=${FIREBASE_DATABASE_URL} >> .env; fi'
