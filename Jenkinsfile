@@ -3,10 +3,10 @@ pipeline {
 
   environment {
     COMPOSE_PROJECT_NAME = 'paincare'
-    DOMAIN = credentials('PAINCARE_DOMAIN')
-    CADDY_EMAIL = credentials('PAINCARE_CADDY_EMAIL')
-    SECRET_KEY = credentials('PAINCARE_SECRET_KEY')
-    FIREBASE_DATABASE_URL = credentials('PAINCARE_FIREBASE_DB_URL')
+    DOMAIN = 'paincare.vida-digital.tech'
+    CADDY_EMAIL = 'admin@vida-digital.tech'
+    SECRET_KEY = 'change-me-in-production'
+    FIREBASE_DATABASE_URL = ''
   }
 
   options {
@@ -41,8 +41,15 @@ pipeline {
           sh 'if [ -n "${SECRET_KEY}" ]; then grep -q "^SECRET_KEY=" .env || echo SECRET_KEY=${SECRET_KEY} >> .env; fi'
           sh 'if [ -n "${FIREBASE_DATABASE_URL}" ]; then grep -q "^FIREBASE_DATABASE_URL=" .env || echo FIREBASE_DATABASE_URL=${FIREBASE_DATABASE_URL} >> .env; fi'
 
-          withCredentials([file(credentialsId: 'FIREBASE_SERVICE_ACCOUNT', variable: 'FIREBASE_SA')]) {
-            sh 'cp "$FIREBASE_SA" firebase-service-account.json'
+          script {
+            try {
+              withCredentials([file(credentialsId: 'FIREBASE_SERVICE_ACCOUNT', variable: 'FIREBASE_SA')]) {
+                sh 'cp "$FIREBASE_SA" firebase-service-account.json'
+              }
+            } catch (Exception e) {
+              echo 'Warning: FIREBASE_SERVICE_ACCOUNT credential not found. Using default file if present.'
+              sh 'test -f firebase-service-account.json || echo "{}" > firebase-service-account.json'
+            }
           }
 
           sh 'mkdir -p logs'
@@ -68,7 +75,6 @@ pipeline {
     }
     failure {
       echo 'Deployment failed. Check logs.'
-      sh 'docker compose logs --no-color | tail -n 300 || true'
     }
   }
 }
