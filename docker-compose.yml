@@ -12,19 +12,28 @@ services:
     env_file:
       - .env
     environment:
-      # Explicit defaults if not provided in .env
       API_HOST: 0.0.0.0
       API_PORT: 8000
       DEBUG_MODE: ${DEBUG_MODE:-false}
-      # Firebase config
       FIREBASE_SERVICE_ACCOUNT_PATH: ${FIREBASE_SERVICE_ACCOUNT_PATH:-/app/firebase-service-account.json}
       FIREBASE_DATABASE_URL: ${FIREBASE_DATABASE_URL:-}
     volumes:
-      # Mount service account if present on host (optional). If omitted, the file from image will be used.
       - ./firebase-service-account.json:/app/firebase-service-account.json:ro
     networks:
       - paincare
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
   management:
     build:
@@ -49,6 +58,12 @@ services:
     networks:
       - paincare
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+        reservations:
+          memory: 128M
 
   caddy:
     image: caddy:2

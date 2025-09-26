@@ -1,0 +1,26 @@
+# Essential packages only for production
+fastapi>=0.103.0
+uvicorn>=0.23.0
+pydantic>=2.3.0
+python-multipart>=0.0.6
+
+# Firebase (required for backend)
+firebase-admin>=6.2.0
+
+# Basic ML (minimal set)
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Security
+cryptography>=41.0.0
+python-jose>=3.3.0
+
+# Utils
+requests>=2.31.0
+python-dotenv>=1.0.0
+aiofiles>=23.2.0
+
+# Management dashboard
+flask>=3.0.0
+psutil>=5.9.0

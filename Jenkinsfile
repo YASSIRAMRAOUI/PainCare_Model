@@ -10,35 +10,86 @@ pipeline {
 
   options {
     timestamps()
+    timeout(time: 30, unit: 'MINUTES')
+    skipDefaultCheckout()
   }
 
   stages {
+    stage('Pre-Flight Cleanup') {
+      steps {
+        script {
+          // Ultra-aggressive cleanup before starting
+          sh 'docker system prune -a -f --volumes || true'
+          sh 'docker builder prune -a -f || true'
+          sh 'docker volume ls -q | xargs -r docker volume rm || true'
+          sh 'docker network ls -q | grep -v "bridge\\|host\\|none" | xargs -r docker network rm || true'
+          
+          // Clean Jenkins workspace of old artifacts
+          sh 'find . -name "*.log" -delete || true'
+          sh 'find . -name "*.tmp" -delete || true'
+          sh 'find . -name "__pycache__" -type d -exec rm -rf {} + || true'
+          
+          // Check disk space and fail early if insufficient
+          sh '''
+            AVAILABLE=$(df / | awk 'NR==2 {print $4}')
+            if [ "$AVAILABLE" -lt 2000000 ]; then
+              echo "ERROR: Insufficient disk space. Available: ${AVAILABLE}KB"
+              exit 1
+            fi
+            echo "Available disk space: ${AVAILABLE}KB"
+          '''
+          sh 'df -h'
+        }
+      }
+    }
+
     stage('Checkout') {
       steps {
         checkout scm
+        script {
+          // Remove any large files that shouldn't be there
+          sh 'find . -name "*.joblib" -delete || true'
+          sh 'find . -name "*.pkl" -delete || true'
+          sh 'rm -rf .venv/ || true'
+        }
       }
     }
 
     stage('Build Images') {
       steps {
         script {
-          sh label: 'Docker version', script: 'docker version'
-          sh 'docker compose version || docker --version'
+          sh 'docker --version'
+          sh 'docker compose version'
           
-          // Clean up Docker system to free space
-          sh 'docker system prune -f --volumes || true'
-          sh 'docker builder prune -f || true'
+          // Create minimal .env file
+          sh '''
+            cat > .env << EOF
+DOMAIN=${DOMAIN}
+MANAGEMENT_PORT=7000
+SECRET_KEY=${SECRET_KEY}
+FIREBASE_DATABASE_URL=${FIREBASE_DATABASE_URL}
+EOF
+          '''
           
-          // Create basic .env file for build stage
-          sh 'test -f .env || touch .env'
-          sh 'grep -q "^DOMAIN=" .env || echo DOMAIN=${DOMAIN} >> .env'
-          sh 'grep -q "^MANAGEMENT_PORT=" .env || echo MANAGEMENT_PORT=7000 >> .env'
+          // Build with BuildKit for better caching and reduced space usage
+          sh 'export DOCKER_BUILDKIT=1'
+          sh 'export COMPOSE_DOCKER_CLI_BUILD=1'
           
-          // Build images locally on the VM with no cache to avoid space issues
-          sh 'docker compose -f docker-compose.yml build --no-cache --pull'
+          // Build images sequentially with aggressive cleanup
+          echo 'Building PainCare API image...'
+          sh 'docker compose build --no-cache paincare_api'
+          sh 'docker image prune -f'
+          sh 'df -h | head -2'
           
-          // Clean up build cache after build
-          sh 'docker builder prune -f || true'
+          echo 'Building PainCare Management image...'
+          sh 'docker compose build --no-cache paincare_management'
+          sh 'docker image prune -f'
+          sh 'df -h | head -2'
+          
+          echo 'Building Caddy image...'
+          sh 'docker compose build --no-cache caddy'
+          sh 'docker image prune -f'
+          sh 'df -h | head -2'
         }
       }
     }
@@ -81,11 +132,24 @@ pipeline {
   }
 
   post {
+    always {
+      script {
+        // Final cleanup regardless of success or failure
+        sh 'docker system df || true'
+        sh 'docker image prune -f || true'
+        sh 'docker container prune -f || true'
+        sh 'df -h | head -2'
+      }
+    }
     success {
       echo 'Deployment successful.'
     }
     failure {
       echo 'Deployment failed. Check logs.'
+      script {
+        sh 'docker compose logs --tail=50 || true'
+        sh 'docker ps -a || true'
+      }
     }
   }
 }

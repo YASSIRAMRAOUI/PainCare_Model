@@ -19,10 +19,12 @@ ENV/
 # Environment and secrets (security)
 .env
 
-# Large files and datasets to reduce build context
-dataset/
-!dataset/.gitkeep
+# Large files and datasets to reduce build context (keep essential data only)
+dataset/firebase_import.json
+dataset/backup/
 models/*.joblib
+models/*.pkl
+models/*.h5
 !models/metadata.json
 
 # Documentation and CI files

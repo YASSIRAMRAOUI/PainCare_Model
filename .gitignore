@@ -135,3 +135,51 @@ ssl/
 
 # OS
 Thumbs.db
+
+# Docker build artifacts and cache
+.dockerignore.bak
+docker-compose.override.yml
+*.tar
+*.tar.gz
+
+# CI/CD and deployment
+deployment/
+.deploy/
+.github/workflows/backup/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Model artifacts and data (keep lightweight)
+models/*.pkl
+models/*.h5
+models/*.onnx
+dataset/backup/
+dataset/processed/
+dataset/temp/
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Runtime artifacts
+*.pid
+*.lock
+.coverage.*
+htmlcov/
+
+# IDE and editor artifacts
+*.sublime-*
+.vscode/settings.json.bak
+.idea/workspace.xml
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*~
