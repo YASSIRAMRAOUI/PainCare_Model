@@ -85,9 +85,6 @@ EOF
           sh 'docker compose build --no-cache management'
           sh 'docker image prune -f'
           sh 'df -h | head -2'
-          
-          echo 'Pulling Caddy image...'
-          sh 'docker compose pull caddy'
         }
       }
     }
