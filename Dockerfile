@@ -44,8 +44,8 @@ USER appuser
 EXPOSE 8001
 
 # Health check (lightweight)
-HEALTHCHECK --interval=60s --timeout=10s --start-period=10s --retries=2 \
-    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8001/api/v1/health')" || exit 1
+HEALTHCHECK --interval=60s --timeout=15s --start-period=90s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8001/api/v1/health/liveness')" || exit 1
 
 # Command to run the application
 CMD ["python", "run_server.py"]

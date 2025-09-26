@@ -48,6 +48,12 @@ security = HTTPBearer()
 # Include routers
 app.include_router(health_router, prefix="/api/v1", tags=["health"])
 
+# Simple root endpoint for basic health check
+@app.get("/")
+async def root():
+    """Simple root endpoint"""
+    return {"status": "PainCare AI API is running", "version": "1.0.0"}
+
 # Global instances
 ai_model = None
 xai_explainer = None
