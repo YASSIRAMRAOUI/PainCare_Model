@@ -855,10 +855,12 @@ if __name__ == '__main__':
     
     # Start the server
     logger.info("Starting PainCare AI Management Server...")
+    # Allow configuring port via env var, default 7000
+    port = int(os.getenv('MANAGEMENT_PORT', '7000'))
     socketio.run(
-        app, 
-        host='0.0.0.0', 
-        port=5000, 
+        app,
+        host='0.0.0.0',
+        port=port,
         debug=config.DEBUG_MODE,
         allow_unsafe_werkzeug=True
     )

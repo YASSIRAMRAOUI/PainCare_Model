@@ -39,6 +39,7 @@ services:
       SECRET_KEY: ${SECRET_KEY:-change-me}
       FIREBASE_SERVICE_ACCOUNT_PATH: ${FIREBASE_SERVICE_ACCOUNT_PATH:-/app/firebase-service-account.json}
       FIREBASE_DATABASE_URL: ${FIREBASE_DATABASE_URL:-}
+      MANAGEMENT_PORT: ${MANAGEMENT_PORT:-7000}
     volumes:
       - ./firebase-service-account.json:/app/firebase-service-account.json:ro
       - ./logs:/app/logs
