@@ -24,6 +24,12 @@ pipeline {
         script {
           sh label: 'Docker version', script: 'docker version'
           sh 'docker compose version || docker --version'
+          
+          // Create basic .env file for build stage
+          sh 'test -f .env || touch .env'
+          sh 'grep -q "^DOMAIN=" .env || echo DOMAIN=${DOMAIN} >> .env'
+          sh 'grep -q "^MANAGEMENT_PORT=" .env || echo MANAGEMENT_PORT=7000 >> .env'
+          
           // Build images locally on the VM
           sh 'docker compose -f docker-compose.yml build --pull'
         }
