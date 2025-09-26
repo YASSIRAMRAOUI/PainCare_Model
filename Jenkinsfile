@@ -77,19 +77,17 @@ EOF
           
           // Build images sequentially with aggressive cleanup
           echo 'Building PainCare API image...'
-          sh 'docker compose build --no-cache paincare_api'
+          sh 'docker compose build --no-cache api'
           sh 'docker image prune -f'
           sh 'df -h | head -2'
           
           echo 'Building PainCare Management image...'
-          sh 'docker compose build --no-cache paincare_management'
+          sh 'docker compose build --no-cache management'
           sh 'docker image prune -f'
           sh 'df -h | head -2'
           
-          echo 'Building Caddy image...'
-          sh 'docker compose build --no-cache caddy'
-          sh 'docker image prune -f'
-          sh 'df -h | head -2'
+          echo 'Pulling Caddy image...'
+          sh 'docker compose pull caddy'
         }
       }
     }
