@@ -18,6 +18,23 @@ ENV/
 
 # Environment and secrets (security)
 .env
+
+# Large files and datasets to reduce build context
+dataset/
+!dataset/.gitkeep
+models/*.joblib
+!models/metadata.json
+
+# Documentation and CI files
+*.md
+!README.md
+Jenkinsfile
+.gitlab-ci.yml
+.github/
+
+# Development requirements
+requirements.txt
+requirements-dev.txt
 .env.*
 !.env.example
 firebase-service-account.json

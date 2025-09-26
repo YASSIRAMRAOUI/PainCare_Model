@@ -25,13 +25,20 @@ pipeline {
           sh label: 'Docker version', script: 'docker version'
           sh 'docker compose version || docker --version'
           
+          // Clean up Docker system to free space
+          sh 'docker system prune -f --volumes || true'
+          sh 'docker builder prune -f || true'
+          
           // Create basic .env file for build stage
           sh 'test -f .env || touch .env'
           sh 'grep -q "^DOMAIN=" .env || echo DOMAIN=${DOMAIN} >> .env'
           sh 'grep -q "^MANAGEMENT_PORT=" .env || echo MANAGEMENT_PORT=7000 >> .env'
           
-          // Build images locally on the VM
-          sh 'docker compose -f docker-compose.yml build --pull'
+          // Build images locally on the VM with no cache to avoid space issues
+          sh 'docker compose -f docker-compose.yml build --no-cache --pull'
+          
+          // Clean up build cache after build
+          sh 'docker builder prune -f || true'
         }
       }
     }
