@@ -115,6 +115,23 @@ EOF
           sh 'if [ -n "${SECRET_KEY}" ]; then grep -q "^SECRET_KEY=" .env || echo SECRET_KEY=${SECRET_KEY} >> .env; fi'
           sh 'if [ -n "${FIREBASE_DATABASE_URL}" ]; then grep -q "^FIREBASE_DATABASE_URL=" .env || echo FIREBASE_DATABASE_URL=${FIREBASE_DATABASE_URL} >> .env; fi'
 
+          echo 'Stopping existing deployment (if any) to avoid container name conflicts...'
+          // Comprehensive cleanup to prevent container name conflicts
+          sh '''
+            # Stop and remove any containers with our names (running or stopped)
+            docker stop paincare_api paincare_management 2>/dev/null || true
+            docker rm -f paincare_api paincare_management 2>/dev/null || true
+            
+            # Also remove any containers from this compose project
+            docker compose -f docker-compose.yml down --remove-orphans --volumes || true
+            
+            # Final cleanup: remove any lingering containers with these names
+            docker ps -a --filter "name=paincare_api" --format "{{.ID}}" | xargs -r docker rm -f || true
+            docker ps -a --filter "name=paincare_management" --format "{{.ID}}" | xargs -r docker rm -f || true
+            
+            echo "Container cleanup completed"
+          '''
+
           echo 'Setting up Firebase credentials...'
           script {
             try {
@@ -132,7 +149,11 @@ EOF
           sh 'mkdir -p logs'
           
           echo '🐳 Starting Docker containers...'
-          sh 'docker compose -f docker-compose.yml up -d'
+          // Force recreate to ensure fresh images are used
+          sh 'docker compose -f docker-compose.yml up -d --force-recreate --remove-orphans'
+
+          echo 'Listing running containers after deploy:'
+          sh 'docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"'
           
           echo 'Cleaning up unused images...'
           sh 'docker image prune -f || true'

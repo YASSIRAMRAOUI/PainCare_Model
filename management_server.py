@@ -43,7 +43,16 @@ logger = logging.getLogger(__name__)
 # Initialize Flask app
 app = Flask(__name__, static_folder='assets')
 app.config['SECRET_KEY'] = config.SECRET_KEY
-socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
+
+# Allow overriding async mode if eventlet/gevent issues cause crashes
+_async_mode = os.getenv("SOCKETIO_ASYNC_MODE", "eventlet")  # eventlet | gevent | threading | asyncio
+try:
+    socketio = SocketIO(app, cors_allowed_origins="*", async_mode=_async_mode)
+    logger.info(f"SocketIO initialized with async_mode={_async_mode}")
+except Exception as e:
+    # Fallback to threading to avoid container crash loops
+    logger.error(f"Failed to initialize SocketIO with async_mode={_async_mode}: {e}. Falling back to 'threading'.")
+    socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
 
 # Global services
 firebase_service: Optional[FirebaseService] = None

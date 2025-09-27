@@ -65,9 +65,15 @@ services:
     deploy:
       resources:
         limits:
-          memory: 256M
+          memory: 384M
         reservations:
-          memory: 128M
+          memory: 192M
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7000/api/system/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
 
 networks:
   paincare:
