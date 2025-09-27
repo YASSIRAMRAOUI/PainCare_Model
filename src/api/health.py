@@ -132,6 +132,27 @@ def get_health_checker() -> HealthChecker:
     return health_checker
 
 
+@router.get("/")
+async def api_root():
+    """API root endpoint with available endpoints"""
+    return {
+        "message": "PainCare AI API v1",
+        "status": "running",
+        "version": "1.0.0",
+        "timestamp": datetime.now().isoformat(),
+        "endpoints": {
+            "health": "/api/v1/health",
+            "detailed_health": "/api/v1/health/detailed",
+            "readiness": "/api/v1/health/readiness",
+            "liveness": "/api/v1/health/liveness",
+            "predict_pain": "/predict/pain",
+            "recommend_treatment": "/recommend/treatment",
+            "model_status": "/model/status",
+            "submit_feedback": "/feedback"
+        }
+    }
+
+
 @router.get("/health")
 async def basic_health_check():
     """Basic health check endpoint"""
